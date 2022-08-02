@@ -1,29 +1,7 @@
 .App {
   text-align: center;
   font-family: 'Nunito', sans-serif;
-
-}
-
-.profile-pic {
-  border-radius: 50%;
-}
-
-.job-title {
-  font-weight: 100;
-}
-
-.header {
-width: 800px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-
-.main {
-  width: 1000px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  height: 110%;
 }
 
 .projects {

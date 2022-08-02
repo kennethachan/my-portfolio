@@ -1,15 +1,16 @@
 import React from 'react';
+import "./AboutMe.css"
 
 function AboutMe(props) {
     return (
         <div className="aboutme">
-        <h2>about me</h2>
         <img
           className="profile-pic"
           src="https://media-exp2.licdn.com/dms/image/C4E03AQGA9Gmt-jTxYA/profile-displayphoto-shrink_200_200/0/1657225082823?e=1663200000&v=beta&t=EzZYtu3lA8YIhn8r7SYYaAztnWEUqIgyJHAYSckL_yk"
         ></img>
-        <p>
-          I am an Enthusiastic full stack developer from the NYC area with a
+        <h2>about me</h2>
+        <p className="brand">
+          I am an Enthusiastic full stack developer based in the NYC area with a
           diverse background ranging from software engineering to
           architectural design. I am a creator. Always curious. I have a
           strong ambition to create work that is uniquely enjoyable and
