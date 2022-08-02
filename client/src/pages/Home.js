@@ -20,7 +20,7 @@ function Home(props) {
           <div className="skills">
         <Skills />
           </div>
-        <div className = "projects"> 
+        <div className = "project"> 
             <Projects/>
         </div>
         <div className = "education"> 
