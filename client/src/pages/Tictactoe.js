@@ -25,7 +25,6 @@ function tictactoe(props) {
               <a href="https://gloomytictactoe.surge.sh/" target="_blank">
                 <button>See Project</button>
               </a>
-              <button>See Details</button>
               <p>
                 Tic tac toe - Utilizing HTML, CSS and Javascript to re-create the
                 classic game. This Javascript heavy project keeps track of players
