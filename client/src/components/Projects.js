@@ -2,34 +2,37 @@ import React from 'react';
 import "./Projects.css"
 import Pokedex from "../pages/Pokedex"
 import Tictactoe from "../pages/Tictactoe"
+import Lucidity from "../pages/Lucidity"
 import { Link } from "react-router-dom"
+import lucidityHome from "../pictures/lucidity-home.png"
 
 
 function Projects(props) {
     return (
         <div>
-             <h2>projects</h2>
+             <h2>Projects</h2>
           <div className="projects">
-            <div className="project1">
-            <h3>kanto region pokedex</h3>
-            <img className="pokemon-main" src="./pokemon-main.png"></img>
+          <div className="project4">
+              <h3>placeholder</h3>
+            </div>
+             <div className="project-lucidity">
+              <h3>Lucidity</h3>
+              <img className="lucidity-home" src={lucidityHome}></img>
+              <Link className="lucidity" to="/lucidity"><button className="more-info">More Info</button></Link>
+            </div>
+            <div className="project-pokedex">
+            <h3>Kanto Region Pokedex</h3>
+            <img className="pokemon-main" src={"./pokemon-main.png"}></img>
             <Link className="pokedex" to="/pokedex">
-        <button>More Info</button>
+        <button className="more-info">More Info</button>
       </Link>
             </div>
-            <div className="project2">
-              <h3>tic tac toe</h3>
+            <div className="project-tictactoe">
+              <h3>Tic Tac Toe</h3>
               <img className="tic-two" src={require("../pictures/tic-2.png")} />
               <Link className="tictactoe" to="/tictactoe">
-        <button>More Info</button>
+        <button className="more-info">More Info</button>
       </Link>
-             
-            </div>
-            <div className="project3">
-              <h3>placeholder</h3>
-            </div>
-            <div className="project4">
-              <h3>placeholder</h3>
             </div>
           </div>
         </div>

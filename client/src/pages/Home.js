@@ -16,12 +16,12 @@ function Home(props) {
         <div className="about">
          <AboutMe />
          </div>
-          <div className="skills">
-        <Skills />
-          </div>
         <div className = "project"> 
             <Projects/>
         </div>
+        <div className="skills">
+        <Skills />
+          </div>
         <div className = "education"> 
             <Education/>
         </div>
