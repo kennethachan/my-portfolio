@@ -4,6 +4,45 @@ import lucidityMain from "../pictures/lucidity-main.png"
 import lucidityRegister from "../pictures/lucidity-register.png"
 import lucidityLogin from "../pictures/lucidity-login.png"
 import "./Lucidity.css"
+import {useEffect, useState} from "react"
+
+
+const Slideshow = ({ imgs }) => {
+  const [index, setIndex] = useState(0)
+
+  useEffect(() => {
+    setIndex(0)
+  }, [])
+
+  const next = () => {
+    if (index === imgs.length - 1) {
+      setIndex(0)
+    } else {
+      setIndex(index + 1)
+    }
+  }
+  const prev = () => {
+    if (index === 0) {
+      setIndex(imgs.length - 1)
+    } else {
+      setIndex(index - 1)
+    }
+  }
+
+
+  return (
+    <div className="slideshow">
+      <img className="mainImg" src={imgs[index]} />
+      <div className="actions">
+        <div className="buttons">
+        <button className="left-arrow" onClick={prev}>◀</button>
+        <button className="right-arrow" onClick={next}>▶</button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 
 function lucidity(props) {
     return (
@@ -23,10 +62,14 @@ function lucidity(props) {
         </div>
       </header>
       <div className="project-lucidity ">
-              <h3 className="title">Lucidity</h3>
-              <img className="lucidity-login" src={lucidityLogin} />
-              <img className="lucidity-register" src={lucidityRegister} />
-              <img className="lucidity-main" src={lucidityMain} />
+              <h2 className="title">Lucidity</h2>
+              <Slideshow
+        imgs={[
+          lucidityLogin,
+          lucidityRegister,
+          lucidityMain
+        ]}
+      />
               <a className="link" href="http://lucidity-productivity.herokuapp.com/home" target="_blank">
                 <button className="see">See Project</button>
               </a>

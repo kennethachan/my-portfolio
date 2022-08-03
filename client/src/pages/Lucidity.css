@@ -2,6 +2,7 @@
     width: 800px;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
 
 .title {
@@ -9,10 +10,33 @@
     margin-top: 100px;
 }
 
+.mainImg {
+    height: 400px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.buttons {
+display: flex;
+justify-content: space-between;
+position:relative;
+bottom: 210px;
+}
+
+.left-arrow {
+border-style: none;
+background:none;
+}
+
+.right-arrow {
+    border-style: none;
+    background:none;
+}
+
 .lucidity-login {
     object-fit: cover;
     width: auto;
-    height: 400px;
+    height: 300px;
     margin-right: 10px;
     display: block;
     margin-left: auto;
@@ -22,7 +46,7 @@
 
 .lucidity-register{
     object-fit: cover;
-    height: 400px;
+    height: 300px;
     width: auto;
     margin-right: 10px;
     display: block;
@@ -34,7 +58,7 @@
 .lucidity-main {
     object-fit: cover;
     width: auto;
-    height: 400px;
+    height: 300px;
     margin-right: 10px;
     display: block;
     margin-left: auto;
@@ -43,7 +67,6 @@
 }
 
 .see {
-    margin-top: 15px;
     padding: 12px;
     border-style: none;
     border-radius: 20px;
@@ -52,9 +75,3 @@
     font-weight: bold;
 }
 
-.link {
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    left: 330px;
-}
