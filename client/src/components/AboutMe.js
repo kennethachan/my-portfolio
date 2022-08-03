@@ -12,11 +12,8 @@ function AboutMe(props) {
          </div>
          <div className="aboutme">
         <p className="brand">
-          Hello! my name is <span className="name">Kenneth Chan</span>. I am an Enthusiastic full stack developer based in the NYC area with a
-          diverse background ranging from software engineering to
-          architectural design. I am a creator. Always curious. I have a
-          strong ambition to create work that is uniquely enjoyable and
-          fulfilling to the user’s experience.
+          Hello! my name is <span className="name">Kenneth Chan</span>. I am an enthusiastic Full Stack Software Engineer with a diverse background ranging from woodworking to architectural design. 
+          I am a creator. I am always curious. I have a strong ambition to create work that is uniquely enjoyable and fulfilling to the user’s experience.
         </p>
         </div>
       </div>

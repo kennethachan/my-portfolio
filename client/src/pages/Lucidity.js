@@ -47,7 +47,7 @@ const Slideshow = ({ imgs }) => {
 function lucidity(props) {
     return (
         <div>
-            <header className="header">
+            {/* <header className="header">
         <div className="links">
         <Link className="resume" to="/">Back to Home</Link>
         <Link className="resume" to="/resume">Resume</Link>
@@ -59,7 +59,7 @@ function lucidity(props) {
         </a>
         <Link className="email" to="/contact">Contact Me</Link>
         </div>
-      </header>
+      </header> */}
     
       <div className="project-lucidity ">
           <div className="interactive">      

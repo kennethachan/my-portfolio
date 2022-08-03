@@ -10,7 +10,10 @@ import lucidityHome from "../pictures/lucidity-home.png"
 function Projects(props) {
     return (
         <div>
-          <div className="projects">
+          <Lucidity/>
+          <Pokedex/>
+          <Tictactoe/>
+          {/* <div className="projects">
              <div className="lucidity">
               <h3>Lucidity</h3>
               <img className="lucidity-home" src={lucidityHome}></img>
@@ -31,7 +34,7 @@ function Projects(props) {
       </Link>
             </div>
             
-          </div>
+          </div> */}
         </div>
     );
 }

@@ -46,7 +46,7 @@ const Slideshow = ({ imgs }) => {
 function Pokedex(props) {
     return (
         <div>
-           <header className="header">
+           {/* <header className="header">
            <div className="links">
         <Link className="resume" to="/">Back to Home</Link>
         <Link className="resume" to="/resume">Resume</Link>
@@ -58,7 +58,7 @@ function Pokedex(props) {
         </a>
         <Link className="email" to="/contact">Contact Me</Link>
         </div>
-      </header>
+      </header> */}
                 <div className="project-pokedex">
                <div className="interactive">   
               <Slideshow
