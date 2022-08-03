@@ -6,6 +6,7 @@ import Education from "../components/Education"
 import Header from "../components/Header"
 import Projects from "../components/Projects"
 import Skills from "../components/Skills"
+import ContactMe from "../pages/ContactMe"
 
 function Home(props) {
     return (
@@ -25,6 +26,10 @@ function Home(props) {
         <div className = "education"> 
             <Education/>
         </div>
+
+      <div>
+        <ContactMe/>
+      </div>
       </div>
     );
 }
