@@ -1,60 +1,44 @@
 .header {
-width: 800px;
 display: block;
 margin-left: auto;
 margin-right: auto;
+padding: 10px;
 }
 
-.job-title {
-font-weight: 100;
-}
-
-.buttons {
-    margin-bottom: 50px;
+.links {
+    text-align: right;
 }
 
 .resume {
+    font-size: 15px;
     font-weight: bold;
-    padding: 10px;
-    border-style: none;
-    border-radius: 20px;
     margin-right: 20px;
-    background-color: black;
-    color: white;
-
+    text-decoration: none;
+    color: black;
 }
 
 .github {
+    font-size: 15px;
     font-weight: bold;
-    padding: 10px;
-    border-style: none;
-    border-radius: 20px;
     margin-right: 20px;
-    background-color: black;
-    color: white;
-
+    text-decoration: none;
+    color: black;
 }
 
 .email {
+    font-size: 15px;
     font-weight: bold;
-    padding: 10px;
-    border-style: none;
-    border-radius: 20px;
     margin-right: 20px;
-    background-color: black;
-    color: white;
-
+    text-decoration: none;
+    color: black;
 }
 
 .linkedin {
+    font-size: 15px;
     font-weight: bold;
-    padding: 10px;
-    border-style: none;
-    border-radius: 20px;
     margin-right: 20px;
-    background-color: black;
-    color: white;
-
+    text-decoration: none;
+    color: black;
 }
     
 

@@ -1,8 +1,24 @@
 import React from 'react';
 import "./Resume.css"
+import { Link } from "react-router-dom"
 
 function Resume(props) {
     return (
+        <div>
+        <header className="header">
+        <div className="links">
+        <Link className="resume" to="/">Back to Home</Link>
+        <a className="github" href="https://github.com/kennethachan" target="_blank">
+          Github
+        </a>
+        <a className="email" href="mailto:kennethandrechan@gmail.com" target="_blank">
+          Contact Me
+        </a>
+        <a className="linkedin" href="https://www.linkedin.com/in/kennethachan/" target="_blank">
+        LinkedIn
+        </a>
+        </div>
+      </header>
         <div className="resume-container">
            <h1>Kenneth Chan</h1>
 <p>Full Stack Software Engineer</p>
@@ -22,7 +38,7 @@ function Resume(props) {
 <p>Completed 500+ hours of expert-led instruction in JavaScript, Python, MongoDB, Node, React, and hands-on learning of web and mobile application fundamentals using the industry's most in-demand technologies. Developed projects, including:</p>
 <p>Lucidity: Lucidity is a “lofi anime” inspired productivity site to promote a positive environment for studying/relaxing built using MERN.  The site features registration/login authorization.  Once at the home page the notepad possesses full CRUD, a GIF slideshow that lets the user add/delete GIFs, and audio selection.</p>
 <p>Kanto Region Pokedex:  Built with vanilla Javascript, HTML and CSS.  Based on the game series/show, the pokedex allows the user to randomly generate a pokemon card with stats and an image, user can type in a pokemon name to generate a specified pokemon card. Pokedex also features a dark mode option.</p>
-<p>Placeholder: Built with vanilla Javascript, HTML and CSS.  Based on the game series/show, the pokedex allows the user to randomly generate a pokemon card with stats and an image, user can type in a pokemon name to generate a specified pokemon card. Pokedex also features a dark mode option.</p>
+<p>Tic Tac Toe: Built with vanilla Javascript, HTML and CSS.  A classic 2 player game with a gloomy night drive theme</p>
 
 
 <h4>Project Assistant (Estimator/Assistant Project Manager)| Ferra Designs | Brooklyn,NY</h4>
@@ -46,6 +62,7 @@ function Resume(props) {
 <p>General Assembly | Software Engineering Immersive | Remote | June 2022 - September 2022</p>
 <p>Architectural Engineering | University of Hartford | Hartford,CT | September 2012 - May 2016 | 3.4 GPA</p>
 
+        </div>
         </div>
     );
 }

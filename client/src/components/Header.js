@@ -6,17 +6,16 @@ import "./Header.css"
 function Header(props) {
     return (
         <header className="header">
-        <h1>Kenneth Chan</h1>
-        <div className="buttons">
-        <Link to="/resume"><button className="resume">Resume</button></Link>
-        <a href="https://github.com/kennethachan" target="_blank">
-          <button className="github" >Github</button>
+        <div className="links">
+        <Link className="resume" to="/resume">Resume</Link>
+        <a className="github" href="https://github.com/kennethachan" target="_blank">
+          Github
         </a>
-        <a href="mailto:kennethandrechan@gmail.com" target="_blank">
-          <button className="email" >Contact Me</button>
+        <a className="email" href="mailto:kennethandrechan@gmail.com" target="_blank">
+          Contact Me
         </a>
-        <a href="https://www.linkedin.com/in/kennethachan/" target="_blank">
-          <button className="linkedin">LinkedIn</button>
+        <a className="linkedin" href="https://www.linkedin.com/in/kennethachan/" target="_blank">
+        LinkedIn
         </a>
         </div>
       </header>
