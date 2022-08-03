@@ -62,7 +62,7 @@ function lucidity(props) {
         </div>
       </header>
       <div className="project-lucidity ">
-              <h2 className="title">Lucidity</h2>
+              <h1 className="title">Lucidity</h1>
               <Slideshow
         imgs={[
           lucidityLogin,

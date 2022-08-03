@@ -1,5 +1,48 @@
 import React from 'react';
 import { Link } from "react-router-dom"
+import {useEffect, useState} from "react"
+import "./Pokedex.css"
+import pokemonLanding from "../pictures/pokemon-landing.png"
+import pokemonMain from "../pictures/pokemon-main.png"
+
+
+
+const Slideshow = ({ imgs }) => {
+  const [index, setIndex] = useState(0)
+
+  useEffect(() => {
+    setIndex(0)
+  }, [])
+
+  const next = () => {
+    if (index === imgs.length - 1) {
+      setIndex(0)
+    } else {
+      setIndex(index + 1)
+    }
+  }
+  const prev = () => {
+    if (index === 0) {
+      setIndex(imgs.length - 1)
+    } else {
+      setIndex(index - 1)
+    }
+  }
+
+
+  return (
+    <div className="slideshow">
+      <img className="mainImg" src={imgs[index]} />
+      <div className="actions">
+        <div className="buttons">
+        <button className="left-arrow" onClick={prev}>◀</button>
+        <button className="right-arrow" onClick={next}>▶</button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 
 function Pokedex(props) {
     return (
@@ -18,14 +61,17 @@ function Pokedex(props) {
         </a>
         </div>
       </header>
-                <div className="project1">
-              <h3>kanto region pokedex</h3>
-              <img className="pokemon-landing" src="./pokemon-landing.png"></img>
-              <img className="pokemon-main" src="./pokemon-main.png"></img>
+                <div className="project-pokedex">
+              <h1 className="title">Kanto Region Pokedex</h1>
+              <Slideshow
+        imgs={[
+          pokemonLanding,
+          pokemonMain
+        ]}
+      />
               <a href="https://pokedexkanto.surge.sh/" target="_blank">
-                <button>See Project</button>
+                <button className="see" >See Project</button>
               </a>
-              <button>See Details</button>
               <p>
                 Pokemon API Project - Utilizing HTML, CSS and Javascript to make
                 API calls and create a Pokedex with multiple features : a landing

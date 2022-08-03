@@ -12,28 +12,26 @@ function Projects(props) {
         <div>
              <h2>Projects</h2>
           <div className="projects">
-          <div className="project4">
-              <h3>placeholder</h3>
-            </div>
-             <div className="project-lucidity">
+             <div className="lucidity">
               <h3>Lucidity</h3>
               <img className="lucidity-home" src={lucidityHome}></img>
               <Link className="lucidity" to="/lucidity"><button className="more-info">Project Details</button></Link>
             </div>
-            <div className="project-pokedex">
+            <div className="pokedex">
             <h3>Kanto Region Pokedex</h3>
             <img className="pokemon-main" src={"./pokemon-main.png"}></img>
             <Link className="pokedex" to="/pokedex">
         <button className="more-info">Project Details</button>
       </Link>
             </div>
-            <div className="project-tictactoe">
+            <div className="tictactoe">
               <h3>Tic Tac Toe</h3>
               <img className="tic-two" src={require("../pictures/tic-2.png")} />
               <Link className="tictactoe" to="/tictactoe">
-        <button className="more-info">Project Details</button>
+        <button className="more-info">Project</button>
       </Link>
             </div>
+            
           </div>
         </div>
     );

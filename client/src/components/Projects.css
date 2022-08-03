@@ -1,7 +1,8 @@
 .projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  margin: 20px;
+/* display: flex;
+justify-content: space-evenly; */
+display: grid;
+grid-template-columns: repeat(2, 1fr);
   }
 
   .more-info {
@@ -19,20 +20,9 @@
     object-fit: cover;
     width: 400px;
     height: 400px;
-    margin-right: 10px;
     display: block;
-    margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  }
-  .pokemon-landing {
-    object-fit: cover;
-    width: 400px;
-    height: 400px;
-    margin-right: 10px;
-    display: block;
-    margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
+    margin-left:auto;
   border-radius: 20px;
   }
   
@@ -41,18 +31,8 @@
     width: 400px;
     height: 400px;
     display: block;
-    margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  }
-  
-  .tic-one {
-    object-fit: cover;
-    width: 400px;
-    height: 400px;
-    display: block;
-    margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
+    margin-left:auto;
   border-radius: 20px;
   }
   
@@ -61,7 +41,7 @@
     width: 400px;
     height: 400px;
     display: block;
-    margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
+    margin-left:auto;
   border-radius: 20px;
   }
