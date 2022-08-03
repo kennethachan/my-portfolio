@@ -11,10 +11,10 @@ function Header(props) {
         <a className="github" href="https://github.com/kennethachan" target="_blank">
           Github
         </a>
-        <Link className="email" to="/contact">Contact Me</Link>
         <a className="linkedin" href="https://www.linkedin.com/in/kennethachan/" target="_blank">
         LinkedIn
         </a>
+        <Link className="email" to="/contact">Contact Me</Link>
         </div>
       </header>
     );

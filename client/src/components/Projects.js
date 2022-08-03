@@ -28,7 +28,7 @@ function Projects(props) {
               <h3>Tic Tac Toe</h3>
               <img className="tic-two" src={require("../pictures/tic-2.png")} />
               <Link className="tictactoe" to="/tictactoe">
-        <button className="more-info">Project</button>
+        <button className="more-info">Project Details</button>
       </Link>
             </div>
             

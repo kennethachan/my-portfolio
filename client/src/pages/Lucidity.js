@@ -50,15 +50,14 @@ function lucidity(props) {
             <header className="header">
         <div className="links">
         <Link className="resume" to="/">Back to Home</Link>
+        <Link className="resume" to="/resume">Resume</Link>
         <a className="github" href="https://github.com/kennethachan" target="_blank">
           Github
-        </a>
-        <a className="email" href="mailto:kennethandrechan@gmail.com" target="_blank">
-          Contact Me
         </a>
         <a className="linkedin" href="https://www.linkedin.com/in/kennethachan/" target="_blank">
         LinkedIn
         </a>
+        <Link className="email" to="/contact">Contact Me</Link>
         </div>
       </header>
       <div className="project-lucidity ">
