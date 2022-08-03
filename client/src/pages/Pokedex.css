@@ -1,13 +1,22 @@
 .project-pokedex {
-    width: 800px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+ display: flex;
+ justify-content: center;
+ margin-top: 100px;
 }
 
 .title {
     text-align: center;
-    margin-top: 100px;
+}
+
+.interactive {
+    margin-right: 40px;
+}
+
+.slideshow {
+    width: 800px;
 }
 
 .mainImg {
@@ -40,4 +49,10 @@
         background-color: black;
         color: white;
         font-weight: bold;
+    }
+
+    .poke-info-container {
+        width: 400px;
+        position: relative;
+        top: 50px;
     }

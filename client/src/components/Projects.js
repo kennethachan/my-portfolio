@@ -10,7 +10,6 @@ import lucidityHome from "../pictures/lucidity-home.png"
 function Projects(props) {
     return (
         <div>
-             <h2>Projects</h2>
           <div className="projects">
              <div className="lucidity">
               <h3>Lucidity</h3>

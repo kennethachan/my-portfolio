@@ -58,24 +58,29 @@ function tictactoe(props) {
         <Link className="email" to="/contact">Contact Me</Link>
         </div>
       </header>
+            
             <div className="project-tictactoe">
-              <h1 className="title">tic tac toe</h1>
+             <div className="interactive">
               <Slideshow
         imgs={[
           ticOne,
           ticTwo
         ]}
       />
-              <a href="https://gloomytictactoe.surge.sh/" target="_blank">
-                <button className="see">See Project</button>
-              </a>
-              <p>
+              </div>
+              <div className="tic-info-container">
+               <h1 className="title">tic tac toe</h1>
+              <p className="info">
                 Tic tac toe - Utilizing HTML, CSS and Javascript to re-create the
                 classic game. This Javascript heavy project keeps track of players
                 moves and declares a winner or draw. After winner is declared the
                 player will not be able to make an additional move and a play
                 again button lets both players play again.
               </p>
+              <a href="https://gloomytictactoe.surge.sh/" target="_blank">
+                <button className="see">See Project</button>
+              </a>
+              </div>
             </div>
         </div>
     );

@@ -60,17 +60,18 @@ function Pokedex(props) {
         </div>
       </header>
                 <div className="project-pokedex">
-              <h1 className="title">Kanto Region Pokedex</h1>
+               <div className="interactive">   
               <Slideshow
         imgs={[
           pokemonLanding,
           pokemonMain
         ]}
       />
-              <a href="https://pokedexkanto.surge.sh/" target="_blank">
-                <button className="see" >See Project</button>
-              </a>
-              <p>
+             
+              </div>
+              <div className="poke-info-container">
+              <h1 className="title">Kanto Region Pokedex</h1>
+              <p className="info">
                 Pokemon API Project - Utilizing HTML, CSS and Javascript to make
                 API calls and create a Pokedex with multiple features : a landing
                 page with pokeball and bouncing animation. The user can generate
@@ -79,6 +80,10 @@ function Pokedex(props) {
                 stats and image, see all 151 pokemon and change their viewing
                 experience with a dark mode option.
               </p>
+              <a href="https://pokedexkanto.surge.sh/" target="_blank">
+                <button className="see" >See Project</button>
+              </a>
+              </div>
             </div>
         </div>
     );
