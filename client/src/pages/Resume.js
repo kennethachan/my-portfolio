@@ -24,8 +24,6 @@ function Resume(props) {
 <p>Full Stack Software Engineer</p>
 <p>Queens,NY | (914) 310-3522 </p>
 
-<p>I am an Enthusiastic full stack developer with a diverse background ranging from software engineering to architectural design. I am a creator. Always curious. I have a strong ambition to create work that is uniquely enjoyable and fulfilling to the user’s experience.</p>
-
 <h3>SKILLS</h3>
 <p>Programming Languages: Python3, JavaScript, HTML, CSS, React.JS, Python3/Django, ReactJS</p>
 <p>Frameworks and Libraries: Node.js/Express, jQuery, Mongoose</p>

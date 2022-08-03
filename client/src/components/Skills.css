@@ -2,22 +2,32 @@
     width: 850px;
     margin-right:auto;
     margin-left:auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 .skillsets {
-    display: flex;
-    justify-content: space-evenly;
+    text-align: left;
+}
+.coding-logo{
+    height: 80px;
+    position: relative;
+    top: 65px;
+}
+
+.list {
+    list-style: none;
 }
 
 .front-end {
     font-weight: bold;
 }
 
-
-
 .back-end {
     font-weight: bold;
 }
+
 .languages {
     font-weight: bold;
 }
