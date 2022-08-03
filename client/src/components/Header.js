@@ -11,9 +11,7 @@ function Header(props) {
         <a className="github" href="https://github.com/kennethachan" target="_blank">
           Github
         </a>
-        <a className="email" href="mailto:kennethandrechan@gmail.com" target="_blank">
-          Contact Me
-        </a>
+        <Link className="email" to="/contact">Contact Me</Link>
         <a className="linkedin" href="https://www.linkedin.com/in/kennethachan/" target="_blank">
         LinkedIn
         </a>
