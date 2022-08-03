@@ -73,7 +73,7 @@ function lucidity(props) {
             
               </div>
               <div className="luc-info-container">
-                <h1 className="title">Lucidity</h1>
+                <h2 className="title">Lucidity</h2>
               <p className="info">
               Lucidity is a "lofi anime" productivity app inspired from the popular Youtube 24/7 livestream "lofi hip hop radio - beats to relax/study to" as well as the "slowed and reverbed" mixes on Youtube and SoundCloud. 
               These playlists and anime visuals have helped many people study, perform a tedious task or relax and clear their mind. This website brings these ideas together and creates a relaxing/positive environment to be productive or decompress. 

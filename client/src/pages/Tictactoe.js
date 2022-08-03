@@ -73,7 +73,7 @@ function tictactoe(props) {
       />
               </div>
               <div className="tic-info-container">
-               <h1 className="title">Tic Tac Toe</h1>
+               <h2 className="title">Tic Tac Toe</h2>
               <p className="info">
                 Tic tac toe - Utilizing HTML, CSS and Javascript to re-create the
                 classic game. This Javascript heavy project keeps track of players

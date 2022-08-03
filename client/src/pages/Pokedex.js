@@ -76,7 +76,7 @@ function Pokedex(props) {
              
               </div>
               <div className="poke-info-container">
-              <h1 className="title">Kanto Region Pokedex</h1>
+              <h2 className="title">Kanto Region Pokedex</h2>
               <p className="info">
                 Pokemon API Project - Utilizing HTML, CSS and Javascript to make
                 API calls and create a Pokedex with multiple features : a landing
