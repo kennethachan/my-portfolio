@@ -11,9 +11,9 @@ function Skills(props) {
             <div className="skills-wrapper">
             <div className="skillsets">
             <h2 className="skills-title">Skills</h2>
-            <li className="list"><span className="front-end">front-end:</span> HTML | CSS | React</li>
-            <li className="list"><span className="back-end">back-end:</span> MongoDB | Mongoose | Express | Node.js </li>
-            <li className="list"><span className="languages">languages:</span> Javascript</li>
+            <li className="list"><span className="programming">Programming Languages:</span> Python3 | JavaScript | HTML | <br/>CSS | React.JS | Python3/Django | ReactJS</li>
+            <li className="list"><span className="libraries">Frameworks and Libraries:</span> Node.js | Express | jQuery | <br/>Mongoose </li>
+            <li className="list"><span className="tools">Tools:</span>GitHub | RESTful APIs | MERN</li>
             </div>
           </div>
           </div>

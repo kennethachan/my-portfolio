@@ -4,7 +4,7 @@
     margin-left:auto;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 
 .skillsets {
@@ -20,14 +20,14 @@
     list-style: none;
 }
 
-.front-end {
+.programming {
     font-weight: bold;
 }
 
-.back-end {
+.libraries {
     font-weight: bold;
 }
 
-.languages {
+.tools {
     font-weight: bold;
 }
