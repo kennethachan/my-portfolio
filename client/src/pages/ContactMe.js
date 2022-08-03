@@ -20,7 +20,7 @@ function ContactMe(props) {
         </div>
       </header>
         <div className="contact">
-        <h2>contact me</h2>
+        <h2>Contact Me</h2>
         <form action="mailto:kennethandrechan@gmail.com" method="POST">
           <input type="text" name="name" required placeholder="Name"></input>
            <br/>

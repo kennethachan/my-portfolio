@@ -4,6 +4,9 @@ import {useEffect, useState} from "react"
 import "./Pokedex.css"
 import pokemonLanding from "../pictures/pokemon-landing.png"
 import pokemonMain from "../pictures/pokemon-main.png"
+import allpoke from "../pictures/allpokeday.png"
+import pokenight from "../pictures/pokenight.png"
+import allpokenight from "../pictures/allpokenight.png"
 
 
 const Slideshow = ({ imgs }) => {
@@ -64,7 +67,10 @@ function Pokedex(props) {
               <Slideshow
         imgs={[
           pokemonLanding,
-          pokemonMain
+          pokemonMain,
+          allpoke,
+          pokenight,
+          allpokenight
         ]}
       />
              

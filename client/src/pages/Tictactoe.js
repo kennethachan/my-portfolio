@@ -4,6 +4,8 @@ import {useEffect, useState} from "react"
 import "./Tictactoe.css"
 import ticOne from "../pictures/tic-1.png"
 import ticTwo from "../pictures/tic-2.png"
+import tic2wins from "../pictures/tic-2wins.png"
+import ticDraw from "../pictures/tic-draw.png"
 
 
 const Slideshow = ({ imgs }) => {
@@ -64,12 +66,14 @@ function tictactoe(props) {
               <Slideshow
         imgs={[
           ticOne,
-          ticTwo
+          ticTwo,
+          tic2wins,
+          ticDraw
         ]}
       />
               </div>
               <div className="tic-info-container">
-               <h1 className="title">tic tac toe</h1>
+               <h1 className="title">Tic Tac Toe</h1>
               <p className="info">
                 Tic tac toe - Utilizing HTML, CSS and Javascript to re-create the
                 classic game. This Javascript heavy project keeps track of players
