@@ -7,7 +7,7 @@ function ContactMe(props) {
     return (
         <div className="contact-container">
         <div className="contact">
-        <h2 className="contact-title">Want to Contact Me ?</h2>
+        <h3 className="contact-title">Want to Contact Me ?</h3>
         <form action="mailto:kennethandrechan@gmail.com" method="POST">
           <input className="input"type="text" name="name" required placeholder="Name"></input>
            <br/>
@@ -21,7 +21,7 @@ function ContactMe(props) {
             type="text"
             name="message"
             required
-            placeholder="write your message here!"
+            placeholder="Write your message here!"
           ></input> <br/>
           <button className="submit" type="submit">Submit</button>
         </form>
