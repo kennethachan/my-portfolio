@@ -17,6 +17,10 @@ padding: 10px;
     color: black;
 }
 
+.resume:hover {
+    text-decoration: underline;
+}
+
 .github {
     font-size: 15px;
     font-weight: bold;
@@ -25,13 +29,10 @@ padding: 10px;
     color: black;
 }
 
-.email {
-    font-size: 15px;
-    font-weight: bold;
-    margin-right: 30px;
-    text-decoration: none;
-    color: black;
+.github:hover {
+    text-decoration: underline;
 }
+
 
 .linkedin {
     font-size: 15px;
@@ -41,4 +42,6 @@ padding: 10px;
     color: black;
 }
     
-
+.linkedin:hover {
+    text-decoration: underline;
+}
