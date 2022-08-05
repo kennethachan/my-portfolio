@@ -47,3 +47,18 @@
       --d: 100%;
       --p: 0%;
     }
+
+
+    @media only screen and (max-width:390px) {
+      
+      .aboutme-container {
+        height: 700px;
+        display: grid;
+        margin-top: 0px;
+      }
+
+      .brand {
+        width: 300px;
+
+      }
+    }

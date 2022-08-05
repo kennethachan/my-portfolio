@@ -45,3 +45,18 @@ padding: 10px;
 .linkedin:hover {
     text-decoration: underline;
 }
+
+@media only screen and (max-width:390px) {
+      
+    .links {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .resume, .github, .linkedin {
+        margin-right: 0;
+
+    }
+    
+  }
