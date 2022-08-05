@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 function Resume(props) {
   return (
     <div className="res-background">
-      <div>
+      <div className="back">
         <header className="res-header">
           <div className="links">
             <Link className="resume" to="/">
@@ -27,7 +27,7 @@ function Resume(props) {
             </a>
           </div>
         </header>
-
+        <h1 className="res-title">Resume</h1>
         <div className="resume-container">
           <h1>Kenneth Chan</h1>
           <li className="res-list">Full Stack Software Engineer</li>

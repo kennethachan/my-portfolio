@@ -1,10 +1,8 @@
 .aboutme-container {
-  /* margin-top: 100px; */
+  margin-top: 100px;
   display: flex;
   justify-content: center;
-  /* margin-bottom: 200px; */
-  /* background-color: #8BBBE5; */
-  background-color: #171E2A;
+  margin-bottom: 250px;
   height: 400px;
 }
 
@@ -27,9 +25,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 55px;
-    color: white;
+    color: black;
     position: relative;
-    top: 90px;
+    top: 50px;
   }
 
   .bold-brand {
@@ -38,5 +36,14 @@
 
   .name {
     font-weight: bold;
-    color: #E34646;
+    background: 
+    linear-gradient(currentColor 0 0) 
+    var(--p, 100%) 100% /var(--d, 0) 3px 
+    no-repeat;
+    transition: 0.3s, background-position 0s 0.3s;
   }
+
+  .name:hover {
+      --d: 100%;
+      --p: 0%;
+    }

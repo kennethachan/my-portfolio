@@ -13,6 +13,7 @@
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     transition: .2s;
+
 }
 
 .resume-container:hover {
@@ -21,17 +22,28 @@
 
 .res-list {
 list-style: none;
+
 }
 
 .bold-text {
     font-weight: bold;
-    color: blue;
 }
 
 .res-title {
+    margin-right:auto;
+    margin-left: auto;
+    width: 150px;
+    margin-top: 200px;
     text-align: center;
+    text-decoration:overline;
+    background: 
+    linear-gradient(currentColor 0 0) 
+    var(--p, 100%) 100% /var(--d, 0) 3px 
+    no-repeat;
+transition: 0.3s, background-position 0s 0.3s;
 }
 
-/* .section {
-    color: #D32C19;
-} */
+  .res-title:hover {
+    --d: 100%;
+    --p: 0%;
+  }
