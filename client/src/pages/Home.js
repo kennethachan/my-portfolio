@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react"
 import "../App.css"
-import Resume from "./Resume.js"
+import "./Home.css"
 import AboutMe from "../components/AboutMe"
 import Education from "../components/Education"
 import Header from "../components/Header"
@@ -9,29 +9,31 @@ import Skills from "../components/Skills"
 import ContactMe from "../pages/ContactMe"
 
 function Home(props) {
-    return (
-        <div className="App">
-        <header className="header">
+  return (
+    <div className="App">
+      <header className="header">
         <Header />
-        </header>
-        <div className="about">
-         <AboutMe />
-         </div>
-        <div className = "project"> 
-            <Projects/>
-        </div>
+      </header>
+      <div className="about">
+        <AboutMe />
+      </div>
+      <div className="project">
+        <Projects />
+      </div>
+      <div className="skills-ed">
         <div className="skills">
-        <Skills />
-          </div>
-        <div className = "education"> 
-            <Education/>
+          <Skills />
         </div>
+        <div className="education">
+          <Education />
+        </div>
+      </div>
 
       <div>
-        <ContactMe/>
+        <ContactMe />
       </div>
-      </div>
-    );
+    </div>
+  )
 }
 
-export default Home;
+export default Home

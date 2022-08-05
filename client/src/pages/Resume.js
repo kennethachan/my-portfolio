@@ -26,7 +26,6 @@ function Resume(props) {
           </a>
         </div>
       </header>
-      >
       <div className="resume-container">
         <h1>Kenneth Chan</h1>
         <li className="res-list">Full Stack Software Engineer</li>
@@ -88,7 +87,7 @@ function Resume(props) {
         <h5>September 2021 - June 2022</h5>
         <li className="res-list">
           <span className="bold-text">-</span>Performed take off/ analyzed
-          drawings & specifications for developers, collaborated with general
+          drawings and specifications for developers, collaborated with general
           contractors, institutions, and commercial establishments to determine
           scope of work and budget for custom metal fabrication up to $12M
         </li>
@@ -118,14 +117,14 @@ function Resume(props) {
         </li>
         <li className="res-list">
           <span className="bold-text">-</span>Performed take off/ analyzed
-          drawings & specifications for developers, general contractors,
+          drawings and specifications for developers, general contractors,
           institutions, and commercial establishments to determine scope of work
           and budget for signage up to $500,000(+).
         </li>
         <li className="res-list">
           <span className="bold-text">-</span>Developed and maintained a bid
-          tracker to monitor open, won, lost bids & project follow ups on google
-          sheets.
+          tracker to monitor open, won, lost bids and project follow ups on
+          google sheets.
         </li>
         <li className="res-list">
           <span className="bold-text">-</span>Assisted in training (3)
