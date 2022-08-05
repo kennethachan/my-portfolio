@@ -76,15 +76,23 @@
     @media only screen and (max-width:390px) {
       
         .project-lucidity {
-     display: grid;
+            display: block;
         }
-        
         .mainImg {
             width: 350px;
             height: 350px;
             object-fit: cover;
         }
-        .info {
-            text-align: center;
+
+        .slideshow {
+           width: 350px;
+           margin-right: auto;
+           margin-left: auto;
+        }
+
+        .luc-info-container {
+            width: 350px;
+            margin-right: auto;
+            margin-left: auto;
         }
         }
