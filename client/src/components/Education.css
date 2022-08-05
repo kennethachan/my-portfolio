@@ -22,3 +22,22 @@
 .school {
     font-weight: bold;
 }
+
+@media only screen and (max-width:390px) {
+      
+.education-container {
+    display: block;
+    width: 350px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 50px;
+
+}
+
+
+.education-logo {
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 100px;
+}
+     }

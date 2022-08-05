@@ -55,3 +55,34 @@
         position: relative;
         top: 30px;
     }
+
+    @media only screen and (max-width:390px) {
+      
+        .project-pokedex {
+            display: block;
+            margin-top: 100px;
+        }
+        .mainImg {
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .interactive {
+            margin-right: 0;
+        }
+
+        .slideshow {
+           width: 350px;
+           margin-right: auto;
+           margin-left: auto;
+        }
+
+        .poke-info-container {
+            width: 350px;
+            margin-right: auto;
+            margin-left: auto;
+            position: relative; 
+            top: -20px;
+        }
+        }

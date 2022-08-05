@@ -84,6 +84,10 @@
             object-fit: cover;
         }
 
+        .interactive {
+            margin-right: 0;
+        }
+
         .slideshow {
            width: 350px;
            margin-right: auto;

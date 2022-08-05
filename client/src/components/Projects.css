@@ -53,3 +53,8 @@ margin-left: auto;
     margin-left:auto;
   border-radius: 20px;
   }
+
+  @media only screen and (max-width:390px) {
+      
+
+    }
