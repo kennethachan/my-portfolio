@@ -33,7 +33,7 @@ function Resume(props) {
           <li className="res-list">Full Stack Software Engineer</li>
           <li className="res-list">Queens,NY | (914) 310-3522 </li>
 
-          <h3>SKILLS</h3>
+          <h3 className="section">SKILLS</h3>
           <li className="res-list">
             <span className="bold-text">Programming Languages:</span> Python3,
             JavaScript, HTML, CSS, React.JS, Python3/Django, ReactJS
@@ -50,7 +50,7 @@ function Resume(props) {
             APIs, MERN stack applications
           </li>
 
-          <h3>RELEVANT EXPERIENCE</h3>
+          <h3 className="section">RELEVANT EXPERIENCE</h3>
           <h4>
             Software Engineering Immersive Fellow | General Assembly | Remote{" "}
           </h4>
@@ -135,7 +135,7 @@ function Resume(props) {
             estimators as well as (3) project managers.
           </li>
 
-          <h3>EDUCATION</h3>
+          <h3 className="section">EDUCATION</h3>
           <li className="res-list">
             <span className="bold-text">-</span>General Assembly | Software
             Engineering Immersive | Remote | June 2022 - September 2022
