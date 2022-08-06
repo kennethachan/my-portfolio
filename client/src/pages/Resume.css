@@ -3,6 +3,11 @@
     margin-top: 20px;
 }
 
+.res-heading {
+    text-align: center;
+    margin-top: 115px;
+}
+
 .resume-container {
     margin-left:auto;
     margin-right: auto;
@@ -30,10 +35,10 @@ list-style: none;
 }
 
 .res-title {
+    font-size: 50px;
     margin-right:auto;
     margin-left: auto;
-    width: 150px;
-    margin-top: 200px;
+    width: 183px;
     text-align: center;
     text-decoration:overline;
     background: 
