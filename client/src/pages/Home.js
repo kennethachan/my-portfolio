@@ -28,10 +28,6 @@ function Home(props) {
           <Education />
         </div>
       </div>
-
-      <div>
-        <ContactMe />
-      </div>
     </div>
   )
 }

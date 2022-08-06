@@ -6,45 +6,77 @@ padding: 10px;
 }
 
 .links {
+
     text-align: right;
 }
 
 .resume {
-    font-size: 15px;
-    font-weight: bold;
     margin-right: 30px;
+    font-size: 15px;
     text-decoration: none;
     color: black;
-}
+    background:
+    linear-gradient(currentColor 0 0) 
+    var(--p, 100%) 100% /var(--d, 0) 1px 
+    no-repeat;
+    transition: 0.3s, background-position 0s 0.3s;
+  }
 
-.resume:hover {
-    text-decoration: underline;
-}
+  .resume:hover {
+      --d: 100%;
+      --p: 0%;
+    }
 
 .github {
-    font-size: 15px;
-    font-weight: bold;
     margin-right: 30px;
+    font-size: 15px;
     text-decoration: none;
     color: black;
-}
+    background:
+    linear-gradient(currentColor 0 0) 
+    var(--p, 100%) 100% /var(--d, 0) 1px 
+    no-repeat;
+    transition: 0.3s, background-position 0s 0.3s;
+  }
 
-.github:hover {
-    text-decoration: underline;
-}
-
+  .github:hover {
+      --d: 100%;
+      --p: 0%;
+    }
 
 .linkedin {
-    font-size: 15px;
-    font-weight: bold;
     margin-right: 30px;
+    font-size: 15px;
     text-decoration: none;
     color: black;
-}
-    
-.linkedin:hover {
-    text-decoration: underline;
-}
+    background:
+    linear-gradient(currentColor 0 0) 
+    var(--p, 100%) 100% /var(--d, 0) 1px 
+    no-repeat;
+    transition: 0.3s, background-position 0s 0.3s;
+  }
+
+  .linkedin:hover {
+      --d: 100%;
+      --p: 0%;
+    }
+
+    .contact-link {
+        margin-right: 30px;
+        font-size: 15px;
+    text-decoration: none;
+    color: black;
+    background:
+    linear-gradient(currentColor 0 0) 
+    var(--p, 100%) 100% /var(--d, 0) 1px 
+    no-repeat;
+    transition: 0.3s, background-position 0s 0.3s;
+    }
+
+    .contact-link:hover {
+        --d: 100%;
+        --p: 0%;
+      }
 
 @media only screen and (max-width:390px) {
       
@@ -55,9 +87,10 @@ padding: 10px;
         text-decoration: underline;
     }
 
-    .resume, .github, .linkedin {
-        margin-right: 0;
+    .resume, .github, .linkedin, .contact-link {
+        margin-right: 0px;
 
     }
+
     
   }

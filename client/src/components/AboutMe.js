@@ -1,5 +1,6 @@
 import React from "react"
 import "./AboutMe.css"
+import Header from "./Header"
 
 function AboutMe(props) {
   return (
