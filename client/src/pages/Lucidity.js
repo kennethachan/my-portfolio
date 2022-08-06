@@ -69,17 +69,18 @@ function lucidity(props) {
         <div className="luc-info-container">
           <h2 className="title">Lucidity</h2>
           <p className="info">
-            Lucidity is a "lofi anime" themed productivity app inspired from the
-            popular Youtube 24/7 livestream "lofi hip hop radio - beats to
-            relax/study to" and "slowed and reverbed" mixes found on Youtube and
-            SoundCloud. These playlists and anime visuals have helped many
-            people study, perform a tedious task or relax and clear their mind.
-            This website brings these ideas together and creates a
-            relaxing/positive environment to be productive or decompress. The
-            website has (3) main features: a notepad where the user can add,edit
-            and delete notes. A GIF image slider with preset GIFs and allows the
-            user to add and delete new GIFs. A premade playlist lets the user
-            select a playlist/track from SoundCloud.
+            Lucidity is a MERN stack "lofi anime" themed productivity site
+            inspired from the popular Youtube 24/7 livestream "lofi hip hop
+            radio - beats to relax/study to" with inspired aesthetics from
+            "slowed and reverbed" mixes found on Youtube and SoundCloud. These
+            playlists and anime visuals have helped many people study, perform a
+            tedious task or relax and clear their mind. This website brings
+            these ideas together and creates a relaxing/positive environment to
+            be productive and/or decompress. The website has (3) main features:
+            a notepad where the user can add,edit and delete notes. A GIF image
+            slider with preset GIFs and allows the user to add and delete new
+            GIFs. A premade playlist lets the user select a playlist/track from
+            SoundCloud.
           </p>
           <a
             className="link"

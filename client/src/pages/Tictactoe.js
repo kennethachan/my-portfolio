@@ -1,12 +1,11 @@
-import React from 'react';
+import React from "react"
 import { Link } from "react-router-dom"
-import {useEffect, useState} from "react"
+import { useEffect, useState } from "react"
 import "./Tictactoe.css"
 import ticOne from "../pictures/tic-1.png"
 import ticTwo from "../pictures/tic-2.png"
 import tic2wins from "../pictures/tic-2wins.png"
 import ticDraw from "../pictures/tic-draw.png"
-
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -30,14 +29,17 @@ const Slideshow = ({ imgs }) => {
     }
   }
 
-
   return (
     <div className="slideshow">
       <img className="mainImg" src={imgs[index]} />
       <div className="actions">
         <div className="buttons">
-        <button className="left-arrow" onClick={prev}>◀</button>
-        <button className="right-arrow" onClick={next}>▶</button>
+          <button className="left-arrow" onClick={prev}>
+            ◀
+          </button>
+          <button className="right-arrow" onClick={next}>
+            ▶
+          </button>
         </div>
       </div>
     </div>
@@ -45,9 +47,9 @@ const Slideshow = ({ imgs }) => {
 }
 
 function tictactoe(props) {
-    return (
-        <div>
-           {/* <header className="header">
+  return (
+    <div>
+      {/* <header className="header">
            <div className="links">
         <Link className="resume" to="/">Back to Home</Link>
         <Link className="resume" to="/resume">Resume</Link>
@@ -60,34 +62,26 @@ function tictactoe(props) {
         <Link className="email" to="/contact">Contact Me</Link>
         </div>
       </header> */}
-            
-            <div className="project-tictactoe">
-             <div className="interactive">
-              <Slideshow
-        imgs={[
-          ticOne,
-          ticTwo,
-          tic2wins,
-          ticDraw
-        ]}
-      />
-              </div>
-              <div className="tic-info-container">
-               <h2 className="title">Tic Tac Toe</h2>
-              <p className="info">
-                Tic tac toe - Utilizing HTML, CSS and Javascript to re-create the
-                classic game. This Javascript heavy project keeps track of players
-                moves and declares a winner or draw. After winner is declared the
-                player will not be able to make an additional move and a play
-                again button lets both players play again.
-              </p>
-              <a href="https://gloomytictactoe.surge.sh/" target="_blank">
-                <button className="see">See Project</button>
-              </a>
-              </div>
-            </div>
+
+      <div className="project-tictactoe">
+        <div className="interactive">
+          <Slideshow imgs={[ticOne, ticTwo, tic2wins, ticDraw]} />
         </div>
-    );
+        <div className="tic-info-container">
+          <h2 className="title">Tic Tac Toe</h2>
+          <p className="info">
+            Tic tac toe utilizes Javascript to re-create the classic game. The
+            board keeps track of each of the players' moves. After a winner/draw
+            is declared the player will not be able to make an additional move
+            and a reset button lets both players play again.
+          </p>
+          <a href="https://gloomytictactoe.surge.sh/" target="_blank">
+            <button className="see">See Project</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  )
 }
 
-export default tictactoe;
+export default tictactoe

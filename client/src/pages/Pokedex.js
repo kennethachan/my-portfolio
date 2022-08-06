@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react"
 import { Link } from "react-router-dom"
-import {useEffect, useState} from "react"
+import { useEffect, useState } from "react"
 import "./Pokedex.css"
 import pokemonLanding from "../pictures/pokemon-landing.png"
 import pokemonMain from "../pictures/pokemon-main.png"
 import allpoke from "../pictures/allpokeday.png"
 import pokenight from "../pictures/pokenight.png"
 import allpokenight from "../pictures/allpokenight.png"
-
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -31,25 +30,27 @@ const Slideshow = ({ imgs }) => {
     }
   }
 
-
   return (
     <div className="slideshow">
       <img className="mainImg" src={imgs[index]} />
       <div className="actions">
         <div className="buttons">
-        <button className="left-arrow" onClick={prev}>◀</button>
-        <button className="right-arrow" onClick={next}>▶</button>
+          <button className="left-arrow" onClick={prev}>
+            ◀
+          </button>
+          <button className="right-arrow" onClick={next}>
+            ▶
+          </button>
         </div>
       </div>
     </div>
   )
 }
 
-
 function Pokedex(props) {
-    return (
-        <div>
-           {/* <header className="header">
+  return (
+    <div>
+      {/* <header className="header">
            <div className="links">
         <Link className="resume" to="/">Back to Home</Link>
         <Link className="resume" to="/resume">Resume</Link>
@@ -62,37 +63,36 @@ function Pokedex(props) {
         <Link className="email" to="/contact">Contact Me</Link>
         </div>
       </header> */}
-                <div className="project-pokedex">
-               <div className="interactive">   
-              <Slideshow
-        imgs={[
-          pokemonLanding,
-          pokemonMain,
-          allpoke,
-          pokenight,
-          allpokenight
-        ]}
-      />
-             
-              </div>
-              <div className="poke-info-container">
-              <h2 className="title">Kanto Region Pokedex</h2>
-              <p className="info">
-                Pokemon API Project - Utilizing HTML, CSS and Javascript to make
-                API calls and create a Pokedex with multiple features : a landing
-                page with pokeball and bouncing animation. The user can generate
-                random a pokemon card with stats and image, user can type in a
-                pokemon name or number to generate specified pokemon card with
-                stats and image, see all 151 pokemon and change their viewing
-                experience with a dark mode option.
-              </p>
-              <a href="https://pokedexkanto.surge.sh/" target="_blank">
-                <button className="see" >See Project</button>
-              </a>
-              </div>
-            </div>
+      <div className="project-pokedex">
+        <div className="interactive">
+          <Slideshow
+            imgs={[
+              pokemonLanding,
+              pokemonMain,
+              allpoke,
+              pokenight,
+              allpokenight,
+            ]}
+          />
         </div>
-    );
+        <div className="poke-info-container">
+          <h2 className="title">Kanto Region Pokedex</h2>
+          <p className="info">
+            The Kanto Region Pokedex utilizes Javascript and a Pokemon API to
+            make API calls to populate the Pokedex with Pokemon stats. The site
+            features : a landing page with an animated pokeball. The user is
+            able to generate a random pokemon card to view stats and an image.
+            The user is able to enter pokemon name or pokemon number to generate
+            the specified pokemon card or see all 151 pokemon. Night mode option
+            is integrated to create an alternative viewing experience.
+          </p>
+          <a href="https://pokedexkanto.surge.sh/" target="_blank">
+            <button className="see">See Project</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  )
 }
 
-export default Pokedex;
+export default Pokedex
