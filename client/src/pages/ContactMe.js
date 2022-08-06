@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 function ContactMe(props) {
   return (
-    <div>
+    <div className="contact-wrapper">
       <header className="res-header">
         <div className="links">
           <Link className="contact-link" to="/">
@@ -59,7 +59,8 @@ function ContactMe(props) {
             If you want to hear my voice (914)-310-3522
           </li>
         </div>
-        <div>
+
+        <div className="form-container">
           <form
             className="contactForm"
             action="mailto:kennethandrechan@gmail.com"

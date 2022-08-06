@@ -92,12 +92,54 @@ bottom: 10px;
 
 @media only screen and (max-width:390px) {
       
+    .contact-wrapper {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .contact-container {
         display: block;
         width: 350px;
+        margin-top: 80px;
     }
 
-    .contact {
+    .contact-notes {
+        width: 330px;
+
+    }
+
+    .contact-heading {
+        text-align: center;
+        width: 330px;
+    }
+
+    .contact-title {
+        text-align: center;
+        width: 350px;
+        font-size: 40px;
+    }
+
+    .form-container {
+        margin-top: 50px;
         width: 350px;
     }
+
+    .contact-form {
+        width: 350px;
+        display: block;
+    }
+
+    .input {
+        width: 170px;
+    }
+    .input-message {
+        width:345px;
+    }
+
+    .submit {
+        position: relative;
+        left: 127px;
+    }
+
          }
