@@ -9,7 +9,7 @@ function Resume(props) {
         <header className="res-header">
           <div className="links">
             <Link className="resume" to="/">
-              Back to Home
+              Home
             </Link>
             <a
               className="github"
@@ -25,6 +25,9 @@ function Resume(props) {
             >
               LinkedIn
             </a>
+            <Link className="contact-link" to="/contact">
+              Contact Me
+            </Link>
           </div>
         </header>
         <h1 className="res-title">Resume</h1>
