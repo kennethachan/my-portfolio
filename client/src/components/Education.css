@@ -33,11 +33,13 @@
     margin-top: 50px;
 
 }
-
-
 .education-logo {
     margin-right:auto;
     margin-left:auto;
     margin-bottom: 100px;
+}
+
+.education-title {
+    text-align: center;
 }
      }

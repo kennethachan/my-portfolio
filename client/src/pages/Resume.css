@@ -47,3 +47,11 @@ transition: 0.3s, background-position 0s 0.3s;
     --d: 100%;
     --p: 0%;
   }
+
+
+  @media only screen and (max-width:390px) {
+      
+.resume-container {
+    width: 325px;
+}
+    }

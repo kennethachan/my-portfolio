@@ -8,7 +8,7 @@ function ContactMe(props) {
     <div className="contact-container">
       <div className="contact">
         {/* <img className="contact-logo" src={contactMe}></img> */}
-        <h2 className="contact-title">Contact Me!</h2>
+        <h2 className="contact-title">Contact</h2>
         <p>
           Send me a message below or email me <br />
           <a href="mailto:kennethandrechan@gmail.com" target="_blank">

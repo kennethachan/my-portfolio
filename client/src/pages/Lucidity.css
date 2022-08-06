@@ -99,4 +99,10 @@
             margin-right: auto;
             margin-left: auto;
         }
+
+        .left-arrow, .right-arrow {
+            position: relative;
+            top: 20px;
+            font-size: 15px;
+        }
         }

@@ -53,3 +53,15 @@ text-align: center;
         background: white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+
+@media only screen and (max-width:390px) {
+      
+    .contact-container {
+        display: block;
+        width: 350px;
+    }
+
+    .contact {
+        width: 350px;
+    }
+         }
