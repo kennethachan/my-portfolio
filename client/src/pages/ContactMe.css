@@ -1,7 +1,7 @@
 .contact-container {
     display: flex;
-    justify-content: center;
-    width: 700px;
+    justify-content: space-evenly;
+    width: 950px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 150px;
@@ -10,31 +10,63 @@
 .res-header {
     margin-bottom: 20px;
 }
-.contact {
+.contact-notes {
 margin-right: auto;
 margin-left: auto;
 text-align: center;
- width: 500px;
+ width: 350px;
  border-radius: 25px;
+position: relative;
+bottom: 10px;
 }
 
-.contact-logo {
-    height: 80px;
+.contact-heading {
     text-align: center;
-}
-
-.input {
-    width: 300px;
-    height: 30px;
-    /* border-radius: 20px;
-    padding: 5px; */
-    border: solid 1px black;
-    margin-bottom: 5px;
+    margin-top: 100px;
 }
 
 .contact-title {
+    font-size: 50px;
+    text-decoration:overline;
+}
+
+.contact-notes {
+    text-align: left;
+}
+
+.reach-methods {
+    list-style: none;
+}
+
+.email-link {
     color: black;
 }
+
+.contactForm {
+    width: 500px;
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.input-message {
+    width: 406px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.contact-title {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    color: black;
+}
+
 
 .submit {
     width: 100px;
@@ -43,11 +75,13 @@ text-align: center;
     border: none;
     background-color: black;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     border-radius: 25px;
     margin-top: 20px;
     margin-bottom: 100px;
     cursor: pointer;
+    position: relative;
+    left: 145px;
 }
 
 .submit:hover {

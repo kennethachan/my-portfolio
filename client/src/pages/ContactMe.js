@@ -31,35 +31,70 @@ function ContactMe(props) {
           </a>
         </div>
       </header>
+      <div className="contact-heading">
+        <h3>Kenneth Chan</h3>
+        <h1 className="contact-title">Better Together</h1>
+      </div>
+
       <div className="contact-container">
-        <div className="contact">
-          {/* <img className="contact-logo" src={contactMe}></img> */}
-          <h2 className="contact-title">Contact</h2>
+        <div className="contact-notes">
           <p>
-            Send me a message below or email me <br />
-            <a href="mailto:kennethandrechan@gmail.com" target="_blank">
+            {" "}
+            I enjoy working with dedicated creatives to help make the world a
+            more beautiful place.
+          </p>
+          <p>We can do so much together. Lets Talk!</p>
+
+          <li className="reach-methods">
+            Email me :
+            <a
+              className="email-link"
+              href="mailto:kennethandrechan@gmail.com"
+              target="_blank"
+            >
               kennethandrechan@gmail.com
             </a>
-          </p>
-          <form action="mailto:kennethandrechan@gmail.com" method="POST">
+          </li>
+          <li className="reach-methods">
+            If you want to hear my voice (914)-310-3522
+          </li>
+        </div>
+        <div>
+          <form
+            className="contactForm"
+            action="mailto:kennethandrechan@gmail.com"
+            method="POST"
+          >
             <input
               className="input"
               type="text"
               name="name"
               required
-              placeholder="Name"
+              placeholder="First Name"
             ></input>
-            <br />
+            <input
+              className="input"
+              type="text"
+              name="name"
+              required
+              placeholder="Last Name"
+            ></input>
             <input
               className="input"
               type="email"
               name="email"
               placeholder="Email Address"
               required
-            ></input>{" "}
-            <br />
+            ></input>
             <input
               className="input"
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              required
+            ></input>
+            <input
+              className="input-message"
               type="text"
               name="message"
               required
