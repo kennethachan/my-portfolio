@@ -49,12 +49,13 @@
     }
 
 
-    @media only screen and (max-width:390px) {
+    @media only screen and (max-width:414px) {
       
       .aboutme-container {
         height: 700px;
         display: grid;
         margin-top: 0px;
+        margin-bottom: 200px;
       }
 
       .profile-pic {

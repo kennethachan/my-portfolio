@@ -23,7 +23,7 @@
     font-weight: bold;
 }
 
-@media only screen and (max-width:390px) {
+@media only screen and (max-width:414px) {
       
 .education-container {
     display: block;

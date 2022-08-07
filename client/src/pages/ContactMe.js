@@ -88,53 +88,6 @@ function ContactMe(props) {
         </div>
 
         <div className="form-container">
-          {/* <form
-            className="contactForm"
-            action="mailto:kennethandrechan@gmail.com"
-            method="POST"
-          >
-            <input
-              className="input"
-              type="text"
-              name="name"
-              required
-              placeholder="First Name"
-            ></input>
-            <input
-              className="input"
-              type="text"
-              name="name"
-              required
-              placeholder="Last Name"
-            ></input>
-            <input
-              className="input"
-              type="email"
-              name="email"
-              placeholder="Email Address"
-              required
-            ></input>
-            <input
-              className="input"
-              type="tel"
-              name="phone"
-              placeholder="Phone Number"
-              required
-            ></input>
-            <textarea
-              className="input-message"
-              type="text"
-              name="message"
-              required
-              rows="7"
-              placeholder="Write Your Message Here!"
-            ></textarea>
-            <br />
-            <button className="submit" type="submit">
-              Submit
-            </button>
-          </form> */}
-
           <form className="contactForm" ref={form} onSubmit={sendEmail}>
             <input
               className="input"
@@ -165,7 +118,8 @@ function ContactMe(props) {
               name="message"
               placeholder="Write Your Message Here!"
             />
-            <input className="submit" type="submit" value="Send" />
+            <br />
+            <input className="submit" type="submit" value="Submit" />
           </form>
         </div>
       </div>
