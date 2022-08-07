@@ -149,8 +149,7 @@ function Resume(props) {
           </li>
           <li className="res-list">
             <span className="bold-text">-</span>Architectural Engineering |
-            University of Hartford | Hartford,CT | September 2012 - May 2016 |
-            3.4 GPA
+            University of Hartford | Hartford,CT | September 2012 - May 2016
           </li>
         </div>
       </div>

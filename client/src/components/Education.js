@@ -15,10 +15,12 @@ function Education(props) {
           Immersive <br />
           (June 2022 - Sept 2022)
         </li>
-        {/* <li>
-          HTML, CSS, Javascript, React, MongoDB, React Redux, PostgreSQL,
-          Sequelize, Vue.js, Python, Django
-        </li> */}
+        <li className="list">
+          <span className="school">University of Hartford</span>: Architectural
+          Engineering
+          <br />
+          (September 2012 - May 2016)
+        </li>
       </div>
     </div>
   )
