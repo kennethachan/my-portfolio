@@ -1,8 +1,35 @@
 import React from "react"
 import "./ContactMe.css"
 import { Link } from "react-router-dom"
+import { useRef } from "react"
+import emailjs from "@emailjs/browser"
 
 function ContactMe(props) {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        "service_kdmce2q",
+        "template_f7t26ov",
+        form.current,
+        "bVJ3BTuxY7X8m0T57"
+      )
+      .then(
+        (result) => {
+          e.target.reset()
+          alert("Message Sent! :)")
+          console.log(result.text)
+          console.log("message sent")
+        },
+        (error) => {
+          console.log(error.text)
+        }
+      )
+  }
+
   return (
     <div className="contact-wrapper">
       <header className="res-header">
@@ -61,7 +88,7 @@ function ContactMe(props) {
         </div>
 
         <div className="form-container">
-          <form
+          {/* <form
             className="contactForm"
             action="mailto:kennethandrechan@gmail.com"
             method="POST"
@@ -94,17 +121,51 @@ function ContactMe(props) {
               placeholder="Phone Number"
               required
             ></input>
-            <input
+            <textarea
               className="input-message"
               type="text"
               name="message"
               required
-              placeholder="Write your message here!"
-            ></input>{" "}
+              rows="7"
+              placeholder="Write Your Message Here!"
+            ></textarea>
             <br />
             <button className="submit" type="submit">
               Submit
             </button>
+          </form> */}
+
+          <form className="contactForm" ref={form} onSubmit={sendEmail}>
+            <input
+              className="input"
+              type="text"
+              name="firstName"
+              placeholder="First Name"
+            />
+            <input
+              className="input"
+              type="text"
+              name="lastName"
+              placeholder="Last Name"
+            />
+            <input
+              className="input"
+              type="email"
+              name="email"
+              placeholder="Email Address"
+            />
+            <input
+              className="input"
+              type="tel"
+              name="tel"
+              placeholder="Phone Number"
+            />
+            <textarea
+              className="input-message"
+              name="message"
+              placeholder="Write Your Message Here!"
+            />
+            <input className="submit" type="submit" value="Send" />
           </form>
         </div>
       </div>
