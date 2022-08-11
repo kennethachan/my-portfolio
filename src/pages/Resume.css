@@ -54,7 +54,7 @@ transition: 0.3s, background-position 0s 0.3s;
   }
 
 
-  @media only screen and (max-width:390px) {
+  @media only screen and (max-width:414px) {
       
 .resume-container {
     width: 325px;
