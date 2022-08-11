@@ -9,3 +9,10 @@
   background-color: white;
   color: black;
 }
+
+@media only screen and (max-width:414px) {
+      
+  html {
+    width: 414px;
+  }
+  }

@@ -78,7 +78,7 @@ padding: 10px;
         --p: 0%;
       }
 
-@media only screen and (max-width:390px) {
+@media only screen and (max-width:414px) {
       
     .links {
         text-align: center;
