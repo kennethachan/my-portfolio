@@ -50,12 +50,18 @@ bottom: 10px;
     width: 200px;
     height: 30px;
     border: none;
+    background: transparent;
+    resize: none;
+    outline: none;
     border-bottom: 1px solid black;
 }
 .input-message {
     width: 406px;
     height: 30px;
     border: none;
+    background: transparent;
+    resize: none;
+    outline: none;
     border-bottom: 1px solid black;
 }
 
