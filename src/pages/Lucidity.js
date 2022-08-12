@@ -81,6 +81,8 @@ function lucidity(props) {
             slider with preset GIFs and allows the user to add and delete new
             GIFs. A premade playlist lets the user select a playlist/track from
             SoundCloud.
+            <hr></hr>
+            Mongoose | Express | React.js | Node.js
           </p>
           <a
             className="link"
