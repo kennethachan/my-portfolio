@@ -106,6 +106,7 @@
             height: 350px;
             margin-left: auto;
             margin-right: auto;
+            border-radius: 20px;
         }
         .mainImg {
             width: 350px;
@@ -113,6 +114,7 @@
             object-fit: cover;
             margin-left: auto;
             margin-right: auto;
+            border-radius: 20px;
         }
 
         .interactive {
