@@ -31,7 +31,10 @@ const Slideshow = ({ imgs }) => {
 
   return (
     <div className="slideshow">
-      <img className="mainImg" src={imgs[index]} />
+      <div className="mainImg-container">
+        <img className="mainImg" src={imgs[index]} />
+      </div>
+
       <div className="actions">
         <div className="buttons">
           <button className="left-arrow" onClick={prev}>
@@ -49,20 +52,6 @@ const Slideshow = ({ imgs }) => {
 function tictactoe(props) {
   return (
     <div>
-      {/* <header className="header">
-           <div className="links">
-        <Link className="resume" to="/">Back to Home</Link>
-        <Link className="resume" to="/resume">Resume</Link>
-        <a className="github" href="https://github.com/kennethachan" target="_blank">
-          Github
-        </a>
-        <a className="linkedin" href="https://www.linkedin.com/in/kennethachan/" target="_blank">
-        LinkedIn
-        </a>
-        <Link className="email" to="/contact">Contact Me</Link>
-        </div>
-      </header> */}
-
       <div className="project-tictactoe">
         <div className="interactive">
           <Slideshow imgs={[ticOne, ticTwo, tic2wins, ticDraw]} />

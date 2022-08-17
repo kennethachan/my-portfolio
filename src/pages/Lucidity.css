@@ -19,15 +19,24 @@
     width: 800px;
 }
 
+.mainImg-container {
+    height: 400px;
+    width: 745px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .mainImg {
     height: 400px;
     width: auto;
-    border-radius: 20px;
-    transition: .2s;
+    transition: .3s;
 }
 
 .mainImg:hover {
-    transform: scale(1.1); 
+    transform: scale(1.2); 
 }
 
 .buttons {
