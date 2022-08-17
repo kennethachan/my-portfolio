@@ -6,6 +6,8 @@ import ticOne from "../pictures/tic-1.png"
 import ticTwo from "../pictures/tic-2.png"
 import tic2wins from "../pictures/tic-2wins.png"
 import ticDraw from "../pictures/tic-draw.png"
+import leftArrow from "../pictures/left-arrow.png"
+import rightArrow from "../pictures/right-arrow.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -37,12 +39,8 @@ const Slideshow = ({ imgs }) => {
 
       <div className="actions">
         <div className="buttons">
-          <button className="left-arrow" onClick={prev}>
-            ◀
-          </button>
-          <button className="right-arrow" onClick={next}>
-            ▶
-          </button>
+          <img className="left-arrow" src={leftArrow} onClick={prev}></img>
+          <img className="right-arrow" src={rightArrow} onClick={next}></img>
         </div>
       </div>
     </div>

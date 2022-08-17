@@ -5,6 +5,8 @@ import lucidityRegister from "../pictures/lucidity-register.png"
 import lucidityLogin from "../pictures/lucidity-login.png"
 import "./Lucidity.css"
 import { useEffect, useState } from "react"
+import leftArrow from "../pictures/left-arrow.png"
+import rightArrow from "../pictures/right-arrow.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -36,12 +38,8 @@ const Slideshow = ({ imgs }) => {
 
       <div className="actions">
         <div className="buttons">
-          <button className="left-arrow" onClick={prev}>
-            ◀
-          </button>
-          <button className="right-arrow" onClick={next}>
-            ▶
-          </button>
+          <img className="left-arrow" src={leftArrow} onClick={prev}></img>
+          <img className="right-arrow" src={rightArrow} onClick={next}></img>
         </div>
       </div>
     </div>
