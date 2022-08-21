@@ -3,12 +3,12 @@ import "./Projects.css"
 import Pokedex from "../pages/Pokedex"
 import Tictactoe from "../pages/Tictactoe"
 import Lucidity from "../pages/Lucidity"
-import { Link } from "react-router-dom"
-import lucidityHome from "../pictures/lucidity-home.png"
+import Rabido from "../pages/Rabido"
 
 function Projects(props) {
   return (
     <div>
+      <Rabido />
       <Lucidity />
       <Pokedex />
       <Tictactoe />

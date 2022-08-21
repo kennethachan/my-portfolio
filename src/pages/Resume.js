@@ -70,6 +70,14 @@ function Resume(props) {
             projects, including:
           </li>
           <li className="res-list">
+            <span className="bold-text">-Rabido:</span>Rabido is a PERN stack
+            group project consisting of myself and (2) other cohort members.
+            Rabido is a website that connects clients with freelancers to get
+            the job done right. The freelancer signs up as a "Mark" and creates
+            a profile to showcase their skillsets. The client signs up a
+            "Hunter" to search for a freelancer with the required skills.
+          </li>
+          <li className="res-list">
             <span className="bold-text">-Lucidity:</span> Lucidity is a “lofi
             anime” inspired productivity site to promote a positive environment
             for studying/relaxing built using MERN. The site features

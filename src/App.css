@@ -5,10 +5,10 @@
 .App {
   text-align: center;
   font-family: 'Nunito', sans-serif;
-
-  background-color: white;
+  background-color: #FFFFF4;
   color: black;
 }
+
 
 @media only screen and (max-width:414px) {
       

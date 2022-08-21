@@ -1,11 +1,11 @@
 import React from "react"
-import "./Lucidity.css"
+import "./Rabido.css"
 import { useEffect, useState } from "react"
 import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
-import lucidityMain from "../pictures/lucidity-main.png"
-import lucidityRegister from "../pictures/lucidity-register.png"
-import lucidityLogin from "../pictures/lucidity-login.png"
+import rabioCats from "../pictures/rabido-cats.png"
+import rabioFeed from "../pictures/rabido-feed.png"
+import rabioProfile from "../pictures/rabido-profile.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -45,30 +45,27 @@ const Slideshow = ({ imgs }) => {
   )
 }
 
-function lucidity(props) {
+function Rabido(props) {
   return (
     <div>
       <div className="project-lucidity ">
         <div className="interactive">
-          <Slideshow imgs={[lucidityLogin, lucidityRegister, lucidityMain]} />
+          <Slideshow imgs={[rabioFeed, rabioProfile, rabioCats]} />
         </div>
         <div className="luc-info-container">
-          <h2 className="title">Lucidity</h2>
+          <h2 className="title">Rabido</h2>
           <p className="info">
-            Lucidity is a MERN stack "lofi anime" themed productivity site
-            inspired from the popular Youtube 24/7 livestream "lofi hip hop
-            radio - beats to relax/study to" with inspired aesthetics from
-            "slowed and reverbed" mixes found on Youtube and SoundCloud. These
-            playlists and anime visuals have helped many people study, perform a
-            tedious task or relax and clear their mind. This website brings
-            these ideas together and creates a relaxing/positive environment to
-            be productive and/or decompress. The website has (3) main features:
-            a notepad where the user can add,edit and delete notes. A GIF image
-            slider with preset GIFs and allows the user to add and delete new
-            GIFs. A premade playlist lets the user select a playlist/track from
-            SoundCloud.
+            Rabido is a PERN stack website that connects clients with
+            freelancers. The freelancer signs up as a "Mark" to conditionally
+            render "Mark" privileges and create a profile to showcase their
+            skillset. The freelancer will be able to make updates to their
+            profile as necessary. The client signs up as a "Hunter" to view
+            freelancers and their skills either by scrolling through the feed or
+            searching through the categories page to find a freelancer with the
+            specific skill required. Rabido was a group project including myself
+            and (2) other cohort members
             <hr></hr>
-            Mongoose | Express | React.js | Node.js
+            PostgreSQL | Express | React.js | Node.js
           </p>
           <a
             className="link"
@@ -83,4 +80,4 @@ function lucidity(props) {
   )
 }
 
-export default lucidity
+export default Rabido
