@@ -9,9 +9,6 @@ function Resume(props) {
       <div className="back">
         <header className="res-header">
           <div className="links">
-            <a className="resume" href={resume} target="_blank">
-              Download Resume
-            </a>
             <Link className="resume" to="/">
               Home
             </Link>
@@ -37,6 +34,9 @@ function Resume(props) {
         <div className="res-heading">
           <h3>Kenneth Chan </h3>
           <h1 className="res-title">Resume</h1>
+          <a className="resume-link" href={resume} target="_blank">
+            Download Resume
+          </a>
         </div>
 
         <div className="resume-container">

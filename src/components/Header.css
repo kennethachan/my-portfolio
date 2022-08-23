@@ -23,6 +23,23 @@ padding: 10px;
   }
 
   .resume:hover {
+    --d: 100%;
+    --p: 0%;
+    font-weight: bold;
+  }
+
+  .resume-link {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    background:
+    linear-gradient(currentColor 0 0) 
+    var(--p, 100%) 100% /var(--d, 0) 1px 
+    no-repeat;
+    transition: 0.3s, background-position 0s 0.3s;
+  }
+
+  .resume-link:hover {
       --d: 100%;
       --p: 0%;
       font-weight: bold;
@@ -81,6 +98,7 @@ padding: 10px;
         --p: 0%;
         font-weight: bold;
       }
+    
 
 @media only screen and (max-width:414px) {
       
