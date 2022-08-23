@@ -48,7 +48,7 @@ const Slideshow = ({ imgs }) => {
 function Rabido(props) {
   return (
     <div>
-      <div className="project-lucidity ">
+      <div className="project-rabido ">
         <div className="interactive">
           <Slideshow imgs={[rabioFeed, rabioProfile, rabioCats]} />
         </div>
