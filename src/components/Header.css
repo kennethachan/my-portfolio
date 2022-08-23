@@ -25,6 +25,7 @@ padding: 10px;
   .resume:hover {
       --d: 100%;
       --p: 0%;
+      font-weight: bold;
     }
 
 .github {
@@ -42,6 +43,7 @@ padding: 10px;
   .github:hover {
       --d: 100%;
       --p: 0%;
+      font-weight: bold;
     }
 
 .linkedin {
@@ -59,6 +61,7 @@ padding: 10px;
   .linkedin:hover {
       --d: 100%;
       --p: 0%;
+      font-weight: bold;
     }
 
     .contact-link {
@@ -76,6 +79,7 @@ padding: 10px;
     .contact-link:hover {
         --d: 100%;
         --p: 0%;
+        font-weight: bold;
       }
 
 @media only screen and (max-width:414px) {

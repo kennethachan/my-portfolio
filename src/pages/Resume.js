@@ -1,6 +1,7 @@
 import React from "react"
 import "./Resume.css"
 import { Link } from "react-router-dom"
+import resume from "../pictures/Kenneth_Chan_Resume.pdf"
 
 function Resume(props) {
   return (
@@ -8,6 +9,9 @@ function Resume(props) {
       <div className="back">
         <header className="res-header">
           <div className="links">
+            <a className="resume" href={resume} target="_blank">
+              Download My Resume
+            </a>
             <Link className="resume" to="/">
               Home
             </Link>
