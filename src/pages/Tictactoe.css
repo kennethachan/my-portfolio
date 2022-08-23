@@ -83,6 +83,8 @@
             display: block;
             width: 414px;
             box-shadow:none;
+            border-radius: 0px;
+            margin-top:0px;
         }
         .mainImg {
             width: 350px;

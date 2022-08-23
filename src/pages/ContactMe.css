@@ -1,3 +1,7 @@
+html {
+    background-color: #FEBEBE;
+}
+
 .contact-container {
     display: flex;
     justify-content: space-evenly;

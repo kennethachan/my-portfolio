@@ -10,7 +10,7 @@
  padding-bottom: 25px;
  width: 1315px;
  border-radius: 25px;
- background-color: #FFB3B3;
+ background-color: #FEADAD;
 }
 
 .title {
@@ -83,7 +83,9 @@
             margin-top: 100px;
             width: 414px;
             box-shadow:none;
-            padding-top: 0px;
+            padding-top: 35px;
+            border-radius: 0px;
+            margin-top:0px;
         }
         .mainImg {
             width: 350px;
