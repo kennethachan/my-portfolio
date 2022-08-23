@@ -65,7 +65,10 @@ function tictactoe(props) {
             HTML | CSS | Javascript
           </p>
           <a href="https://gloomytictactoe.surge.sh/" target="_blank">
-            <button className="see">See Project</button>
+            <button className="see">Website</button>
+          </a>
+          <a href="https://github.com/kennethachan/Tic-Tac-Toe" target="_blank">
+            <button className="see">Code</button>
           </a>
         </div>
       </div>

@@ -7,8 +7,9 @@
     margin-top: 100px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding-top: 50px;
-    width: 1350px;
+    width: 1315px;
     border-radius: 25px;
+    background-color: #F7DFFF;
 }
 
 .title {
@@ -27,7 +28,6 @@
     height: 400px;
     width: 745px;
     overflow: hidden;
-    border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
 
@@ -84,6 +84,7 @@
         font-weight: bold;
         cursor:pointer;
         font-size: 14px;
+        margin-right: 10px;
     }
 
     .see:hover {

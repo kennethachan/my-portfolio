@@ -8,9 +8,10 @@
  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
  padding-top: 50px;
  padding-bottom: 25px;
- width: 1350px;
+ width: 1315px;
  border-radius: 25px;
  padding-top: 50px;
+ background-color: #FFF6D3;
 }
 
 .title {
@@ -29,7 +30,6 @@
     height: 400px;
     width: 745px;
     overflow: hidden;
-    border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
 
@@ -74,7 +74,7 @@
     .tic-info-container {
         width: 400px;
         position: relative;
-        top: 70px;
+        top: 30px;
     }
 
     @media only screen and (max-width:414px) {

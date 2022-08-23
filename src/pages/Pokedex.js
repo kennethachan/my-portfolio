@@ -77,7 +77,13 @@ function Pokedex(props) {
             HTML | CSS | Javascript
           </p>
           <a href="https://pokedexkanto.surge.sh/" target="_blank">
-            <button className="see">See Project</button>
+            <button className="see">Website</button>
+          </a>
+          <a
+            href="https://github.com/kennethachan/Kanto-Region-Pokedex"
+            target="_blank"
+          >
+            <button className="see">Code</button>
           </a>
         </div>
       </div>

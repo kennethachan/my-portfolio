@@ -52,7 +52,7 @@ function Rabido(props) {
         <div className="interactive">
           <Slideshow imgs={[rabioFeed, rabioProfile, rabioCats]} />
         </div>
-        <div className="luc-info-container">
+        <div className="rab-info-container">
           <h2 className="title">Rabido</h2>
           <p className="info">
             Rabido is a PERN stack project that connects clients with
@@ -72,7 +72,10 @@ function Rabido(props) {
             href="http://lucidity-productivity.herokuapp.com/home"
             target="_blank"
           >
-            <button className="see">See Project</button>
+            <button className="see">Website</button>
+          </a>
+          <a href="https://github.com/phicov/Rabido" target="_blank">
+            <button className="see">Code</button>
           </a>
         </div>
       </div>

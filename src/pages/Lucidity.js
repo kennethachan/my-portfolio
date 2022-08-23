@@ -75,7 +75,10 @@ function lucidity(props) {
             href="http://lucidity-productivity.herokuapp.com/home"
             target="_blank"
           >
-            <button className="see">See Project</button>
+            <button className="see">Website</button>
+          </a>
+          <a href="https://github.com/kennethachan/Lucidity" target="_blank">
+            <button className="see">Code</button>
           </a>
         </div>
       </div>
