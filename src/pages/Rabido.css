@@ -11,3 +11,13 @@
     width: 1350px;
     border-radius: 25px;
 }
+
+@media only screen and (max-width:414px) {
+      
+    .project-rabido {
+        display: block;
+        width: 414px;
+        box-shadow:none;
+        padding-top: 0px;
+    }
+}

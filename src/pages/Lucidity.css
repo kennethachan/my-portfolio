@@ -103,6 +103,9 @@
       
         .project-lucidity {
             display: block;
+            width: 414px;
+            box-shadow:none;
+            padding-top: 0px;
         }
 
         .mainImg-container {
