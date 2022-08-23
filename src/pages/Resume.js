@@ -10,7 +10,7 @@ function Resume(props) {
         <header className="res-header">
           <div className="links">
             <a className="resume" href={resume} target="_blank">
-              Download My Resume
+              Download Resume
             </a>
             <Link className="resume" to="/">
               Home
