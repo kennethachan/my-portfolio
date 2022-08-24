@@ -46,19 +46,19 @@ function Resume(props) {
 
           <h3 className="section">SKILLS</h3>
           <li className="res-list">
-            <span className="bold-text">Programming Languages:</span> Python3,
-            JavaScript, HTML, CSS, React.JS, Python3/Django, ReactJS
+            <span className="bold-text">Programming Languages:</span> Python,
+            JavaScript, HTML, CSS, React.JS, Django
           </li>
           <li className="res-list">
             <span className="bold-text">Frameworks and Libraries:</span>{" "}
-            Node.js/Express, jQuery, Mongoose
+            Node.js, Express, jQuery, Mongoose
           </li>
           <li className="res-list">
             <span className="bold-text">Database:</span> MongoDB, PostgreSQL
           </li>
           <li className="res-list">
             <span className="bold-text">Tools/Other:</span> Git, GitHub, RESTful
-            APIs, MERN stack applications
+            APIs, MERN/PERN stack applications
           </li>
 
           <h3 className="section">RELEVANT EXPERIENCE</h3>

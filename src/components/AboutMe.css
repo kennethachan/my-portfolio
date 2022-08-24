@@ -1,8 +1,8 @@
 .aboutme-container {
-  margin-top: 0px;
+  margin-top: 120px;
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
   height: 400px;
 }
 
@@ -36,20 +36,47 @@
   }
 
   .name {
-
     font-weight: bold;
-    background: 
-    linear-gradient(currentColor 0 0) 
-    var(--p, 100%) 100% /var(--d, 0) 1px 
-    no-repeat;
-    transition: 0.3s, background-position 0s 0.3s;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .name:hover {
-      --d: 100%;
-      --p: 0%;
-    }
-
+  /* CSS3 Type Animation */
+  
+ .name {
+    animation: type 4s steps(60, end);
+    /* Chrome and Safari Optimisation */
+    -webkit-animation: type 4s steps(60, end) infinite;
+    /* Firefox Optimisation */
+    -moz-animation: type 4s steps(60, end) infinite;
+    /* Opera Optimisation */
+    -o-animation: type 4s steps(60, end) infinite;
+  }
+  
+  /* Remaining CSS3 Animation */
+  
+  @keyframes type {
+      from { width: 0; }
+  }
+  
+  /* Chrome and Safari Optimisation */
+  @-webkit-keyframes type {
+      from { width: 0; }
+  }
+  
+  /* Firefox Optimisation */
+  @-moz-keyframes type {
+      from { width: 0; }
+  }
+  
+  /* Opera Optimisation */
+  @-o-keyframes type {
+      from { width: 0; }
+  }
 
     @media only screen and (max-width:414px) {
       
