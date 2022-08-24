@@ -46,8 +46,8 @@ function Resume(props) {
 
           <h3 className="section">SKILLS</h3>
           <li className="res-list">
-            <span className="bold-text">Programming Languages:</span> Python,
-            JavaScript, HTML, CSS, React.JS, Django
+            <span className="bold-text">Programming Languages:</span>
+            JavaScript, HTML, CSS, React, Vue, Python, Django
           </li>
           <li className="res-list">
             <span className="bold-text">Frameworks and Libraries:</span>{" "}

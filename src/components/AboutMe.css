@@ -1,16 +1,24 @@
 .aboutme-container {
   margin-top: 120px;
-  display: flex;
+  display: block;
   justify-content: center;
   margin-bottom: 200px;
   height: 400px;
 }
 
+.aboutme {
+display: flex;
+width: 800px;
+margin-left:auto;
+margin-right: auto;
+position: relative;
+top: 30px;
+
+}
+
 .profile-pic {
     border-radius: 50%;
     margin-right: 50px;
-    position: relative;
-    top: 90px;
   }
   
   .main {
@@ -26,8 +34,6 @@
     margin-right: auto;
     margin-top: 55px;
     color: black;
-    position: relative;
-    top: 50px;
   }
 
   .bold-brand {
@@ -36,13 +42,15 @@
   }
 
   .name {
+    font-size: 125px;
     font-weight: bold;
     margin: 10px 0 0 10px;
     white-space: nowrap;
     overflow: hidden;
-    width: 300px;
+    width: 1400px;
     margin-left: auto;
     margin-right: auto;
+
   }
 
   /* CSS3 Type Animation */
@@ -85,6 +93,18 @@
         display: grid;
         margin-top: 0px;
         margin-bottom: 200px;
+      }
+
+      .name {
+        width: 414px;
+        font-size: 50px;
+  position: relative;
+  top: 70px;
+      }
+
+      .aboutme {
+        display: block;
+        width: 414px;
       }
 
       .profile-pic {
