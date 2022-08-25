@@ -69,12 +69,12 @@ function Rabido(props) {
           </p>
           <a
             className="link"
-            href="http://lucidity-productivity.herokuapp.com/home"
+            href="https://powerful-retreat-33440.herokuapp.com/"
             target="_blank"
           >
             <button className="see">Website</button>
           </a>
-          <a href="https://github.com/phicov/Rabido" target="_blank">
+          <a href="https://github.com/kennethachan/Rabido" target="_blank">
             <button className="see">Code</button>
           </a>
         </div>
