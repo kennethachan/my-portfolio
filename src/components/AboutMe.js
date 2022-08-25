@@ -1,14 +1,12 @@
 import React from "react"
 import "./AboutMe.css"
 import Header from "./Header"
+import profilePic from "../pictures/profile-pic.jpg"
 
 function AboutMe(props) {
   return (
     <div className="aboutme-container">
-      <img
-        className="profile-pic"
-        src="https://media-exp2.licdn.com/dms/image/C4E03AQGA9Gmt-jTxYA/profile-displayphoto-shrink_200_200/0/1657225082823?e=1663200000&v=beta&t=EzZYtu3lA8YIhn8r7SYYaAztnWEUqIgyJHAYSckL_yk"
-      ></img>
+      <img className="profile-pic" src={profilePic}></img>
       <h1 className="name">Kenneth Chan</h1>
       <h3 className="job">Full Stack Developer</h3>
       <p className="brand">

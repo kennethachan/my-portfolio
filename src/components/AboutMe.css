@@ -17,6 +17,7 @@ top: 30px;
 }
 
 .profile-pic {
+  height: 300px;
     border-radius: 50%;
     margin-right: 0px;
   }
