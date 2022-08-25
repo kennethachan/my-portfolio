@@ -9,17 +9,16 @@ import Lucidity from "./pages/Lucidity"
 
 function App() {
   return (
-  <main>
-    <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/resume" element={<Resume/>} />
-      <Route path="/pokedex" element={<Pokedex/>} />
-      <Route path="/tictactoe" element={<Tictactoe/>} />
-      <Route path="/lucidity" element={<Lucidity/>} />
-      <Route path="/contact" element={<ContactMe/>} />
-    </Routes>
-  </main>
-
+    <main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/pokedex" element={<Pokedex />} />
+        <Route path="/tictactoe" element={<Tictactoe />} />
+        <Route path="/lucidity" element={<Lucidity />} />
+        <Route path="/contact" element={<ContactMe />} />
+      </Routes>
+    </main>
   )
 }
 

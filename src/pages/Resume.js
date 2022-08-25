@@ -31,6 +31,7 @@ function Resume(props) {
             </Link>
           </div>
         </header>
+
         <div className="res-heading">
           <h3>Kenneth Chan </h3>
           <h1 className="res-title">Resume</h1>

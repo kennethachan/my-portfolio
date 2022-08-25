@@ -1,118 +1,118 @@
 .header {
-display: block;
-margin-left: auto;
-margin-right: auto;
-padding: 10px;
-}
-
-.links {
-
-    text-align: right;
-}
-
-.resume {
-    margin-right: 30px;
-    font-size: 15px;
-    text-decoration: none;
-    color: black;
-    background:
-    linear-gradient(currentColor 0 0) 
-    var(--p, 100%) 100% /var(--d, 0) 1px 
-    no-repeat;
-    transition: 0.3s, background-position 0s 0.3s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
   }
-
-  .resume:hover {
-    --d: 100%;
-    --p: 0%;
-    font-weight: bold;
+  
+  .links {
+  
+      text-align: right;
   }
-
-  .resume-link {
-    font-size: 15px;
-    text-decoration: none;
-    color: black;
-    background:
-    linear-gradient(currentColor 0 0) 
-    var(--p, 100%) 100% /var(--d, 0) 1px 
-    no-repeat;
-    transition: 0.3s, background-position 0s 0.3s;
-  }
-
-  .resume-link:hover {
+  
+  .resume {
+      margin-right: 30px;
+      font-size: 15px;
+      text-decoration: none;
+      color: black;
+      background:
+      linear-gradient(currentColor 0 0) 
+      var(--p, 100%) 100% /var(--d, 0) 1px 
+      no-repeat;
+      transition: 0.3s, background-position 0s 0.3s;
+    }
+  
+    .resume:hover {
       --d: 100%;
       --p: 0%;
       font-weight: bold;
     }
-
-.github {
-    margin-right: 30px;
-    font-size: 15px;
-    text-decoration: none;
-    color: black;
-    background:
-    linear-gradient(currentColor 0 0) 
-    var(--p, 100%) 100% /var(--d, 0) 1px 
-    no-repeat;
-    transition: 0.3s, background-position 0s 0.3s;
-  }
-
-  .github:hover {
-      --d: 100%;
-      --p: 0%;
-      font-weight: bold;
+  
+    .resume-link {
+      font-size: 15px;
+      text-decoration: none;
+      color: black;
+      background:
+      linear-gradient(currentColor 0 0) 
+      var(--p, 100%) 100% /var(--d, 0) 1px 
+      no-repeat;
+      transition: 0.3s, background-position 0s 0.3s;
     }
-
-.linkedin {
-    margin-right: 30px;
-    font-size: 15px;
-    text-decoration: none;
-    color: black;
-    background:
-    linear-gradient(currentColor 0 0) 
-    var(--p, 100%) 100% /var(--d, 0) 1px 
-    no-repeat;
-    transition: 0.3s, background-position 0s 0.3s;
-  }
-
-  .linkedin:hover {
-      --d: 100%;
-      --p: 0%;
-      font-weight: bold;
-    }
-
-    .contact-link {
-        margin-right: 30px;
-        font-size: 15px;
-    text-decoration: none;
-    color: black;
-    background:
-    linear-gradient(currentColor 0 0) 
-    var(--p, 100%) 100% /var(--d, 0) 1px 
-    no-repeat;
-    transition: 0.3s, background-position 0s 0.3s;
-    }
-
-    .contact-link:hover {
+  
+    .resume-link:hover {
         --d: 100%;
         --p: 0%;
         font-weight: bold;
       }
-    
-
-@media only screen and (max-width:414px) {
+  
+  .github {
+      margin-right: 30px;
+      font-size: 15px;
+      text-decoration: none;
+      color: black;
+      background:
+      linear-gradient(currentColor 0 0) 
+      var(--p, 100%) 100% /var(--d, 0) 1px 
+      no-repeat;
+      transition: 0.3s, background-position 0s 0.3s;
+    }
+  
+    .github:hover {
+        --d: 100%;
+        --p: 0%;
+        font-weight: bold;
+      }
+  
+  .linkedin {
+      margin-right: 30px;
+      font-size: 15px;
+      text-decoration: none;
+      color: black;
+      background:
+      linear-gradient(currentColor 0 0) 
+      var(--p, 100%) 100% /var(--d, 0) 1px 
+      no-repeat;
+      transition: 0.3s, background-position 0s 0.3s;
+    }
+  
+    .linkedin:hover {
+        --d: 100%;
+        --p: 0%;
+        font-weight: bold;
+      }
+  
+      .contact-link {
+          margin-right: 30px;
+          font-size: 15px;
+      text-decoration: none;
+      color: black;
+      background:
+      linear-gradient(currentColor 0 0) 
+      var(--p, 100%) 100% /var(--d, 0) 1px 
+      no-repeat;
+      transition: 0.3s, background-position 0s 0.3s;
+      }
+  
+      .contact-link:hover {
+          --d: 100%;
+          --p: 0%;
+          font-weight: bold;
+        }
       
-    .links {
-        text-align: center;
-        display: flex;
-        justify-content: space-evenly;
-        text-decoration: underline;
+  
+  @media only screen and (max-width:414px) {
+        
+      .links {
+          text-align: center;
+          display: flex;
+          justify-content: space-evenly;
+          text-decoration: underline;
+      }
+  
+      .resume, .github, .linkedin, .contact-link {
+          margin-right: 0px;
+  
+      }
+  
+      
     }
-
-    .resume, .github, .linkedin, .contact-link {
-        margin-right: 0px;
-
-    }
-
-    
-  }
