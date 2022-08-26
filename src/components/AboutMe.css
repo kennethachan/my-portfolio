@@ -33,7 +33,7 @@ top: 30px;
     width: 550px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
+    margin-top: 10px;
     color: black;
   }
 
@@ -110,7 +110,7 @@ top: 30px;
         width: 414px;
         font-size: 50px;
   position: relative;
-  top: 40px;
+  top: 25px;
       }
 
       .aboutme {
@@ -122,13 +122,13 @@ top: 30px;
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        top: 80px;
+        top: 50px;
       }
 
       .brand {
         width: 300px;
         position: relative;
-        bottom: 40px;
+        bottom: 30px;
       }
     }
 
