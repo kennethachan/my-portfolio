@@ -9,12 +9,34 @@
     padding-top: 50px;
     width: 1200px;
     border-radius: 25px;
-    background-color: #F4D3FF;
+    background-color:#F0E6CE;
 }
 
 .title {
     text-align: center;
+    color: #DB5E36;
 }
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #DB5E36;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+  }
+
+  .dot-m {
+    height: 25px;
+    width: 25px;
+    background-color: #DB5E36;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    right: 5px;
+  }
 
 .interactive {
     margin-right: 40px;
