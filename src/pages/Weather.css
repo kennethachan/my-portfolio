@@ -1,6 +1,6 @@
-.mainImg {
-    height: 400px;
-    width: auto;
-    transition: .3s;
-
+.weather-info-container {
+    width: 400px;
+    position:relative;
+    bottom: 0px;
+    right: 25px;
 }

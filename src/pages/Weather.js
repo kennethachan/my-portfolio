@@ -51,21 +51,15 @@ function Weather(props) {
         <div className="interactive">
           <Slideshow imgs={[weatherApp]} />
         </div>
-        <div className="luc-info-container">
+        <div className="weather-info-container">
           <h2 className="title">Weather App</h2>
           <p className="info">
-            Lucidity is a MERN stack "lofi anime" themed productivity site
-            inspired from the popular Youtube 24/7 livestream "lofi hip hop
-            radio - beats to relax/study to" with inspired aesthetics from
-            "slowed and reverbed" mixes found on Youtube and SoundCloud. These
-            playlists and anime visuals have helped many people study, perform a
-            tedious task or relax and clear their mind. This website brings
-            these ideas together and creates a relaxing/positive environment to
-            be productive and/or decompress. The website has (3) main features:
-            a notepad where the user can add,edit and delete notes. A GIF image
-            slider with preset GIFs and allows the user to add and delete new
-            GIFs. A premade playlist lets the user select a playlist/track from
-            SoundCloud.
+            This weather app utilizes the "Open Weather" API to gather
+            Observational Meteorological Data to present the user with current
+            weather forcasts as well as a forecast for the week. Once location
+            sharing is enabled, the Open Weather API will obtain the
+            geographical coordinates by using the name of the users location and
+            display user specific weather patterns.
             <hr></hr>
             <span className="tech"> Vue.js | HTML | CSS | JavaScript</span>
           </p>
