@@ -14,7 +14,7 @@
 
 .title {
     text-align: center;
-    color: #DB5E36;
+    color: #17539C;
 }
 
 .dot {
@@ -103,7 +103,7 @@
         padding: 12px;
         border-style: none;
         border-radius: 20px;
-        background-color: black;
+        background-color: #17539C;
         color: white;
         font-weight: bold;
         cursor:pointer;
@@ -112,7 +112,7 @@
     }
 
     .see:hover {
-        color: black;
+        color: #17539C;
         background: white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     }

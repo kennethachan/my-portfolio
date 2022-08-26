@@ -1,7 +1,7 @@
 import React from "react"
 import "./AboutMe.css"
 import Header from "./Header"
-import profilePic from "../pictures/profile-pic.jpg"
+import profilePic from "../pictures/profile-pic3.jpg"
 
 function AboutMe(props) {
   return (

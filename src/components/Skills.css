@@ -10,6 +10,10 @@
 .skillsets {
     text-align: left;
 }
+
+.skills-title {
+    color: #17539C;
+}
 .coding-logo{
     height: 80px;
     position: relative;
@@ -23,14 +27,17 @@
 
 .programming {
     font-weight: bold;
+    color: #DB5E36;
 }
 
 .libraries {
     font-weight: bold;
+    color: #DB5E36;
 }
 
 .tools {
     font-weight: bold;
+    color: #DB5E36;
 }
 
 @media only screen and (max-width:414px) {

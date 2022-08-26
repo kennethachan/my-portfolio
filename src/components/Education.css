@@ -11,6 +11,10 @@
     text-align: left;
 }
 
+.education-title {
+    color: #17539C;
+}
+
 .education-logo {
     height: 60px;
     position: relative;
@@ -21,6 +25,7 @@
 
 .school {
     font-weight: bold;
+    color: #DB5E36;
 }
 
 @media only screen and (max-width:414px) {

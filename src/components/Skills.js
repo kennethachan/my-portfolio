@@ -14,7 +14,7 @@ function Skills(props) {
           <li className="list">
             <span className="programming">Programming Languages:</span> HTML |
             CSS | JavaScript | <br />
-            React | Vue | Python | Django
+            React.js | Vue.js | Python3 | Django
           </li>
           <li className="list">
             <span className="libraries">Frameworks and Libraries:</span> Node.js
