@@ -47,7 +47,7 @@ const Slideshow = ({ imgs }) => {
 function Weather(props) {
   return (
     <div>
-      <div className="project-lucidity ">
+      <div className="project-weather ">
         <div className="interactive">
           <Slideshow imgs={[weatherApp]} />
         </div>
