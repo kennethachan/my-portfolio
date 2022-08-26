@@ -74,7 +74,7 @@ function Pokedex(props) {
             the specified pokemon card or see all 151 pokemon. Night mode option
             is integrated to create an alternative viewing experience.
             <hr></hr>
-            HTML | CSS | Javascript
+            <span className="tech">HTML | CSS | Javascript</span>
           </p>
           <a href="https://pokedexkanto.surge.sh/" target="_blank">
             <button className="see">Website</button>

@@ -65,7 +65,9 @@ function Rabido(props) {
             skill required. Rabido was a group project including myself and (2)
             other cohort members
             <hr></hr>
-            PostgreSQL | Express | React.js | Node.js
+            <span className="tech">
+              PostgreSQL | Express | React.js | Node.js
+            </span>
           </p>
           <a
             className="link"

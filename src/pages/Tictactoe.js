@@ -62,7 +62,7 @@ function tictactoe(props) {
             is declared the player will not be able to make an additional move
             and a reset button lets both players play again.
             <hr></hr>
-            HTML | CSS | Javascript
+            <span className="tech">HTML | CSS | Javascript</span>
           </p>
           <a href="https://gloomytictactoe.surge.sh/" target="_blank">
             <button className="see">Website</button>

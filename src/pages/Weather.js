@@ -67,7 +67,7 @@ function Weather(props) {
             GIFs. A premade playlist lets the user select a playlist/track from
             SoundCloud.
             <hr></hr>
-            Vue.js | HTML | CSS | JavaScript
+            <span className="tech"> Vue.js | HTML | CSS | JavaScript</span>
           </p>
           <a
             className="link"

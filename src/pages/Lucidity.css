@@ -124,6 +124,14 @@
         right: 25px;
     }
 
+    .tech {
+        font-weight: 400;
+    }
+
+    .info {
+        font-weight: 100;
+    }
+
     
     @media only screen and (max-width:414px) {
       

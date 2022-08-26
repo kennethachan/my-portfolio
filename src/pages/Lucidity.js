@@ -68,7 +68,9 @@ function lucidity(props) {
             GIFs. A premade playlist lets the user select a playlist/track from
             SoundCloud.
             <hr></hr>
-            Mongoose | Express | React.js | Node.js
+            <span className="tech">
+              Mongoose | Express | React.js | Node.js
+            </span>
           </p>
           <a
             className="link"
