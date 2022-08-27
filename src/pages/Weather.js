@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
 import weatherApp from "../pictures/weather-app.png"
+import weatherComp from "../pictures/weather-computer.png"
 import "./Weather.css"
 
 const Slideshow = ({ imgs }) => {
@@ -49,17 +50,17 @@ function Weather(props) {
     <div>
       <div className="project-weather ">
         <div className="interactive">
-          <Slideshow imgs={[weatherApp]} />
+          <Slideshow imgs={[weatherComp]} />
         </div>
         <div className="weather-info-container">
           <h2 className="title">Weather App</h2>
           <p className="info">
             This weather app utilizes the "Open Weather" API to gather
-            Observational Meteorological Data to present the user with current
-            weather forcasts as well as a forecast for the week. Once location
-            sharing is enabled, the Open Weather API will obtain the
-            geographical coordinates by using the name of the users location and
-            display user specific weather patterns.
+            meteorological data to present the user with current weather
+            forcasts as well as a forecast for the week. Once location sharing
+            is enabled, the Open Weather API will obtain the geographical
+            coordinates by using the name of the users location and display user
+            specific weather patterns.
             <hr></hr>
             <span className="tech"> Vue.js | HTML | CSS | JavaScript</span>
           </p>

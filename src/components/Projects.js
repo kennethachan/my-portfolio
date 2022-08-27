@@ -9,9 +9,9 @@ import Weather from "../pages/Weather"
 function Projects(props) {
   return (
     <div>
+      <Weather />
       <Rabido />
       <Lucidity />
-      <Weather />
       <Pokedex />
       <Tictactoe />
     </div>
