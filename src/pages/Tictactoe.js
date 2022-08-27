@@ -2,12 +2,11 @@ import React from "react"
 import { Link } from "react-router-dom"
 import { useEffect, useState } from "react"
 import "./Tictactoe.css"
-import ticOne from "../pictures/tic-1.png"
-import ticTwo from "../pictures/tic-2.png"
-import tic2wins from "../pictures/tic-2wins.png"
-import ticDraw from "../pictures/tic-draw.png"
 import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
+import PSdraw from "../pictures/iphone-tic-draw.png"
+import PSwin from "../pictures/iphone-tic-win.png"
+import tic from "../pictures/tic.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -52,7 +51,7 @@ function tictactoe(props) {
     <div>
       <div className="project-tictactoe">
         <div className="interactive">
-          <Slideshow imgs={[ticOne, ticTwo, tic2wins, ticDraw]} />
+          <Slideshow imgs={[PSwin, PSdraw, tic]} />
         </div>
         <div className="tic-info-container">
           <h2 className="title">Tic Tac Toe</h2>
