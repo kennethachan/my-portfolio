@@ -3,8 +3,10 @@ import "./Lucidity.css"
 import { useEffect, useState } from "react"
 import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
-import weatherApp from "../pictures/weather-app.png"
 import weatherComp from "../pictures/weather-computer.png"
+import PSWeatherApp from "../pictures/iphone-weather.png"
+import PSWeatherComp from "../pictures/macbook-weather.png"
+
 import "./Weather.css"
 
 const Slideshow = ({ imgs }) => {
@@ -50,7 +52,7 @@ function Weather(props) {
     <div>
       <div className="project-weather ">
         <div className="interactive">
-          <Slideshow imgs={[weatherComp]} />
+          <Slideshow imgs={[PSWeatherApp, weatherComp]} />
         </div>
         <div className="weather-info-container">
           <h2 className="title">Weather App</h2>
