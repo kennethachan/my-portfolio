@@ -57,7 +57,7 @@ function Weather(props) {
           <p className="info">
             This weather app utilizes the "Open Weather" API to gather
             meteorological data to present the user with current weather
-            forcasts as well as a forecast for the week. Once location sharing
+            forecasts as well as a forecast for the week. Once location sharing
             is enabled, the Open Weather API will obtain the geographical
             coordinates by using the name of the users location and display user
             specific weather patterns.
