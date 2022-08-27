@@ -15,6 +15,7 @@
 .title {
     text-align: center;
     color: #17539C;
+    font-weight: bold;
 }
 
 .dot {
@@ -125,11 +126,11 @@
     }
 
     .tech {
-        font-weight: 400;
+        font-weight: 700;
     }
 
     .info {
-        font-weight: 100;
+        font-weight: 200;
     }
 
     

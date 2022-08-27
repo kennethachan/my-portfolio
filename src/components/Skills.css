@@ -13,6 +13,7 @@
 
 .skills-title {
     color: #17539C;
+    font-weight: 700;
 }
 .coding-logo{
     height: 80px;
@@ -26,17 +27,17 @@
 }
 
 .programming {
-    font-weight: bold;
+ font-weight: 700;
     color: #DB5E36;
 }
 
 .libraries {
-    font-weight: bold;
+ font-weight: 700;
     color: #DB5E36;
 }
 
 .tools {
-    font-weight: bold;
+ font-weight: 700;
     color: #DB5E36;
 }
 

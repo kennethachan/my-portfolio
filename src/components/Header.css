@@ -28,22 +28,6 @@
       font-weight: bold;
     }
   
-    .resume-link {
-      font-size: 15px;
-      text-decoration: none;
-      color: black;
-      background:
-      linear-gradient(currentColor 0 0) 
-      var(--p, 100%) 100% /var(--d, 0) 1px 
-      no-repeat;
-      transition: 0.3s, background-position 0s 0.3s;
-    }
-  
-    .resume-link:hover {
-        --d: 100%;
-        --p: 0%;
-        font-weight: bold;
-      }
   
   .github {
       margin-right: 30px;

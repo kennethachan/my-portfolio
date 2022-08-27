@@ -11,7 +11,9 @@ function Header(props) {
           <Link className="resume" to="/resume">
             Resume
           </Link>
-
+          <Link className="contact-link" to="/contact">
+            Contact Me
+          </Link>
           <a
             className="github"
             href="https://github.com/kennethachan"
@@ -27,10 +29,6 @@ function Header(props) {
           >
             LinkedIn
           </a>
-
-          <Link className="contact-link" to="/contact">
-            Contact Me
-          </Link>
         </div>
       </header>
     </div>

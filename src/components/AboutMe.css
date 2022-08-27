@@ -44,16 +44,17 @@ top: 30px;
 
   .name {
     font-size: 55px;
-    font-weight: 100;
+    font-weight: 200;
     margin: 10px 0 0 10px;
     width: 1400px;
     margin-left: auto;
     margin-right: auto;
+    color:black;
   }
 
   .job {
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 200;
     margin: 10px 0 0 10px;
     white-space: nowrap;
     overflow: hidden;
@@ -62,6 +63,7 @@ top: 30px;
     margin-right: auto;
     position: relative;
     bottom: 20px;
+    color:#E04614;
   }
 
   /* CSS3 Type Animation */

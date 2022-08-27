@@ -12,6 +12,9 @@ function Resume(props) {
             <Link className="resume" to="/">
               Home
             </Link>
+            <Link className="contact-link" to="/contact">
+              Contact Me
+            </Link>
             <a
               className="github"
               href="https://github.com/kennethachan"
@@ -26,17 +29,14 @@ function Resume(props) {
             >
               LinkedIn
             </a>
-            <Link className="contact-link" to="/contact">
-              Contact Me
-            </Link>
           </div>
         </header>
 
         <div className="res-heading">
           <h3 className="res-name">Kenneth Chan </h3>
           <h1 className="res-title">Resume</h1>
-          <a className="resume-link" href={resume} target="_blank">
-            Download Resume
+          <a href={resume} target="_blank">
+            <button className="download">Download</button>
           </a>
         </div>
 

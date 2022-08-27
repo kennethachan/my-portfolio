@@ -50,16 +50,10 @@ bottom: 10px;
 .email-link {
   color: #17539C;
   text-decoration: none;
-  background:
-  linear-gradient(currentColor 0 0) 
-  var(--p, 100%) 100% /var(--d, 0) 1px 
-  no-repeat;
-  transition: 0.3s, background-position 0s 0.3s;
+  font-weight: bold;
 }
 
-.email-link:hover {
-    --d: 100%;
-    --p: 0%;
+.number {
     font-weight: bold;
 }
 

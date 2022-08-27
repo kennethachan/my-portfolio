@@ -83,7 +83,8 @@ function ContactMe(props) {
             </a>
           </li>
           <li className="reach-methods">
-            If you want to hear my voice (914)-310-3522
+            If you want to hear my voice{" "}
+            <span className="number">(914)-310-3522</span>
           </li>
         </div>
 

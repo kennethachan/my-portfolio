@@ -13,6 +13,7 @@
 
 .education-title {
     color: #17539C;
+    font-weight: 700;
 }
 
 .education-logo {
@@ -24,7 +25,7 @@
 }
 
 .school {
-    font-weight: bold;
+    font-weight: 700;
     color: #DB5E36;
 }
 

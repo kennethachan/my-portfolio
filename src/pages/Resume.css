@@ -17,13 +17,8 @@
     padding:20px;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    transition: .2s;
     background-color:#F0E6CE;
     font-weight: 100;
-}
-
-.resume-container:hover {
-    transform: scale(1.1); 
 }
 
 .res-list {
@@ -51,6 +46,26 @@ list-style: none;
     width: 183px;
     text-align: center;
     text-decoration:overline;
+}
+
+.download {
+    width: 110px;
+    padding: 12px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #17539C;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+    font-size: 14px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.download:hover {
+    color: #17539C;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
   @media only screen and (max-width:414px) {
