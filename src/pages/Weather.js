@@ -71,7 +71,7 @@ function Weather(props) {
             href="https://warmweatherapp.surge.sh/"
             target="_blank"
           >
-            <button className="see">Website</button>
+            <button className="see">Live Demo</button>
           </a>
           <a
             href="https://github.com/kennethachan/Weather_App/tree/main"

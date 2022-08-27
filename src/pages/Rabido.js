@@ -74,7 +74,7 @@ function Rabido(props) {
             href="https://powerful-retreat-33440.herokuapp.com/"
             target="_blank"
           >
-            <button className="see">Website</button>
+            <button className="see">Live Demo</button>
           </a>
           <a href="https://github.com/kennethachan/Rabido" target="_blank">
             <button className="see">Code</button>

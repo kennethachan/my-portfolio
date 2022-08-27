@@ -16,7 +16,7 @@
 .weather-info-container {
     width: 400px;
     position:relative;
-    bottom: 0px;
+    top: 25px;
     right: 25px;
 }
 

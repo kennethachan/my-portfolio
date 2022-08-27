@@ -9,6 +9,9 @@ import pokenight from "../pictures/pokenight.png"
 import allpokenight from "../pictures/allpokenight.png"
 import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
+import PSpokeball from "../pictures/iphone-poke-landing.png"
+import PSpokeRand from "../pictures/iphone-poke-rand.png"
+import PSpokeAll from "../pictures/iphone-poke-all.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -55,6 +58,9 @@ function Pokedex(props) {
         <div className="interactive">
           <Slideshow
             imgs={[
+              PSpokeball,
+              PSpokeRand,
+              PSpokeAll,
               pokemonLanding,
               pokemonMain,
               allpoke,
@@ -77,7 +83,7 @@ function Pokedex(props) {
             <span className="tech">HTML | CSS | Javascript</span>
           </p>
           <a href="https://pokedexkanto.surge.sh/" target="_blank">
-            <button className="see">Website</button>
+            <button className="see">Live Demo</button>
           </a>
           <a
             href="https://github.com/kennethachan/Kanto-Region-Pokedex"
