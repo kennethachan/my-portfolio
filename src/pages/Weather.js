@@ -5,7 +5,7 @@ import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
 import weatherComp from "../pictures/weather-computer.png"
 import PSWeatherApp from "../pictures/iphone-weather.png"
-import PSWeatherComp from "../pictures/macbook-weather.png"
+import PSWeatherComp from "../pictures/weather-computer-render.png"
 
 import "./Weather.css"
 
