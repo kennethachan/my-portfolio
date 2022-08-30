@@ -21,13 +21,14 @@ function Home(props) {
         <Projects />
       </div>
       <div className="skills-ed">
-        <div className="skills">
+        {/* <div className="skills">
           <Skills />
-        </div>
-        <div className="education">
+        </div> */}
+        {/* <div className="education">
           <Education />
-        </div>
+        </div> */}
       </div>
+      <footer>ⓒ Made By Kenneth Chan ❤️</footer>
     </div>
   )
 }
