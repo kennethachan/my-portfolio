@@ -6,6 +6,10 @@
 .container {
     height: 50px;
   }
+
+  tabs {
+  margin: 0px;
+  }
   
   .tab-header {
     width: 800px;
@@ -15,6 +19,7 @@
     line-height: 25px;
     position: relative;
     right: 20px;
+    bottom: 20px;
 
   }
   .tab-header li {
@@ -31,6 +36,7 @@
     font-weight: bold;
     font-size: 16px;
     text-decoration: underline;
+  
   }
   
   .tab-header li:hover {
@@ -46,8 +52,8 @@
     margin-left: auto;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     position: relative;
-    /* color: #17539C; */
-    font-weight: bold;
+    position: relative;
+    bottom: 35px;
   }
   
   .tab-child {
@@ -72,8 +78,10 @@
     
      .tab-content {
         width: 414px;
-        height: 75px;
+        height: 170px;
         border-radius: 0px;
+        position: relative;
+        top: 1px;
       }
     
       .tab-header {
@@ -84,6 +92,11 @@
         margin-right: auto;
         position: relative;
         left:0px;
+        top: 1px;
+      }
+
+      .tab-child {
+        width: 400px;
       }
     
       .container {

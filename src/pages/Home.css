@@ -1,10 +1,12 @@
 .skills-ed {
-    display: flex;
-    justify-content:center;
     width: 1200px;
+    display: flex;
+    justify-content:space-evenly;
     margin-right: auto;
     margin-left: auto;
     margin-top: 120px;
+    position: relative;
+    right: 50px;
 }
 
 footer {
@@ -15,7 +17,11 @@ footer {
 @media only screen and (max-width:414px) {
       
 .skills-ed {
-    width: 390px;
+    width: 414px;
     display: block;
+    margin-right: auto;
+    margin-left:auto;
+    position: relative;
+    right:0px;
 }
      }
