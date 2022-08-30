@@ -66,7 +66,6 @@ function ContactMe(props) {
       <div className="contact-container">
         <div className="contact-notes">
           <p>
-            {" "}
             I enjoy working with dedicated creatives to help make the world a
             more beautiful place.
           </p>
@@ -83,7 +82,7 @@ function ContactMe(props) {
             </a>
           </li>
           <li className="reach-methods">
-            If you want to hear my voice{" "}
+            If you want to hear my voice
             <span className="number">(914)-310-3522</span>
           </li>
         </div>

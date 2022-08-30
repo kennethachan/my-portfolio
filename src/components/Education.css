@@ -16,17 +16,12 @@
     font-weight: 700;
 }
 
-.education-logo {
-    height: 60px;
-    position: relative;
-    top: 70px;
-    margin-right: 50px;
-    margin-left: 100px;
+.list {
+    list-style: none;
 }
 
 .school {
     font-weight: 700;
-    color: #DA3E0B;
 }
 
 @media only screen and (max-width:414px) {

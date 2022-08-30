@@ -5,9 +5,6 @@ import education from "../pictures/school.png"
 function Education(props) {
   return (
     <div className="education-container">
-      <div>
-        <img className="education-logo" src={education}></img>
-      </div>
       <div className="education-wrapper">
         <h2 className="education-title">Education</h2>
         <li className="list">

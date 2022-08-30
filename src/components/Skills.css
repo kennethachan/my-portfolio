@@ -1,63 +1,114 @@
-.skills-container {
-    /* width: 850px; */
-    margin-right:auto;
-    margin-left:auto;
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
-}
-
-.skillsets {
-    text-align: left;
-}
-
 .skills-title {
     color: #17539C;
     font-weight: 700;
 }
-.coding-logo{
-    height: 80px;
-    position: relative;
-    top: 65px;
-    margin-right: 50px;
-}
 
-.list {
+.container {
+    height: 50px;
+  }
+  
+  .tab-header {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     list-style: none;
-}
+    line-height: 25px;
+    position: relative;
+    right: 20px;
 
-.programming {
- font-weight: 700;
-    color: #DA3E0B;
-}
+  }
+  .tab-header li {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    padding: 12px;
+    line-height: 35px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .tab-header li.active {
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  
+  .tab-header li:hover {
+    text-decoration: underline;
+  }
+  
+  .tab-content {
+    height: 120px;
+    width: 590px;
+    background: #F0E6CE;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    position: relative;
+    /* color: #17539C; */
+    font-weight: bold;
+  }
+  
+  .tab-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
 
-.libraries {
- font-weight: 700;
-    color: #DA3E0B;
-}
+.html {
+    height: 32px;
 
-.tools {
- font-weight: 700;
-    color: #DA3E0B;
-}
+  }
+
+  .css {
+    height: 32px;
+  }
+
+  .js {
+    height: 32px;
+  }
+
+  .react {
+    height: 32px;
+  }
+
+  .vue {
+    height: 32px;
+  }
+
+  .python {
+    height: 32px;
+  }
+
+  .dj {
+    height: 32px;
+  }
 
 @media only screen and (max-width:414px) {
       
-   .skills-container {
-    display: block;
-    width: 350px;
-    margin-right: auto;
-    margin-left: auto;
-   }
-
-   .coding-logo {
-    margin-right:auto;
-    margin-left:auto;
-    margin-bottom: 80px;
-    margin-top: -10px;
-   }
-
-   .skills-title {
-    text-align: center;
-   }
+    
+     .tab-content {
+        width: 414px;
+        height: 75px;
+        border-radius: 0px;
+      }
+    
+      .tab-header {
+        width: 414px;
+        margin:0px;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left:0px;
+      }
+    
+      .container {
+        position: relative;
+        bottom: 150px;
+      }
     }
