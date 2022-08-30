@@ -15,7 +15,7 @@ function Resume(props) {
               Home
             </Link>
             <Link className="contact-link" to="/about">
-              About Me
+              About
             </Link>
             <Link className="contact-link" to="/contact">
               Contact Me
@@ -40,7 +40,7 @@ function Resume(props) {
         </header>
 
         <div className="res-heading">
-          <h3 className="res-name">Kenneth Chan </h3>
+          {/* <h3 className="res-name">Kenneth Chan </h3> */}
           <h1 className="res-title">Resume</h1>
           <a href={resume} target="_blank">
             <button className="download">Download</button>

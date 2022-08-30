@@ -11,7 +11,7 @@ function Header(props) {
       <header className="header">
         <div className="links">
           <Link className="contact-link" to="/about">
-            About Me
+            About
           </Link>
           <Link className="resume" to="/resume">
             Resume

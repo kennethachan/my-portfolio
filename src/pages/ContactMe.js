@@ -40,7 +40,7 @@ function ContactMe(props) {
             Home
           </Link>
           <Link className="contact-link" to="/about">
-            About Me
+            About
           </Link>
           <Link className="resume" to="/resume">
             Resume
@@ -63,7 +63,7 @@ function ContactMe(props) {
         </div>
       </header>
       <div className="contact-heading">
-        <h3 className="cont-name">Kenneth Chan</h3>
+        {/* <h3 className="cont-name">Kenneth Chan</h3> */}
         <h1 className="contact-title">Better Together</h1>
       </div>
 
