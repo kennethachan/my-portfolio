@@ -79,7 +79,11 @@
   
       .resume, .github, .linkedin, .contact-link {
           margin-right: 0px;
-  
+      }
+
+      .header-icon {
+        position: relative;
+        top: -7px;
       }
   
       
