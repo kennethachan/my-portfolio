@@ -59,34 +59,13 @@
   }
   
 
-.html {
-    height: 32px;
-
-  }
-
-  .css {
+.skill-icon {
     height: 32px;
   }
-
-  .js {
-    height: 32px;
+  .skill-icon-jquery {
+    height: 20px;
   }
 
-  .react {
-    height: 32px;
-  }
-
-  .vue {
-    height: 32px;
-  }
-
-  .python {
-    height: 32px;
-  }
-
-  .dj {
-    height: 32px;
-  }
 
 @media only screen and (max-width:414px) {
       
