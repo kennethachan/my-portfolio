@@ -28,43 +28,27 @@
       font-weight: bold;
     }
   
+  .header-icon{
+    padding: 0px;
+    margin:0px;
+    position: relative;
+    top: 5px;
+  }
+
+  .header-icon:hover {
+  transform: scale(1.2);
+      }
   
   .github {
       margin-right: 30px;
-      font-size: 15px;
       text-decoration: none;
-      color: black;
-      background:
-      linear-gradient(currentColor 0 0) 
-      var(--p, 100%) 100% /var(--d, 0) 1px 
-      no-repeat;
-      transition: 0.3s, background-position 0s 0.3s;
     }
-  
-    .github:hover {
-        --d: 100%;
-        --p: 0%;
-        font-weight: bold;
-      }
+
   
   .linkedin {
-      margin-right: 30px;
-      font-size: 15px;
-      text-decoration: none;
-      color: black;
-      background:
-      linear-gradient(currentColor 0 0) 
-      var(--p, 100%) 100% /var(--d, 0) 1px 
-      no-repeat;
-      transition: 0.3s, background-position 0s 0.3s;
-    }
-  
-    .linkedin:hover {
-        --d: 100%;
-        --p: 0%;
-        font-weight: bold;
-      }
-  
+    margin-right: 30px;
+    text-decoration: none;
+  }
       .contact-link {
           margin-right: 30px;
           font-size: 15px;

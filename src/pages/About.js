@@ -1,17 +1,16 @@
 import React from "react"
-import Resume from "../pages/Resume"
+import "./About.css"
 import { Link } from "react-router-dom"
-import "./Header.css"
 import github from "../pictures/github.png"
 import linkedin from "../pictures/linkedin.png"
 
-function Header(props) {
+function About(props) {
   return (
     <div>
-      <header className="header">
+      <header className="res-header">
         <div className="links">
-          <Link className="contact-link" to="/about">
-            About Me
+          <Link className="resume" to="/">
+            Home
           </Link>
           <Link className="resume" to="/resume">
             Resume
@@ -41,4 +40,4 @@ function Header(props) {
   )
 }
 
-export default Header
+export default About

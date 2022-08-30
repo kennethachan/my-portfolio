@@ -2,6 +2,8 @@ import React from "react"
 import "./Resume.css"
 import { Link } from "react-router-dom"
 import resume from "../pictures/Kenneth_Chan_Resume.pdf"
+import github from "../pictures/github.png"
+import linkedin from "../pictures/linkedin.png"
 
 function Resume(props) {
   return (
@@ -12,6 +14,9 @@ function Resume(props) {
             <Link className="resume" to="/">
               Home
             </Link>
+            <Link className="contact-link" to="/about">
+              About Me
+            </Link>
             <Link className="contact-link" to="/contact">
               Contact Me
             </Link>
@@ -20,14 +25,16 @@ function Resume(props) {
               href="https://github.com/kennethachan"
               target="_blank"
             >
-              Github
+              {" "}
+              <img className="header-icon" src={github}></img>
             </a>
+
             <a
               className="linkedin"
               href="https://www.linkedin.com/in/kennethachan/"
               target="_blank"
             >
-              LinkedIn
+              <img className="header-icon" src={linkedin}></img>
             </a>
           </div>
         </header>
