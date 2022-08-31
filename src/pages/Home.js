@@ -28,7 +28,7 @@ function Home(props) {
           <Education />
         </div>
       </div>
-      <footer>ⓒ Made By Kenneth Chan ❤️</footer>
+      <footer>Made By Kenneth Chan ❤️</footer>
     </div>
   )
 }
