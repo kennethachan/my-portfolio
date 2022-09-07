@@ -45,7 +45,6 @@ function lucidity(props) {
     <div>
       <div className="project-lucidity ">
         <Slideshow imgs={[lucRender, lucMainRender]} />
-
         <div className="luc-info-container">
           <h2 className="title">Lucidity</h2>
           <p className="info">

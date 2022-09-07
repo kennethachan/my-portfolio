@@ -1,5 +1,5 @@
 html {
-    background-color: #293848;
+    background-color: #FAFBE8;
 }
 
 .contact-container {
@@ -9,7 +9,7 @@ html {
     margin-right: auto;
     margin-left: auto;
     margin-top: 150px;
-    color: #6fbbea;
+    color: black;
 }
 
 .res-header {
@@ -69,12 +69,12 @@ bottom: 10px;
     background: transparent;
     resize: none;
     outline: none;
-    border-bottom: 1px solid #6fbbea;
+    border-bottom: 1px solid black;
     color: white;
 }
 
 ::placeholder {
-    color:#6fbbea;
+    color:black;
 }
 
 .input-message {
@@ -84,7 +84,7 @@ bottom: 10px;
     background: transparent;
     resize: none;
     outline: none;
-    border-bottom: 1px solid #6fbbea;
+    border-bottom: 1px solid black
 }
 
 .contact-title {
@@ -92,7 +92,7 @@ bottom: 10px;
     margin-right: auto;
     margin-left: auto;
     width: 500px;
-    color: white;
+    color: black;
 }
 
 

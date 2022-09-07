@@ -17,18 +17,12 @@
     font-weight: bold;
 }
 
-.mainImg-container-luc {
-    height: 440px;
-    /* width: 600px; */
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .mainImg-luc {
     height: 380px;
     width: 550px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 .buttons {
@@ -63,29 +57,9 @@
     .right-arrow:hover {
         height:23px;
     }
-    
-    .see {
-        width: 110px;
-        padding: 12px;
-        border-style: none;
-        border-radius: 20px;
-        background-color: #17539C;
-        /* background-color: #4974a5; */
-        color: white;
-        font-weight: bold;
-        cursor:pointer;
-        font-size: 14px;
-        margin-right: 10px;
-    }
-
-    .see:hover {
-        color: #17539C;
-        background: white;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    }
 
     .luc-info-container {
-        width: 500px;
+        width: 550px;
         margin-right: auto;
         margin-left: auto
     }

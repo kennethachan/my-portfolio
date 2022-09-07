@@ -2,6 +2,7 @@ import React from "react"
 import "./Lucidity.css"
 import { useEffect, useState } from "react"
 import PSWeatherApp from "../pictures/iphone-weather.png"
+import appRender from "../pictures/weatherapp-render.png"
 
 import "./Weather.css"
 
@@ -41,7 +42,7 @@ function Weather(props) {
   return (
     <div>
       <div className="project-weather ">
-        <Slideshow imgs={[PSWeatherApp]} />
+        <Slideshow imgs={[appRender]} />
         <div className="weather-info-container">
           <h2 className="title">Weather App</h2>
           <p className="info">
@@ -54,19 +55,21 @@ function Weather(props) {
             <hr></hr>
             <span className="tech"> Vue.js | HTML | CSS | JavaScript</span>
           </p>
-          <a
-            className="link"
-            href="https://warmweatherapp.surge.sh/"
-            target="_blank"
-          >
-            <button className="live-demo">Live Demo</button>
-          </a>
-          <a
-            href="https://github.com/kennethachan/Weather_App/tree/main"
-            target="_blank"
-          >
-            <button className="code">Code</button>
-          </a>
+          <div className="btns">
+            <a
+              className="link"
+              href="https://warmweatherapp.surge.sh/"
+              target="_blank"
+            >
+              <button className="live-demo">Live Demo</button>
+            </a>
+            <a
+              href="https://github.com/kennethachan/Weather_App/tree/main"
+              target="_blank"
+            >
+              <button className="code">Code</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
