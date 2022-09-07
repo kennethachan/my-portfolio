@@ -2,42 +2,33 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    display: flex;
+    display: block;
     justify-content: center;
-    margin-top: 100px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 200px;
     width: 1000px;
-    height: 440px;
     border-radius: 25px;
-    background-color:#F0E6CE;
+    /* background-color:#F0E6CE; */
+    color:black;
 }
 
 .title {
     text-align: center;
-    color: #17539C;
+    color: black;
     font-weight: bold;
 }
 
-.slideshow {
-    width: 600px;
-}
-
-.mainImg-container {
+.mainImg-container-luc {
     height: 440px;
-    width: 600px;
-    object-fit: cover;
-    overflow: hidden;
+    /* width: 600px; */
     margin-left: auto;
     margin-right: auto;
-    border-bottom-left-radius: 25px;
-    border-top-left-radius: 25px;
 }
 
-.mainImg {
-    height: 440px;
-    width: 600px;
-    object-fit: cover;
-    transition: .3s;
+.mainImg-luc {
+    height: 380px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .buttons {
@@ -45,7 +36,8 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    bottom: 230px;
+    margin-left: auto;
+    margin-right: auto;
     }
     
     .left-arrow {
@@ -93,14 +85,14 @@
     }
 
     .luc-info-container {
-        width: 400px;
-        position:relative;
-        /* bottom: 40px; */
-        right: 25px;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto
     }
 
     .tech {
         font-weight: 700;
+        text-align: center;
     }
 
     .info {

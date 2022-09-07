@@ -2,14 +2,13 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
- display: flex;
+ display: block;
  justify-content: center;
- margin-top: 100px;
- box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ margin-top: 200px;
+ /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
  width: 1000px;
- height: 420px;
  border-radius: 25px;
- background-color:#F0E6CE;
+ /* background-color:#F0E6CE; */
 }
 
 .title {
@@ -37,6 +36,7 @@
     position: relative;
     top: 20px;
     left: 20px;
+    margin-bottom: 10px;
 }
 
 .buttons-poke {
@@ -99,10 +99,10 @@
     }
 
     .poke-info-container {
-        width: 400px;
-        position: relative;
-        right: 25px;
-        top: 5px;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
     }
 
     @media only screen and (max-width:414px) {

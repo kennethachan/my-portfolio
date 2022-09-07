@@ -10,7 +10,7 @@ function Projects(props) {
   return (
     <div>
       <Weather />
-      <Rabido />
+      {/* <Rabido /> */}
       <Lucidity />
       <Pokedex />
       <Tictactoe />

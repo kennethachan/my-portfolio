@@ -3,9 +3,8 @@ import "./Lucidity.css"
 import { useEffect, useState } from "react"
 import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
-import lucidityMain from "../pictures/lucidity-main.png"
-import lucidityRegister from "../pictures/lucidity-register.png"
-import lucidityLogin from "../pictures/lucidity-login.png"
+import lucRender from "../pictures/luc-render.png"
+import lucMainRender from "../pictures/luc-main-render.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -30,16 +29,12 @@ const Slideshow = ({ imgs }) => {
   }
 
   return (
-    <div className="slideshow">
-      <div className="mainImg-container">
-        <img className="mainImg" src={imgs[index]} />
-      </div>
+    <div>
+      <img className="mainImg-luc" src={imgs[index]} />
 
-      <div className="actions">
-        <div className="buttons">
-          <img className="left-arrow" src={leftArrow} onClick={prev}></img>
-          <img className="right-arrow" src={rightArrow} onClick={next}></img>
-        </div>
+      <div className="buttons">
+        <img className="left-arrow" src={leftArrow} onClick={prev}></img>
+        <img className="right-arrow" src={rightArrow} onClick={next}></img>
       </div>
     </div>
   )
@@ -49,9 +44,8 @@ function lucidity(props) {
   return (
     <div>
       <div className="project-lucidity ">
-        <div className="interactive">
-          <Slideshow imgs={[lucidityLogin, lucidityMain]} />
-        </div>
+        <Slideshow imgs={[lucRender, lucMainRender]} />
+
         <div className="luc-info-container">
           <h2 className="title">Lucidity</h2>
           <p className="info">

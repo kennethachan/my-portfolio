@@ -2,26 +2,18 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
- display: flex;
- justify-content: center;
- margin-top: 100px;
- box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
- width: 1000px;
- height: 420px;
- border-radius: 25px;
- background-color:#F0E6CE;
+    display: block;
+    justify-content: center;
+    margin-top: 200px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    width: 1000px;
+    border-radius: 25px;
+    /* background-color:#F0E6CE; */
+    color:black;
 }
 
 .title {
     text-align: center;
-}
-
-.interactive {
-    margin-right: 40px;
-}
-
-.slideshow {
-    width: 800px;
 }
 
 .mainImg-container {
@@ -35,10 +27,11 @@
 
 .mainImg-tic {
     height: 380px;
-    position: relative;
-    top: 20px;
-    left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
 }
+
 
 .buttons {
     display: flex;
@@ -67,10 +60,10 @@
     }
 
     .tic-info-container {
-        width: 400px;
-        position: relative;
-        top: 30px;
-        right: 25px;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+
     }
 
     @media only screen and (max-width:414px) {

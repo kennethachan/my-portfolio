@@ -1,13 +1,7 @@
 import React from "react"
-import { Link } from "react-router-dom"
 import { useEffect, useState } from "react"
 import "./Pokedex.css"
 import pokedex from "../pictures/pokedex.png"
-import leftArrow from "../pictures/left-arrow.png"
-import rightArrow from "../pictures/right-arrow.png"
-import PSpokeball from "../pictures/iphone-poke-landing.png"
-import PSpokeRand from "../pictures/iphone-poke-rand.png"
-import PSpokeAll from "../pictures/iphone-poke-all.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -32,8 +26,8 @@ const Slideshow = ({ imgs }) => {
   }
 
   return (
-    <div className="slideshow">
-      <div className="mainImg-container">
+    <div>
+      <div className="mainImg-container-poke">
         <img className="mainImg-poke" src={imgs[index]} />
       </div>
 
@@ -67,6 +61,7 @@ function Pokedex(props) {
             <hr></hr>
             <span className="tech">HTML | CSS | Javascript</span>
           </p>
+
           <a href="https://pokedexkanto.surge.sh/" target="_blank">
             <button className="live-demo">Live Demo</button>
           </a>

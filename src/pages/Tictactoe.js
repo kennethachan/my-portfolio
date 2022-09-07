@@ -29,7 +29,7 @@ const Slideshow = ({ imgs }) => {
   }
 
   return (
-    <div className="slideshow">
+    <div>
       <div className="mainImg-container-tic">
         <img className="mainImg-tic" src={imgs[index]} />
       </div>
@@ -48,9 +48,8 @@ function tictactoe(props) {
   return (
     <div>
       <div className="project-tictactoe">
-        <div className="interactive">
-          <Slideshow imgs={[tic]} />
-        </div>
+        <Slideshow imgs={[tic]} />
+
         <div className="tic-info-container">
           <h2 className="title">Tic Tac Toe</h2>
           <p className="info">
