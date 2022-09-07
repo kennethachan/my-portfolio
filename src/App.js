@@ -7,6 +7,7 @@ import Tictactoe from "./pages/Tictactoe"
 import ContactMe from "./pages/ContactMe"
 import Lucidity from "./pages/Lucidity"
 import About from "./pages/About"
+import Weather from "./pages/Weather"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/pokedex" element={<Pokedex />} />
         <Route path="/tictactoe" element={<Tictactoe />} />
         <Route path="/lucidity" element={<Lucidity />} />
+        <Route path="/weather" element={<Weather />} />
         <Route path="/contact" element={<ContactMe />} />
         <Route path="/about" element={<About />} />
       </Routes>

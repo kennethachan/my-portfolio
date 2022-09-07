@@ -1,8 +1,11 @@
 import React from "react"
 import "./Lucidity.css"
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
 import PSWeatherApp from "../pictures/iphone-weather.png"
 import appRender from "../pictures/weatherapp-render.png"
+import github from "../pictures/github.png"
+import linkedin from "../pictures/linkedin.png"
 
 import "./Weather.css"
 
@@ -41,6 +44,38 @@ const Slideshow = ({ imgs }) => {
 function Weather(props) {
   return (
     <div>
+      <header className="header">
+        <div className="links">
+          <Link className="resume" to="/">
+            Home
+          </Link>
+          <Link className="contact-link" to="/about">
+            About
+          </Link>
+          <Link className="resume" to="/resume">
+            Resume
+          </Link>
+          <Link className="contact-link" to="/contact">
+            Contact Me
+          </Link>
+          <a
+            className="github"
+            href="https://github.com/kennethachan"
+            target="_blank"
+          >
+            {" "}
+            <img className="header-icon" src={github}></img>
+          </a>
+
+          <a
+            className="linkedin"
+            href="https://www.linkedin.com/in/kennethachan/"
+            target="_blank"
+          >
+            <img className="header-icon" src={linkedin}></img>
+          </a>
+        </div>
+      </header>
       <div className="project-weather ">
         <Slideshow imgs={[appRender]} />
         <div className="weather-info-container">
@@ -52,7 +87,7 @@ function Weather(props) {
             is enabled, the Open Weather API will obtain the geographical
             coordinates by using the name of the users location and display user
             specific weather patterns.
-            <hr></hr>
+            <hr className="breakline"></hr>
             <span className="tech"> Vue.js | HTML | CSS | JavaScript</span>
           </p>
           <div className="btns">
