@@ -40,8 +40,6 @@ function Resume(props) {
         </header>
 
         <div className="res-heading">
-          {/* <h3 className="res-name">Kenneth Chan </h3> */}
-          <h1 className="res-title">Resume</h1>
           <a href={resume} target="_blank">
             <button className="download">Download</button>
           </a>

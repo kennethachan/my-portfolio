@@ -2,7 +2,10 @@ import React from "react"
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import "./Pokedex.css"
+import leftArrow from "../pictures/left-arrow.png"
+import rightArrow from "../pictures/right-arrow.png"
 import pokedex from "../pictures/pokedex.png"
+import pokedexMulti from "../pictures/pokedex-render.png"
 import github from "../pictures/github.png"
 import linkedin from "../pictures/linkedin.png"
 
@@ -35,9 +38,9 @@ const Slideshow = ({ imgs }) => {
       </div>
 
       <div className="actions">
-        <div className="buttons-poke">
-          {/* <img className="left-arrow" src={leftArrow} onClick={prev}></img>
-          <img className="right-arrow" src={rightArrow} onClick={next}></img> */}
+        <div className="buttons">
+          <img className="left-arrow" src={leftArrow} onClick={prev}></img>
+          <img className="right-arrow" src={rightArrow} onClick={next}></img>
         </div>
       </div>
     </div>
@@ -81,7 +84,7 @@ function Pokedex(props) {
       </header>
       <div className="project-pokedex">
         <div className="interactive">
-          <Slideshow imgs={[pokedex]} />
+          <Slideshow imgs={[pokedex, pokedexMulti]} />
         </div>
         <div className="poke-info-container">
           <h2 className="title">Kanto Region Pokedex</h2>
