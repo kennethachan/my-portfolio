@@ -9,7 +9,7 @@ html {
     margin-right: auto;
     margin-left: auto;
     margin-top: 150px;
-    color: white;
+    color: #6fbbea;
 }
 
 .res-header {
@@ -69,9 +69,14 @@ bottom: 10px;
     background: transparent;
     resize: none;
     outline: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #6fbbea;
     color: white;
 }
+
+::placeholder {
+    color:#6fbbea;
+}
+
 .input-message {
     width: 406px;
     height: 30px;
@@ -79,7 +84,7 @@ bottom: 10px;
     background: transparent;
     resize: none;
     outline: none;
-    border-bottom: 1px solid white
+    border-bottom: 1px solid #6fbbea;
 }
 
 .contact-title {
