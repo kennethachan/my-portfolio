@@ -3,6 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+ 
   }
   
   .links {
@@ -14,7 +15,7 @@
       margin-right: 30px;
       font-size: 15px;
       text-decoration: none;
-      color: black;
+      color: white;
       background:
       linear-gradient(currentColor 0 0) 
       var(--p, 100%) 100% /var(--d, 0) 1px 
@@ -26,6 +27,7 @@
       --d: 100%;
       --p: 0%;
       font-weight: bold;
+      color: #04A664;
     }
   
   .header-icon{
@@ -40,12 +42,14 @@
       }
   
   .github {
+    color: white;
       margin-right: 30px;
       text-decoration: none;
     }
 
   
   .linkedin {
+    color: white;
     margin-right: 30px;
     text-decoration: none;
   }
@@ -53,7 +57,7 @@
           margin-right: 30px;
           font-size: 15px;
       text-decoration: none;
-      color: black;
+      color: white;
       background:
       linear-gradient(currentColor 0 0) 
       var(--p, 100%) 100% /var(--d, 0) 1px 
@@ -65,6 +69,7 @@
           --d: 100%;
           --p: 0%;
           font-weight: bold;
+          color: #04A664;
         }
       
   

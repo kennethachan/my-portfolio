@@ -4,9 +4,7 @@ import { useEffect, useState } from "react"
 import "./Tictactoe.css"
 import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
-import PSdraw from "../pictures/iphone-tic-draw.png"
-import PSwin from "../pictures/iphone-tic-win.png"
-import tic from "../pictures/tic.png"
+import tic from "../pictures/tic-tac-toe.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -32,14 +30,14 @@ const Slideshow = ({ imgs }) => {
 
   return (
     <div className="slideshow">
-      <div className="mainImg-container">
-        <img className="mainImg" src={imgs[index]} />
+      <div className="mainImg-container-tic">
+        <img className="mainImg-tic" src={imgs[index]} />
       </div>
 
       <div className="actions">
         <div className="buttons">
-          <img className="left-arrow" src={leftArrow} onClick={prev}></img>
-          <img className="right-arrow" src={rightArrow} onClick={next}></img>
+          {/* <img className="left-arrow" src={leftArrow} onClick={prev}></img>
+          <img className="right-arrow" src={rightArrow} onClick={next}></img> */}
         </div>
       </div>
     </div>
@@ -51,7 +49,7 @@ function tictactoe(props) {
     <div>
       <div className="project-tictactoe">
         <div className="interactive">
-          <Slideshow imgs={[PSwin, PSdraw, tic]} />
+          <Slideshow imgs={[tic]} />
         </div>
         <div className="tic-info-container">
           <h2 className="title">Tic Tac Toe</h2>
@@ -64,10 +62,10 @@ function tictactoe(props) {
             <span className="tech">HTML | CSS | Javascript</span>
           </p>
           <a href="https://gloomytictactoe.surge.sh/" target="_blank">
-            <button className="see">Live Demo</button>
+            <button className="live-demo">Live Demo</button>
           </a>
           <a href="https://github.com/kennethachan/Tic-Tac-Toe" target="_blank">
-            <button className="see">Code</button>
+            <button className="code">Code</button>
           </a>
         </div>
       </div>

@@ -46,6 +46,7 @@ list-style: none;
     width: 183px;
     text-align: center;
     text-decoration:overline;
+    color:white;
 }
 
 .download {
@@ -53,7 +54,7 @@ list-style: none;
     padding: 12px;
     border-style: none;
     border-radius: 20px;
-    background-color: #17539C;
+    background-color: #04A664;
     color: white;
     font-weight: bold;
     cursor:pointer;
@@ -63,7 +64,7 @@ list-style: none;
 }
 
 .download:hover {
-    color: #17539C;
+    color: #04A664;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }

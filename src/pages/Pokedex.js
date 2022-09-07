@@ -2,11 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 import { useEffect, useState } from "react"
 import "./Pokedex.css"
-import pokemonLanding from "../pictures/pokemon-landing.png"
-import pokemonMain from "../pictures/pokemon-main.png"
-import allpoke from "../pictures/allpokeday.png"
-import pokenight from "../pictures/pokenight.png"
-import allpokenight from "../pictures/allpokenight.png"
+import pokedex from "../pictures/pokedex.png"
 import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
 import PSpokeball from "../pictures/iphone-poke-landing.png"
@@ -38,13 +34,13 @@ const Slideshow = ({ imgs }) => {
   return (
     <div className="slideshow">
       <div className="mainImg-container">
-        <img className="mainImg" src={imgs[index]} />
+        <img className="mainImg-poke" src={imgs[index]} />
       </div>
 
       <div className="actions">
-        <div className="buttons">
-          <img className="left-arrow" src={leftArrow} onClick={prev}></img>
-          <img className="right-arrow" src={rightArrow} onClick={next}></img>
+        <div className="buttons-poke">
+          {/* <img className="left-arrow" src={leftArrow} onClick={prev}></img>
+          <img className="right-arrow" src={rightArrow} onClick={next}></img> */}
         </div>
       </div>
     </div>
@@ -56,18 +52,7 @@ function Pokedex(props) {
     <div>
       <div className="project-pokedex">
         <div className="interactive">
-          <Slideshow
-            imgs={[
-              PSpokeball,
-              PSpokeRand,
-              PSpokeAll,
-              pokemonLanding,
-              pokemonMain,
-              allpoke,
-              pokenight,
-              allpokenight,
-            ]}
-          />
+          <Slideshow imgs={[pokedex]} />
         </div>
         <div className="poke-info-container">
           <h2 className="title">Kanto Region Pokedex</h2>
@@ -83,13 +68,13 @@ function Pokedex(props) {
             <span className="tech">HTML | CSS | Javascript</span>
           </p>
           <a href="https://pokedexkanto.surge.sh/" target="_blank">
-            <button className="see">Live Demo</button>
+            <button className="live-demo">Live Demo</button>
           </a>
           <a
             href="https://github.com/kennethachan/Kanto-Region-Pokedex"
             target="_blank"
           >
-            <button className="see">Code</button>
+            <button className="code">Code</button>
           </a>
         </div>
       </div>

@@ -34,13 +34,13 @@ const Slideshow = ({ imgs }) => {
   return (
     <div className="slideshow">
       <div className="mainImg-container">
-        <img className="mainImg" src={imgs[index]} />
+        <img className="mainImg-weather" src={imgs[index]} />
       </div>
 
       <div className="actions">
         <div className="buttons">
-          <img className="left-arrow" src={leftArrow} onClick={prev}></img>
-          <img className="right-arrow" src={rightArrow} onClick={next}></img>
+          {/* <img className="left-arrow" src={leftArrow} onClick={prev}></img>
+          <img className="right-arrow" src={rightArrow} onClick={next}></img> */}
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@ function Weather(props) {
     <div>
       <div className="project-weather ">
         <div className="interactive">
-          <Slideshow imgs={[PSWeatherApp, weatherComp]} />
+          <Slideshow imgs={[PSWeatherApp]} />
         </div>
         <div className="weather-info-container">
           <h2 className="title">Weather App</h2>
@@ -71,13 +71,13 @@ function Weather(props) {
             href="https://warmweatherapp.surge.sh/"
             target="_blank"
           >
-            <button className="see">Live Demo</button>
+            <button className="live-demo">Live Demo</button>
           </a>
           <a
             href="https://github.com/kennethachan/Weather_App/tree/main"
             target="_blank"
           >
-            <button className="see">Code</button>
+            <button className="code">Code</button>
           </a>
         </div>
       </div>

@@ -1,5 +1,5 @@
 .skills-title {
-    color: #17539C;
+    color: #64a4cb;
     font-weight: 700;
 }
 
@@ -20,7 +20,7 @@
     position: relative;
     right: 20px;
     bottom: 20px;
-
+    color:white;
   }
   .tab-header li {
     margin-left: auto;
@@ -36,6 +36,7 @@
     font-weight: bold;
     font-size: 16px;
     text-decoration: underline;
+    color: #04A664;
   
   }
   

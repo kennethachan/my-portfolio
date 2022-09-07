@@ -6,11 +6,9 @@
  justify-content: center;
  margin-top: 100px;
  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
- padding-top: 50px;
- padding-bottom: 25px;
- width: 1200px;
+ width: 1000px;
+ height: 420px;
  border-radius: 25px;
- padding-top: 50px;
  background-color:#F0E6CE;
 }
 
@@ -27,22 +25,19 @@
 }
 
 .mainImg-container {
-    height: 400px;
-    width: 745px;
+    height: 380px;
+    width: 600px;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
 
 }
 
-.mainImg {
-    height: 400px;
-    width: auto;
-    transition: .3s;
-}
-
-.mainImg:hover {
-    transform: scale(1.2); 
+.mainImg-tic {
+    height: 380px;
+    position: relative;
+    top: 20px;
+    left: 20px;
 }
 
 .buttons {

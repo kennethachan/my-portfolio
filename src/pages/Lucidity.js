@@ -50,7 +50,7 @@ function lucidity(props) {
     <div>
       <div className="project-lucidity ">
         <div className="interactive">
-          <Slideshow imgs={[lucidityLogin, lucidityRegister, lucidityMain]} />
+          <Slideshow imgs={[lucidityLogin, lucidityMain]} />
         </div>
         <div className="luc-info-container">
           <h2 className="title">Lucidity</h2>
@@ -62,11 +62,7 @@ function lucidity(props) {
             playlists and anime visuals have helped many people study, perform a
             tedious task or relax and clear their mind. This website brings
             these ideas together and creates a relaxing/positive environment to
-            be productive and/or decompress. The website has (3) main features:
-            a notepad where the user can add,edit and delete notes. A GIF image
-            slider with preset GIFs and allows the user to add and delete new
-            GIFs. A premade playlist lets the user select a playlist/track from
-            SoundCloud.
+            be productive and/or decompress.
             <hr></hr>
             <span className="tech">
               Mongoose | Express | React.js | Node.js
@@ -77,10 +73,10 @@ function lucidity(props) {
             href="http://lucidity-productivity.herokuapp.com/home"
             target="_blank"
           >
-            <button className="see">Live Demo</button>
+            <button className="live-demo">Live Demo</button>
           </a>
           <a href="https://github.com/kennethachan/Lucidity" target="_blank">
-            <button className="see">Code</button>
+            <button className="code">Code</button>
           </a>
         </div>
       </div>
