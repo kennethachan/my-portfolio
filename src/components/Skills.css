@@ -1,5 +1,15 @@
+.skills-container {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  width: 550px;
+  padding-top: 5px;
+}
+
 .skills-title {
-    color: #64a4cb;
+    color: black;
     font-weight: 700;
 }
 
@@ -18,9 +28,9 @@
     list-style: none;
     line-height: 25px;
     position: relative;
-    right: 20px;
-    bottom: 20px;
-    color:white;
+    right: 163px;
+    bottom: 10px;
+    color:black;
   }
   .tab-header li {
     margin-left: auto;
@@ -36,7 +46,6 @@
     font-weight: bold;
     font-size: 16px;
     text-decoration: underline;
-    color: #04A664;
   
   }
   
@@ -47,14 +56,16 @@
   .tab-content {
     height: 120px;
     width: 590px;
-    background: #F0E6CE;
-    border-radius: 25px;
+    /* background: #F0E6CE; */
+    /* border-radius: 25px; */
+
     margin-right: auto;
     margin-left: auto;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    position: relative;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
     position: relative;
     bottom: 35px;
+    right: 20px;
+    color: black;
   }
   
   .tab-child {
@@ -63,6 +74,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 480px;
+    font-weight: 500;
   }
   
 

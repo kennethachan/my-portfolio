@@ -3,6 +3,7 @@ import "./About.css"
 import { Link } from "react-router-dom"
 import github from "../pictures/github.png"
 import linkedin from "../pictures/linkedin.png"
+import profilePic from "../pictures/profile-pic3.jpg"
 
 function About(props) {
   return (
@@ -38,8 +39,10 @@ function About(props) {
       </header>
 
       <div className="res-heading">
-        <h1 className="contact-title">About Me</h1>
-        <img></img>
+        <div>
+          <img className="profile-pic" src={profilePic}></img>
+        </div>
+        <h3 className="about-title">About Me</h3>
       </div>
       <div className="about-me">
         <p>

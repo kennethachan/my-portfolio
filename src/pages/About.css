@@ -2,7 +2,12 @@
     width: 800px;
     margin-left:auto;
     margin-right: auto;
-    color: #6fbbea;
+    color: black;
+}
+
+.about-title {
+    font-size: 30px;
+    font-weight: 100;
 }
 
 @media only screen and (max-width:414px) {

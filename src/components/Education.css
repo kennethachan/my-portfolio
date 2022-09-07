@@ -11,18 +11,18 @@
 }
 
 .education-title {
-    color: #5199C6;
+    color: black;
     font-weight: 700;
 }
 
 .list {
     list-style: none;
-    color: white;
+    color: black;
 }
 
 .school {
     font-weight: 700;
-    color: #04A664;
+    color: black;
 }
 
 @media only screen and (max-width:414px) {

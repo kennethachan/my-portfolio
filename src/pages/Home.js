@@ -20,14 +20,14 @@ function Home(props) {
       <div className="project">
         <Projects />
       </div>
-      <div className="skills-ed">
+      {/* <div className="skills-ed">
         <div className="skills">
           <Skills />
         </div>
         <div className="education">
           <Education />
         </div>
-      </div>
+      </div> */}
       <footer>Made By Kenneth Chan ❤️</footer>
     </div>
   )
