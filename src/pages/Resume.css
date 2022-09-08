@@ -9,6 +9,7 @@
 }
 
 .resume-container {
+    text-align: left;
     margin-left:auto;
     margin-right: auto;
     margin-top: 50px;
@@ -37,16 +38,6 @@ list-style: none;
     font-weight: 300;
 }
 
-.res-title {
-    font-size: 50px;
-    font-weight: 100;
-    margin-right:auto;
-    margin-left: auto;
-    width: 183px;
-    text-align: center;
-    text-decoration:overline;
-    color:black;
-}
 
 .download {
     width: 110px;

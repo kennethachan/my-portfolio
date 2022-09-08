@@ -1,9 +1,6 @@
 import React from "react"
 import "./Resume.css"
-import { Link } from "react-router-dom"
 import resume from "../pictures/Kenneth_Chan_Resume.pdf"
-import github from "../pictures/github.png"
-import linkedin from "../pictures/linkedin.png"
 
 function Resume(props) {
   return (
@@ -46,6 +43,16 @@ function Resume(props) {
             and hands-on learning of web and mobile application fundamentals
             using the industry's most in-demand technologies. Developed
             projects, including:
+          </li>
+          <li className="res-list">
+            <span className="bold-text">-SpotCheck:</span>SpotCheck is an PERN
+            Stack app that documents NYC street spots for skateboarders.
+            Typically street spots are spread through word of mouth and the
+            spots are given different nicknames by different people. Street spot
+            names and spot directions could be different depending who you ask.
+            This app will help document newly made/found skate spots to help the
+            skate community explore and conquer those spots they saw in their
+            favorite skate videos.
           </li>
           <li className="res-list">
             <span className="bold-text">-Rabido:</span>Rabido is a PERN stack
