@@ -54,7 +54,7 @@ list-style: none;
     padding: 12px;
     border-style: none;
     border-radius: 20px;
-    background-color: #04A664;
+    background-color: green;
     color: white;
     font-weight: bold;
     cursor:pointer;
@@ -64,7 +64,7 @@ list-style: none;
 }
 
 .download:hover {
-    color: #04A664;
+    color: green;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }

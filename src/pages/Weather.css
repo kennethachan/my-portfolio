@@ -14,6 +14,12 @@
     margin-right: auto;
 }
 
+.info{
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 @media only screen and (max-width:414px) {
 
     .project-weather {

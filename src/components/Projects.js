@@ -35,7 +35,19 @@ function Projects(props) {
             src={appRender}
             onClick={() => navigate("/weather")}
           ></img>
-          <p className="preview-title">Weather App</p>
+          <div className="middle">
+            <div className="text">Weather App</div>
+          </div>
+        </div>
+        <div className="rabido">
+          <img
+            className="preview"
+            src={appRender}
+            onClick={() => navigate("/rabido")}
+          ></img>
+          <div className="middle">
+            <div className="text">Rabido</div>
+          </div>
         </div>
         <div className="lucidity">
           <img
@@ -43,7 +55,9 @@ function Projects(props) {
             src={lucMainRender}
             onClick={() => navigate("/lucidity")}
           ></img>
-          <p className="preview-title">Lucidity</p>
+          <div className="middle">
+            <div className="text">Lucidity</div>
+          </div>
         </div>
         <div className="pokedex">
           <img
@@ -51,7 +65,9 @@ function Projects(props) {
             src={pokedex}
             onClick={() => navigate("/pokedex")}
           ></img>
-          <p className="preview-title">Pokedex</p>
+          <div className="middle">
+            <div className="text">Pokedex</div>
+          </div>
         </div>
         <div className="tictactoe">
           <img
@@ -59,7 +75,9 @@ function Projects(props) {
             src={tic}
             onClick={() => navigate("/tictactoe")}
           ></img>
-          <p className="preview-title">Tic Tac Toe</p>
+          <div className="middle">
+            <div className="text">Tic Tac Toe</div>
+          </div>
         </div>
       </div>
       <div className="skills-container">

@@ -8,7 +8,6 @@
     margin-bottom: 50px;
     width: 600px;
     border-radius: 25px;
-    /* background-color:#F0E6CE; */
     color:black;
 }
 
@@ -31,6 +30,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    bottom: 200px;
     margin-left: auto;
     margin-right: auto;
     }
