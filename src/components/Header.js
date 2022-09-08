@@ -10,6 +10,9 @@ function Header(props) {
     <div>
       <header className="header">
         <div className="links">
+          <Link className="contact-link" to="/">
+            Home
+          </Link>
           <Link className="contact-link" to="/about">
             About
           </Link>
