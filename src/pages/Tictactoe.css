@@ -6,24 +6,11 @@
     justify-content: center;
     margin-top: 200px;
     margin-bottom: 50px;
-    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
-    width: 1000px;
-    border-radius: 25px;
-    /* background-color:#F0E6CE; */
     color:black;
 }
 
 .title {
     text-align: center;
-}
-
-.mainImg-container {
-    height: 380px;
-    width: 600px;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-
 }
 
 .mainImg-tic {
@@ -32,39 +19,11 @@
     margin-left: auto;
     margin-bottom: 10px;
 }
-
-
-.buttons {
-    display: flex;
-    justify-content: space-between;
-    position:relative;
-    bottom: 210px;
-    }
     
-    .left-arrow {
-    border-style: none;
-    background:none;
-    }
-    
-    .right-arrow {
-        border-style: none;
-        background:none;
-    }
-    
-    .see {
-        padding: 12px;
-        border-style: none;
-        border-radius: 20px;
-        background-color: black;
-        color: white;
-        font-weight: bold;
-    }
-
-    .tic-info-container {
-        width: 500px;
-        margin-right: auto;
-        margin-left: auto;
-
+.tic-info-container {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
     }
 
     @media only screen and (max-width:414px) {
@@ -80,24 +39,5 @@
             width: 350px;
             height: 350px;
             object-fit: cover;
-        }
-
-        .interactive {
-            margin-right: 0;
-        }
-
-        .slideshow {
-           width: 350px;
-           margin-right: auto;
-           margin-left: auto;
-        }
-
-        .tic-info-container {
-            width: 350px;
-            margin-right: auto;
-            margin-left: auto;
-            position: relative; 
-            top: -20px;
-            right:0px;
         }
         }

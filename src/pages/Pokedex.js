@@ -33,15 +33,11 @@ const Slideshow = ({ imgs }) => {
 
   return (
     <div>
-      <div className="mainImg-container-poke">
-        <img className="mainImg-poke" src={imgs[index]} />
-      </div>
+      <img className="mainImg-poke" src={imgs[index]} />
 
-      <div className="actions">
-        <div className="buttons">
-          <img className="left-arrow" src={leftArrow} onClick={prev}></img>
-          <img className="right-arrow" src={rightArrow} onClick={next}></img>
-        </div>
+      <div className="buttons">
+        <img className="left-arrow" src={leftArrow} onClick={prev}></img>
+        <img className="right-arrow" src={rightArrow} onClick={next}></img>
       </div>
     </div>
   )
@@ -83,9 +79,7 @@ function Pokedex(props) {
         </div>
       </header>
       <div className="project-pokedex">
-        <div className="interactive">
-          <Slideshow imgs={[pokedex, pokedexMulti]} />
-        </div>
+        <Slideshow imgs={[pokedex, pokedexMulti]} />
         <div className="poke-info-container">
           <h2 className="title">Kanto Region Pokedex</h2>
           <p className="info">

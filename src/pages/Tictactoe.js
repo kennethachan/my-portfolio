@@ -2,8 +2,6 @@ import React from "react"
 import { Link } from "react-router-dom"
 import { useEffect, useState } from "react"
 import "./Tictactoe.css"
-import leftArrow from "../pictures/left-arrow.png"
-import rightArrow from "../pictures/right-arrow.png"
 import tic from "../pictures/tic-tac-toe.png"
 import github from "../pictures/github.png"
 import linkedin from "../pictures/linkedin.png"
@@ -32,16 +30,8 @@ const Slideshow = ({ imgs }) => {
 
   return (
     <div>
-      <div className="mainImg-container-tic">
-        <img className="mainImg-tic" src={imgs[index]} />
-      </div>
-
-      <div className="actions">
-        <div className="buttons">
-          {/* <img className="left-arrow" src={leftArrow} onClick={prev}></img>
-          <img className="right-arrow" src={rightArrow} onClick={next}></img> */}
-        </div>
-      </div>
+      <img className="mainImg-tic" src={imgs[index]} />
+      <div className="buttons"></div>
     </div>
   )
 }

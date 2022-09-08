@@ -71,9 +71,8 @@ function ContactMe(props) {
         <div className="contact-notes">
           <p>
             I enjoy working with dedicated creatives to help make the world a
-            more beautiful place.
+            more beautiful place. Lets Talk!
           </p>
-          <p>We can do so much together. Lets Talk!</p>
 
           <li className="reach-methods">
             Email me :
@@ -86,7 +85,7 @@ function ContactMe(props) {
             </a>
           </li>
           <li className="reach-methods">
-            If you want to hear my voice
+            Give me a call:
             <span className="number">(914)-310-3522</span>
           </li>
         </div>

@@ -1,41 +1,21 @@
 .aboutme-container {
-  margin-top: 170px;
+  margin-top: 100px;
   display: block;
   justify-content: center;
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  
+  text-align: center;
 }
 
 .about-details {
 width: 550px;
-position: relative;
-bottom: 30px;
 margin-left: auto;
 margin-right: auto;
 text-align: center;
-}
-.aboutme {
-display: flex;
-width: 800px;
-margin-left:auto;
-margin-right: auto;
-position: relative;
-top: 30px;
 }
 
 .profile-pic {
   height: 225px;
     border-radius: 20px;;
     margin-right: 0px;
-  }
-  
-  .main {
-    width: 1000px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .brand {
@@ -53,7 +33,6 @@ top: 30px;
   }
 
   .name {
-    /* font-size: 55px; */
     font-weight: 200;
     margin-left: auto;
     margin-right: auto;
@@ -63,7 +42,6 @@ top: 30px;
   .job {
     font-size: 18px;
     font-weight: 200;
-    margin: 10px 0 0 10px;
     white-space: nowrap;
     overflow: hidden;
     width: 250px;
@@ -71,38 +49,24 @@ top: 30px;
     margin-right: auto;
     position: relative;
     bottom: 20px;
-    color:black;
   }
-
-  /* CSS3 Type Animation */
   
  .job {
     animation: type 4s steps(60, end);
-    /* Chrome and Safari Optimisation */
     -webkit-animation: type 4s steps(60, end) infinite;
-    /* Firefox Optimisation */
     -moz-animation: type 4s steps(60, end) infinite;
-    /* Opera Optimisation */
     -o-animation: type 4s steps(60, end) infinite;
   }
-  
-  /* Remaining CSS3 Animation */
   
   @keyframes type {
       from { width: 0; }
   }
-  
-  /* Chrome and Safari Optimisation */
   @-webkit-keyframes type {
       from { width: 0; }
   }
-  
-  /* Firefox Optimisation */
   @-moz-keyframes type {
       from { width: 0; }
   }
-  
-  /* Opera Optimisation */
   @-o-keyframes type {
       from { width: 0; }
   }

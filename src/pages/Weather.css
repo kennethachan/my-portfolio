@@ -5,36 +5,13 @@
     display: block;
     justify-content: center;
     margin-top: 50px;
-    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
-    width: 500px;
-    border-radius: 25px;
-    /* background-color:#F0E6CE; */
-    color: black;
     margin-bottom: 50px;
-}
-
-.weather-info-container {
-    width: 500px;
-margin-right: auto;
-margin-left: auto;
 }
 
 .mainImg-weather {
     height: 380px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.btns {
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.breakline {
-    color: red;
 }
 
 @media only screen and (max-width:414px) {
@@ -48,11 +25,4 @@ margin-left: auto;
         margin-top:0px;
     }
 
-    .weather-info-container {
-        width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        right:0px;
-    }
 }

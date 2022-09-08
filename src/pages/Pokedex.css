@@ -2,32 +2,20 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
- display: block;
- justify-content: center;
- margin-top: 100px;
- width: 1000px;
- border-radius: 25px;
- margin-bottom: 50px;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.poke-info-container {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
 }
 
 .title {
     text-align: center;
-}
-
-.interactive {
-    margin-right: 40px;
-}
-
-.slideshow {
-    width: 800px;
-}
-
-.mainImg-container {
-    height: 380px;
-    width: 600px;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .mainImg-poke{
@@ -72,13 +60,6 @@
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     }
 
-    .poke-info-container {
-        width: 500px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 50px;
-    }
-
     @media only screen and (max-width:414px) {
       
         .project-pokedex {
@@ -94,16 +75,6 @@
             width: 350px;
             height: 350px;
             object-fit: cover;
-        }
-
-        .interactive {
-            margin-right: 0;
-        }
-
-        .slideshow {
-           width: 350px;
-           margin-right: auto;
-           margin-left: auto;
         }
 
         .poke-info-container {
