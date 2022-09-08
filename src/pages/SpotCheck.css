@@ -21,7 +21,6 @@
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .spot-info-container {
@@ -31,7 +30,7 @@
 }
 
 .buttons-spot {
-    width: 600px;
+    width: 730px;
     display: flex;
     justify-content: space-between;
     position: relative;

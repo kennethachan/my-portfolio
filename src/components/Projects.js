@@ -25,6 +25,7 @@ import github from "../pictures/github.png"
 import api from "../pictures/api.png"
 import rabidoRender from "../pictures/rabido-render-2.png"
 import spotcheck from "../pictures/spotcheck-render1.png"
+import spotMobileRender from "../pictures/spotcheck-mobile-render.png"
 
 function Projects(props) {
   let navigate = useNavigate()
@@ -34,7 +35,7 @@ function Projects(props) {
         <div className="weather">
           <img
             className="preview"
-            src={spotcheck}
+            src={spotMobileRender}
             onClick={() => navigate("/spotcheck")}
           ></img>
           <div className="middle">

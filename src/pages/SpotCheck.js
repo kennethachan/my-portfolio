@@ -7,6 +7,8 @@ import rightArrow from "../pictures/right-arrow.png"
 import github from "../pictures/github.png"
 import linkedin from "../pictures/linkedin.png"
 import spotcheck from "../pictures/spotcheck-render1.png"
+import spotMobileRender from "../pictures/spotcheck-mobile-render.png"
+import spotDesktopRender from "../pictures/spotcheck-desktop-render.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -78,7 +80,7 @@ function SpotCheck(props) {
         </div>
       </header>
       <div className="project-spotcheck ">
-        <Slideshow imgs={[spotcheck]} />
+        <Slideshow imgs={[spotcheck, spotMobileRender, spotDesktopRender]} />
         <div className="spot-info-container">
           <h2 className="title">SpotCheck</h2>
           <p className="info">
