@@ -55,12 +55,8 @@
   .tab-content {
     height: 120px;
     width: 590px;
-    /* background: #F0E6CE; */
-    /* border-radius: 25px; */
-
     margin-right: auto;
     margin-left: auto;
-    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
     position: relative;
     bottom: 35px;
     right: 20px;
@@ -86,7 +82,14 @@
 
 
 @media only screen and (max-width:414px) {
-      
+  .skills-container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 414px;
+    padding-top: 5px;
+  }
     
      .tab-content {
         width: 414px;
@@ -108,7 +111,11 @@
       }
 
       .tab-child {
-        width: 400px;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: 200px;
       }
     
       .container {

@@ -108,3 +108,39 @@
 position: relative; 
 top: 40px;
   }
+
+  @media only screen and (max-width:414px) {
+
+    .projects-container {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 414px;
+        margin-top: 100px;
+    }
+
+    .preview {
+        display: block;
+        width: 414px;
+        height: auto;
+        margin: 0px;
+        /* margin-top: 100px; */
+        cursor: pointer;
+        opacity:1;
+        transition: .1s ease;
+        backface-visibility: hidden;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .weather {
+        width: 414px;
+        height: 414px;
+        object-fit: cover;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 30px;
+    }
+    
+
+}
