@@ -23,8 +23,8 @@ import postgresql from "../pictures/postgresql.png"
 import git from "../pictures/git.png"
 import github from "../pictures/github.png"
 import api from "../pictures/api.png"
-import rabidoFeed from "../pictures/rabido-feed.png"
 import rabidoRender from "../pictures/rabido-render-2.png"
+import spotcheck from "../pictures/spotcheck-render1.png"
 
 function Projects(props) {
   let navigate = useNavigate()
@@ -34,14 +34,14 @@ function Projects(props) {
         <div className="weather">
           <img
             className="preview"
-            src={appRender}
-            onClick={() => navigate("/weather")}
+            src={spotcheck}
+            onClick={() => navigate("/spotcheck")}
           ></img>
           <div className="middle">
             <div className="text">
-              Weather App
+              Spot Check
               <br></br>
-              <span className="technologies">Vue</span>
+              <span className="technologies">PERN Stack</span>
             </div>
           </div>
         </div>
@@ -59,20 +59,6 @@ function Projects(props) {
             </div>
           </div>
         </div>
-        <div className="lucidity">
-          <img
-            className="preview"
-            src={lucMainRender}
-            onClick={() => navigate("/lucidity")}
-          ></img>
-          <div className="middle">
-            <div className="text">
-              Lucidity
-              <br></br>
-              <span className="technologies">MERN Stack</span>
-            </div>
-          </div>
-        </div>
         <div className="pokedex">
           <img
             className="preview"
@@ -87,6 +73,36 @@ function Projects(props) {
             </div>
           </div>
         </div>
+        <div className="weather">
+          <img
+            className="preview"
+            src={appRender}
+            onClick={() => navigate("/weather")}
+          ></img>
+          <div className="middle">
+            <div className="text">
+              Weather App
+              <br></br>
+              <span className="technologies">Vue</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="lucidity">
+          <img
+            className="preview"
+            src={lucMainRender}
+            onClick={() => navigate("/lucidity")}
+          ></img>
+          <div className="middle">
+            <div className="text">
+              Lucidity
+              <br></br>
+              <span className="technologies">MERN Stack</span>
+            </div>
+          </div>
+        </div>
+
         <div className="tictactoe">
           <img
             className="preview"

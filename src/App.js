@@ -9,6 +9,7 @@ import Lucidity from "./pages/Lucidity"
 import About from "./pages/About"
 import Weather from "./pages/Weather"
 import Rabido from "./pages/Rabido"
+import SpotCheck from "./pages/SpotCheck"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/lucidity" element={<Lucidity />} />
         <Route path="/weather" element={<Weather />} />
         <Route path="/rabido" element={<Rabido />} />
+        <Route path="/spotcheck" element={<SpotCheck />} />
         <Route path="/contact" element={<ContactMe />} />
         <Route path="/about" element={<About />} />
       </Routes>

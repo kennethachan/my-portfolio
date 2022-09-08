@@ -1,0 +1,41 @@
+.project-spotcheck {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    color:black;
+}
+
+.spot-img-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.mainImg-spot {
+    height: 380px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.spot-info-container {
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.buttons-spot {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    }

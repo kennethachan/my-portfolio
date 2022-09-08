@@ -7,6 +7,7 @@ import rightArrow from "../pictures/right-arrow.png"
 import github from "../pictures/github.png"
 import linkedin from "../pictures/linkedin.png"
 import rabioFeed from "../pictures/rabido-feed.png"
+import rabidoRender from "../pictures/rabido-render-2.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -33,6 +34,10 @@ const Slideshow = ({ imgs }) => {
   return (
     <div className="mainImg-container">
       <img className="mainImg-rab" src={imgs[index]} />
+      {/* <div className="buttons">
+        <img className="left-arrow" src={leftArrow} onClick={prev}></img>
+        <img className="right-arrow" src={rightArrow} onClick={next}></img>
+      </div> */}
     </div>
   )
 }
@@ -73,7 +78,7 @@ function Rabido(props) {
         </div>
       </header>
       <div className="project-rabido ">
-        <Slideshow imgs={[rabioFeed]} />
+        <Slideshow imgs={[rabidoRender, rabioFeed]} />
 
         <div className="rab-info-container">
           <h2 className="title">Rabido</h2>
@@ -104,6 +109,10 @@ function Rabido(props) {
           </a>
         </div>
       </div>
+      Image by{" "}
+      <a href="https://www.freepik.com/free-psd/portfolio-website-design-template_17973000.htm#page=9&query=website%20mock%20up&position=4&from_view=search">
+        Freepik
+      </a>
     </div>
   )
 }
