@@ -23,6 +23,7 @@ import postgresql from "../pictures/postgresql.png"
 import git from "../pictures/git.png"
 import github from "../pictures/github.png"
 import api from "../pictures/api.png"
+import rabidoFeed from "../pictures/rabido-feed.png"
 
 function Projects(props) {
   let navigate = useNavigate()
@@ -42,7 +43,7 @@ function Projects(props) {
         <div className="rabido">
           <img
             className="preview"
-            src={appRender}
+            src={rabidoFeed}
             onClick={() => navigate("/rabido")}
           ></img>
           <div className="middle">

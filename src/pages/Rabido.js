@@ -1,8 +1,11 @@
 import React from "react"
 import "./Rabido.css"
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
 import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
+import github from "../pictures/github.png"
+import linkedin from "../pictures/linkedin.png"
 import rabioCats from "../pictures/rabido-cats.png"
 import rabioFeed from "../pictures/rabido-feed.png"
 import rabioProfile from "../pictures/rabido-profile.png"
@@ -30,17 +33,8 @@ const Slideshow = ({ imgs }) => {
   }
 
   return (
-    <div className="slideshow">
-      <div className="mainImg-container">
-        <img className="mainImg" src={imgs[index]} />
-      </div>
-
-      <div className="actions">
-        <div className="buttons">
-          <img className="left-arrow" src={leftArrow} onClick={prev}></img>
-          <img className="right-arrow" src={rightArrow} onClick={next}></img>
-        </div>
-      </div>
+    <div className="mainImg-container">
+      <img className="mainImg-rab" src={imgs[index]} />
     </div>
   )
 }
@@ -48,10 +42,41 @@ const Slideshow = ({ imgs }) => {
 function Rabido(props) {
   return (
     <div>
-      <div className="project-rabido ">
-        <div className="interactive">
-          <Slideshow imgs={[rabioFeed, rabioProfile, rabioCats]} />
+      <header className="header">
+        <div className="links">
+          <Link className="resume" to="/">
+            Home
+          </Link>
+          <Link className="contact-link" to="/about">
+            About
+          </Link>
+          <Link className="resume" to="/resume">
+            Resume
+          </Link>
+          <Link className="contact-link" to="/contact">
+            Contact Me
+          </Link>
+          <a
+            className="github"
+            href="https://github.com/kennethachan"
+            target="_blank"
+          >
+            {" "}
+            <img className="header-icon" src={github}></img>
+          </a>
+
+          <a
+            className="linkedin"
+            href="https://www.linkedin.com/in/kennethachan/"
+            target="_blank"
+          >
+            <img className="header-icon" src={linkedin}></img>
+          </a>
         </div>
+      </header>
+      <div className="project-rabido ">
+        <Slideshow imgs={[rabioFeed, rabioProfile, rabioCats]} />
+
         <div className="rab-info-container">
           <h2 className="title">Rabido</h2>
           <p className="info">
