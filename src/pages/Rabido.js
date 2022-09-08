@@ -6,9 +6,7 @@ import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
 import github from "../pictures/github.png"
 import linkedin from "../pictures/linkedin.png"
-import rabioCats from "../pictures/rabido-cats.png"
 import rabioFeed from "../pictures/rabido-feed.png"
-import rabioProfile from "../pictures/rabido-profile.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -75,7 +73,7 @@ function Rabido(props) {
         </div>
       </header>
       <div className="project-rabido ">
-        <Slideshow imgs={[rabioFeed, rabioProfile, rabioCats]} />
+        <Slideshow imgs={[rabioFeed]} />
 
         <div className="rab-info-container">
           <h2 className="title">Rabido</h2>

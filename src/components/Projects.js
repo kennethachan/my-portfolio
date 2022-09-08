@@ -24,6 +24,7 @@ import git from "../pictures/git.png"
 import github from "../pictures/github.png"
 import api from "../pictures/api.png"
 import rabidoFeed from "../pictures/rabido-feed.png"
+import rabidoRender from "../pictures/rabido-render-2.png"
 
 function Projects(props) {
   let navigate = useNavigate()
@@ -37,17 +38,25 @@ function Projects(props) {
             onClick={() => navigate("/weather")}
           ></img>
           <div className="middle">
-            <div className="text">Weather App</div>
+            <div className="text">
+              Weather App
+              <br></br>
+              <span className="technologies">Vue</span>
+            </div>
           </div>
         </div>
         <div className="rabido">
           <img
             className="preview"
-            src={rabidoFeed}
+            src={rabidoRender}
             onClick={() => navigate("/rabido")}
           ></img>
           <div className="middle">
-            <div className="text">Rabido</div>
+            <div className="text">
+              Rabido
+              <br></br>
+              <span className="technologies">PERN Stack</span>
+            </div>
           </div>
         </div>
         <div className="lucidity">
@@ -57,7 +66,11 @@ function Projects(props) {
             onClick={() => navigate("/lucidity")}
           ></img>
           <div className="middle">
-            <div className="text">Lucidity</div>
+            <div className="text">
+              Lucidity
+              <br></br>
+              <span className="technologies">MERN Stack</span>
+            </div>
           </div>
         </div>
         <div className="pokedex">
@@ -67,7 +80,11 @@ function Projects(props) {
             onClick={() => navigate("/pokedex")}
           ></img>
           <div className="middle">
-            <div className="text">Pokedex</div>
+            <div className="text">
+              Pokedex
+              <br></br>
+              <span className="technologies">JavaScript</span>
+            </div>
           </div>
         </div>
         <div className="tictactoe">
@@ -77,7 +94,11 @@ function Projects(props) {
             onClick={() => navigate("/tictactoe")}
           ></img>
           <div className="middle">
-            <div className="text">Tic Tac Toe</div>
+            <div className="text">
+              Tic Tac Toe
+              <br></br>
+              <span className="technologies">JavaScript</span>
+            </div>
           </div>
         </div>
       </div>

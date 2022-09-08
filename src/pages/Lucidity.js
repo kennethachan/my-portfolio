@@ -6,6 +6,8 @@ import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
 import lucRender from "../pictures/luc-render.png"
 import lucMainRender from "../pictures/luc-main-render.png"
+import lucNotes from "../pictures/lucidity-home.png"
+import lucGif from "../pictures/lucidity-gif.png"
 import github from "../pictures/github.png"
 import linkedin from "../pictures/linkedin.png"
 
@@ -79,7 +81,7 @@ function lucidity(props) {
         </div>
       </header>
       <div className="project-lucidity ">
-        <Slideshow imgs={[lucRender, lucMainRender]} />
+        <Slideshow imgs={[lucRender, lucMainRender, lucNotes, lucGif]} />
         <div className="luc-info-container">
           <h2 className="title">Lucidity</h2>
           <p className="info">

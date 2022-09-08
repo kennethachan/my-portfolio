@@ -2,7 +2,10 @@ import React from "react"
 import "./Lucidity.css"
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
+import leftArrow from "../pictures/left-arrow.png"
+import rightArrow from "../pictures/right-arrow.png"
 import appRender from "../pictures/weatherapp-render.png"
+import iphoneMockUp from "../pictures/iphone-weather.png"
 import github from "../pictures/github.png"
 import linkedin from "../pictures/linkedin.png"
 
@@ -34,7 +37,10 @@ const Slideshow = ({ imgs }) => {
     <div>
       <img className="mainImg-weather" src={imgs[index]} />
 
-      <div className="buttons"></div>
+      <div className="buttons">
+        <img className="left-arrow" src={leftArrow} onClick={prev}></img>
+        <img className="right-arrow" src={rightArrow} onClick={next}></img>
+      </div>
     </div>
   )
 }
@@ -75,7 +81,7 @@ function Weather(props) {
         </div>
       </header>
       <div className="project-weather ">
-        <Slideshow imgs={[appRender]} />
+        <Slideshow imgs={[iphoneMockUp, appRender]} />
         <div className="weather-info-container">
           <h2 className="title">Weather App</h2>
           <p className="info">

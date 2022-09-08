@@ -8,7 +8,6 @@ import pokedex from "../pictures/pokedex.png"
 import pokedexMulti from "../pictures/pokedex-render.png"
 import github from "../pictures/github.png"
 import linkedin from "../pictures/linkedin.png"
-import allPokeDay from "../pictures/allpokeday.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
