@@ -37,7 +37,7 @@ const Slideshow = ({ imgs }) => {
     <div>
       <img className="mainImg-luc" src={imgs[index]} />
 
-      <div className="buttons">
+      <div className="buttons-luc">
         <img className="left-arrow" src={leftArrow} onClick={prev}></img>
         <img className="right-arrow" src={rightArrow} onClick={next}></img>
       </div>
@@ -52,7 +52,7 @@ function lucidity(props) {
         <Slideshow imgs={[lucRender, lucMainRender, lucNotes, lucGif]} />
         <div className="luc-info-container">
           <h2 className="title">Lucidity</h2>
-          <p className="info">
+          <p className="info-luc">
             Lucidity is a MERN stack "lofi anime" themed productivity site
             inspired from the popular Youtube 24/7 livestream "lofi hip hop
             radio - beats to relax/study to" with inspired aesthetics from

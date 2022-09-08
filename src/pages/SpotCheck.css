@@ -38,3 +38,34 @@
     margin-left: auto;
     margin-right: auto;
     }
+
+@media only screen and (max-width:414px) {
+        
+    .project-spotcheck {
+       width: 414px;
+       margin-left: auto;
+       margin-right: auto;
+    }  
+    
+    .mainImg-spot {
+        width: 414px;
+        object-fit: cover;
+    }
+    
+    .spot-info-container {
+        width: 375px;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .info {
+        width: 375px;
+    }
+    
+    .buttons-spot {
+        width: 375px;
+
+        }
+    
+        
+      }

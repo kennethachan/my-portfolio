@@ -6,8 +6,6 @@ import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
 import pokedex from "../pictures/pokedex.png"
 import pokedexMulti from "../pictures/pokedex-render.png"
-import github from "../pictures/github.png"
-import linkedin from "../pictures/linkedin.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -35,7 +33,7 @@ const Slideshow = ({ imgs }) => {
     <div>
       <img className="mainImg-poke" src={imgs[index]} />
 
-      <div className="buttons">
+      <div className="buttons-poke">
         <img className="left-arrow" src={leftArrow} onClick={prev}></img>
         <img className="right-arrow" src={rightArrow} onClick={next}></img>
       </div>

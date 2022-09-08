@@ -37,10 +37,10 @@ const Slideshow = ({ imgs }) => {
     <div>
       <img className="mainImg-weather" src={imgs[index]} />
 
-      <div className="buttons">
+      {/* <div className="buttons-weather">
         <img className="left-arrow" src={leftArrow} onClick={prev}></img>
         <img className="right-arrow" src={rightArrow} onClick={next}></img>
-      </div>
+      </div> */}
     </div>
   )
 }
@@ -49,7 +49,7 @@ function Weather(props) {
   return (
     <div>
       <div className="project-weather ">
-        <Slideshow imgs={[iphoneMockUp, appRender]} />
+        <Slideshow imgs={[appRender]} />
         <div className="weather-info-container">
           <h2 className="title">Weather App</h2>
           <p className="info">

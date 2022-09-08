@@ -32,14 +32,14 @@ function Projects(props) {
   return (
     <div>
       <div className="projects-container">
-        <div className="weather">
+        <div className="spotcheck">
           <img
             className="preview"
             src={spotMobileRender}
             onClick={() => navigate("/spotcheck")}
           ></img>
           <div className="middle">
-            <div className="text">
+            <div className="text" onClick={() => navigate("/spotcheck")}>
               Spot Check
               <br></br>
               <span className="technologies">PERN Stack</span>
@@ -53,7 +53,7 @@ function Projects(props) {
             onClick={() => navigate("/weather")}
           ></img>
           <div className="middle">
-            <div className="text">
+            <div className="text" onClick={() => navigate("/weather")}>
               Weather App
               <br></br>
               <span className="technologies">Vue</span>
@@ -67,7 +67,7 @@ function Projects(props) {
             onClick={() => navigate("/lucidity")}
           ></img>
           <div className="middle">
-            <div className="text">
+            <div className="text" onClick={() => navigate("/lucidity")}>
               Lucidity
               <br></br>
               <span className="technologies">MERN Stack</span>
@@ -81,7 +81,7 @@ function Projects(props) {
             onClick={() => navigate("/rabido")}
           ></img>
           <div className="middle">
-            <div className="text">
+            <div className="text" onClick={() => navigate("/rabido")}>
               Rabido
               <br></br>
               <span className="technologies">PERN Stack</span>
@@ -95,7 +95,7 @@ function Projects(props) {
             onClick={() => navigate("/pokedex")}
           ></img>
           <div className="middle">
-            <div className="text">
+            <div className="text" onClick={() => navigate("/pokedex")}>
               Pokedex
               <br></br>
               <span className="technologies">JavaScript</span>
@@ -109,7 +109,7 @@ function Projects(props) {
             onClick={() => navigate("/tictactoe")}
           ></img>
           <div className="middle">
-            <div className="text">
+            <div className="text" onClick={() => navigate("/tictactoe")}>
               Tic Tac Toe
               <br></br>
               <span className="technologies">JavaScript</span>

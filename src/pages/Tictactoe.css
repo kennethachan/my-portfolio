@@ -31,13 +31,16 @@
         .project-tictactoe {
             display: block;
             width: 414px;
-            box-shadow:none;
-            border-radius: 0px;
-            margin-top:0px;
+            margin-top:50px;
         }
-        .mainImg {
-            width: 350px;
-            height: 350px;
-            object-fit: cover;
+        .mainImg-tic {
+            width: 414px;
+           height: auto;
+            object-fit: contain;
         }
+        .tic-info-container {
+            width: 375px;
+            margin-right: auto;
+            margin-left: auto;
+            }
         }

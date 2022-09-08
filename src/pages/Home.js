@@ -13,7 +13,14 @@ function Home(props) {
       <div className="project">
         <Projects />
       </div>
-      <footer>Made By Kenneth Chan ❤️</footer>
+      <footer>
+        Portfolio By Kenneth Chan ❤️
+        <br></br>
+        MockUp Templates By{" "}
+        <a href="https://www.freepik.com/free-psd/portfolio-website-design-template_17973000.htm#page=9&query=website%20mock%20up&position=4&from_view=search">
+          Freepik
+        </a>
+      </footer>
     </div>
   )
 }

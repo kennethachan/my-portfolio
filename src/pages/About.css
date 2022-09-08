@@ -13,6 +13,9 @@
 @media only screen and (max-width:414px) {
     .about-me {
         width: 350px;
-        
+    }
+
+    .profile-pic {
+        margin-bottom: 20px;
     }
 }

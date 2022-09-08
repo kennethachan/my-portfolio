@@ -21,6 +21,16 @@
 .mainImg-poke{
     height: 380px;
 }
+
+.buttons-poke {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    }
     
     .live-demo {
         width: 110px;
@@ -64,25 +74,24 @@
       
         .project-pokedex {
             display: block;
-            margin-top: 100px;
+            margin-top: 50px;
             width: 414px;
-            box-shadow:none;
-            padding-top: 35px;
-            border-radius: 0px;
-            margin-top:0px;
         }
-        .mainImg {
-            width: 350px;
-            height: 350px;
-            object-fit: cover;
+
+        .mainImg-poke {
+            width: 414px;
+            object-fit: contain;
         }
 
         .poke-info-container {
-            width: 350px;
+            width: 375px;
             margin-right: auto;
             margin-left: auto;
-            position: relative; 
-            top: -20px;
-            right:0px;
+        }
+
+        .buttons-poke {
+            width: 385px;
+            position: relative;
+            bottom: 200px;
         }
         }

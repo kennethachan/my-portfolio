@@ -59,6 +59,10 @@
       
   
   @media only screen and (max-width:414px) {
+
+    .header{
+      margin-top: 40px;
+    }
         
       .links {
           text-align: center;
