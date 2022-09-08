@@ -1,5 +1,6 @@
 import React from "react"
 import "./Projects.css"
+import "./Skills.css"
 import { useNavigate } from "react-router-dom"
 import appRender from "../pictures/weatherapp-render.png"
 import lucMainRender from "../pictures/luc-main-render.png"

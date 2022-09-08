@@ -10,10 +10,12 @@ import About from "./pages/About"
 import Weather from "./pages/Weather"
 import Rabido from "./pages/Rabido"
 import SpotCheck from "./pages/SpotCheck"
+import Header from "./components/Header"
 
 function App() {
   return (
     <main>
+      <Header></Header>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/resume" element={<Resume />} />

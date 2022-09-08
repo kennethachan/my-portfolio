@@ -1,10 +1,7 @@
 import React from "react"
 import "./ContactMe.css"
-import { Link } from "react-router-dom"
 import { useRef } from "react"
 import emailjs from "@emailjs/browser"
-import github from "../pictures/github.png"
-import linkedin from "../pictures/linkedin.png"
 
 function ContactMe(props) {
   const form = useRef()
@@ -34,34 +31,6 @@ function ContactMe(props) {
 
   return (
     <div className="contact-wrapper">
-      <header className="res-header">
-        <div className="links">
-          <Link className="contact-link" to="/">
-            Home
-          </Link>
-          <Link className="contact-link" to="/about">
-            About
-          </Link>
-          <Link className="resume" to="/resume">
-            Resume
-          </Link>
-          <a
-            className="github"
-            href="https://github.com/kennethachan"
-            target="_blank"
-          >
-            {" "}
-            <img className="header-icon" src={github}></img>
-          </a>
-          <a
-            className="linkedin"
-            href="https://www.linkedin.com/in/kennethachan/"
-            target="_blank"
-          >
-            <img className="header-icon" src={linkedin}></img>
-          </a>
-        </div>
-      </header>
       <div className="contact-heading">
         {/* <h3 className="cont-name">Kenneth Chan</h3> */}
         <h1 className="contact-title">Better Together</h1>

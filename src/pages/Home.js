@@ -2,17 +2,11 @@ import React from "react"
 import "../App.css"
 import "./Home.css"
 import AboutMe from "../components/AboutMe"
-import Header from "../components/Header"
 import Projects from "../components/Projects"
-import Skills from "../components/Skills"
-import ContactMe from "../pages/ContactMe"
 
 function Home(props) {
   return (
     <div className="App">
-      <header className="header">
-        <Header />
-      </header>
       <div className="about">
         <AboutMe />
       </div>
