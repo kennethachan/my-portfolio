@@ -1,13 +1,7 @@
 import React from "react"
 import "./Lucidity.css"
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
-import leftArrow from "../pictures/left-arrow.png"
-import rightArrow from "../pictures/right-arrow.png"
-import appRender from "../pictures/weatherapp-render.png"
-import iphoneMockUp from "../pictures/iphone-weather.png"
-import github from "../pictures/github.png"
-import linkedin from "../pictures/linkedin.png"
+import appRender from "../pictures/weatherapp-render.webp"
 
 import "./Weather.css"
 

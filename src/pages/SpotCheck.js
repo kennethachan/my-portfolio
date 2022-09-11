@@ -1,14 +1,10 @@
 import React from "react"
 import "./SpotCheck.css"
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
 import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
-import github from "../pictures/github.png"
-import linkedin from "../pictures/linkedin.png"
-import spotcheck from "../pictures/spotcheck-render1.png"
-import spotMobileRender from "../pictures/spotcheck-mobile-render.png"
-import spotDesktopRender from "../pictures/spotcheck-desktop-render.png"
+import spotcheck from "../pictures/spotcheck-render1.webp"
+import spotMobileRender from "../pictures/spotcheck-mobile-render.webp"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -48,7 +44,7 @@ function SpotCheck(props) {
   return (
     <div>
       <div className="project-spotcheck ">
-        <Slideshow imgs={[spotcheck, spotMobileRender, spotDesktopRender]} />
+        <Slideshow imgs={[spotcheck, spotMobileRender]} />
         <div className="spot-info-container">
           <h2 className="title">SpotCheck</h2>
           <p className="info">
@@ -66,7 +62,7 @@ function SpotCheck(props) {
           </p>
           <a
             className="link"
-            href="http://lucidity-productivity.herokuapp.com/home"
+            href="https://spotcheck-sk8.herokuapp.com/"
             target="_blank"
           >
             <button className="live-demo">Live Demo</button>

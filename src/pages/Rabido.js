@@ -1,13 +1,7 @@
 import React from "react"
 import "./Rabido.css"
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
-import leftArrow from "../pictures/left-arrow.png"
-import rightArrow from "../pictures/right-arrow.png"
-import github from "../pictures/github.png"
-import linkedin from "../pictures/linkedin.png"
-import rabioFeed from "../pictures/rabido-feed.png"
-import rabidoRender from "../pictures/rabido-render-2.png"
+import rabidoRender from "../pictures/rabido-render-2.webp"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -46,7 +40,7 @@ function Rabido(props) {
   return (
     <div>
       <div className="project-rabido ">
-        <Slideshow imgs={[rabidoRender, rabioFeed]} />
+        <Slideshow imgs={[rabidoRender]} />
 
         <div className="rab-info-container">
           <h2 className="title">Rabido</h2>

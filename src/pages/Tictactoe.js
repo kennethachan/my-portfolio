@@ -2,9 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 import { useEffect, useState } from "react"
 import "./Tictactoe.css"
-import tic from "../pictures/tic-tac-toe.png"
-import github from "../pictures/github.png"
-import linkedin from "../pictures/linkedin.png"
+import tic from "../pictures/tic-tac-toe.webp"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)

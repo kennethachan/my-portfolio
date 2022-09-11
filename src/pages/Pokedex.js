@@ -4,8 +4,8 @@ import { Link } from "react-router-dom"
 import "./Pokedex.css"
 import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
-import pokedex from "../pictures/pokedex.png"
-import pokedexMulti from "../pictures/pokedex-render.png"
+import pokedex from "../pictures/pokedex.webp"
+import pokedexMulti from "../pictures/pokedex-render.webp"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)

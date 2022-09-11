@@ -1,15 +1,12 @@
 import React from "react"
 import "./Lucidity.css"
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
 import leftArrow from "../pictures/left-arrow.png"
 import rightArrow from "../pictures/right-arrow.png"
-import lucRender from "../pictures/luc-render.png"
-import lucMainRender from "../pictures/luc-main-render.png"
+import lucRender from "../pictures/luc-render.webp"
+import lucMainRender from "../pictures/luc-main-render.webp"
 import lucNotes from "../pictures/lucidity-home.png"
 import lucGif from "../pictures/lucidity-gif.png"
-import github from "../pictures/github.png"
-import linkedin from "../pictures/linkedin.png"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
