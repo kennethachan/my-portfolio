@@ -30,7 +30,11 @@ const Slideshow = ({ imgs }) => {
 
   return (
     <div className="spot-img-container">
-      <img className="mainImg-spot" src={imgs[index]} />
+      <img
+        className="mainImg-spot"
+        src={imgs[index]}
+        alt="SpotCheck renderings"
+      />
 
       <div className="buttons-spot">
         <img className="left-arrow" src={leftArrow} onClick={prev}></img>

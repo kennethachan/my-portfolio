@@ -54,6 +54,10 @@ bottom: 10px;
   font-weight: bold;
 }
 
+.email-link:hover {
+    text-decoration: underline;
+  }
+
 .number {
     font-weight: bold;
 }
@@ -105,8 +109,9 @@ bottom: 10px;
 
 .submit:hover {
     color: green;
-        background: white;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: 1px solid green;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 @media only screen and (max-width:414px) {

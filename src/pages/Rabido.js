@@ -27,7 +27,7 @@ const Slideshow = ({ imgs }) => {
 
   return (
     <div className="mainImg-container">
-      <img className="mainImg-rab" src={imgs[index]} />
+      <img className="mainImg-rab" src={imgs[index]} alt="Rabido renderings" />
     </div>
   )
 }

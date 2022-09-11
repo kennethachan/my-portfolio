@@ -30,7 +30,11 @@ const Slideshow = ({ imgs }) => {
 
   return (
     <div>
-      <img className="mainImg-poke" src={imgs[index]} />
+      <img
+        className="mainImg-poke"
+        src={imgs[index]}
+        alt="Pokedex renderings"
+      />
 
       <div className="buttons-poke">
         <img className="left-arrow" src={leftArrow} onClick={prev}></img>

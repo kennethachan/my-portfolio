@@ -36,6 +36,7 @@ function Projects(props) {
           <img
             className="preview"
             src={spotMobileRender}
+            alt="iphone rendering of capstone project SpotCheck"
             onClick={() => navigate("/spotcheck")}
           ></img>
           <div className="middle">
@@ -50,6 +51,7 @@ function Projects(props) {
           <img
             className="preview"
             src={appRender}
+            alt="iphone rendering of weather app"
             onClick={() => navigate("/weather")}
           ></img>
           <div className="middle">
@@ -64,6 +66,7 @@ function Projects(props) {
           <img
             className="preview"
             src={lucMainRender}
+            alt="macbook rendering of Lucidity project"
             onClick={() => navigate("/lucidity")}
           ></img>
           <div className="middle">
@@ -78,6 +81,7 @@ function Projects(props) {
           <img
             className="preview"
             src={rabidoRender}
+            alt="macbook rendering with different pages for Rabido project"
             onClick={() => navigate("/rabido")}
           ></img>
           <div className="middle">
@@ -92,6 +96,7 @@ function Projects(props) {
           <img
             className="preview"
             src={pokedex}
+            alt="iphone rendering of pokedex project"
             onClick={() => navigate("/pokedex")}
           ></img>
           <div className="middle">
@@ -106,6 +111,7 @@ function Projects(props) {
           <img
             className="preview"
             src={tic}
+            alt="iphone rendering of tic tac toe project"
             onClick={() => navigate("/tictactoe")}
           ></img>
           <div className="middle">

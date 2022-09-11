@@ -29,7 +29,11 @@ const Slideshow = ({ imgs }) => {
 
   return (
     <div>
-      <img className="mainImg-weather" src={imgs[index]} />
+      <img
+        className="mainImg-weather"
+        src={imgs[index]}
+        alt="tic tac toe renderings"
+      />
     </div>
   )
 }

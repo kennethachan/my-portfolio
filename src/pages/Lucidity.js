@@ -32,7 +32,11 @@ const Slideshow = ({ imgs }) => {
 
   return (
     <div>
-      <img className="mainImg-luc" src={imgs[index]} />
+      <img
+        className="mainImg-luc"
+        src={imgs[index]}
+        alt="Lucidity renderings"
+      />
 
       <div className="buttons-luc">
         <img className="left-arrow" src={leftArrow} onClick={prev}></img>

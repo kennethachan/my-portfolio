@@ -7,7 +7,11 @@ function About(props) {
     <div>
       <div className="res-heading">
         <div>
-          <img className="profile-pic" src={profilePic}></img>
+          <img
+            className="profile-pic"
+            src={profilePic}
+            alt="profile picture of kenneth chan"
+          ></img>
         </div>
         <h3 className="about-title">About Me</h3>
       </div>

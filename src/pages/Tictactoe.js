@@ -27,7 +27,11 @@ const Slideshow = ({ imgs }) => {
 
   return (
     <div>
-      <img className="mainImg-tic" src={imgs[index]} />
+      <img
+        className="mainImg-tic"
+        src={imgs[index]}
+        alt="tic-tac toe renderings"
+      />
       <div className="buttons"></div>
     </div>
   )
