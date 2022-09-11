@@ -151,5 +151,3 @@ function Resume(props) {
 }
 
 export default Resume
-
-//test

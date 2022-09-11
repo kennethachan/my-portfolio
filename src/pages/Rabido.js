@@ -28,10 +28,6 @@ const Slideshow = ({ imgs }) => {
   return (
     <div className="mainImg-container">
       <img className="mainImg-rab" src={imgs[index]} />
-      {/* <div className="buttons">
-        <img className="left-arrow" src={leftArrow} onClick={prev}></img>
-        <img className="right-arrow" src={rightArrow} onClick={next}></img>
-      </div> */}
     </div>
   )
 }

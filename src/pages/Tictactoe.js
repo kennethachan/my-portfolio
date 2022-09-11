@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "react-router-dom"
 import { useEffect, useState } from "react"
 import "./Tictactoe.css"
 import tic from "../pictures/tic-tac-toe.webp"

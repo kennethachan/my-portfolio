@@ -30,11 +30,6 @@ const Slideshow = ({ imgs }) => {
   return (
     <div>
       <img className="mainImg-weather" src={imgs[index]} />
-
-      {/* <div className="buttons-weather">
-        <img className="left-arrow" src={leftArrow} onClick={prev}></img>
-        <img className="right-arrow" src={rightArrow} onClick={next}></img>
-      </div> */}
     </div>
   )
 }

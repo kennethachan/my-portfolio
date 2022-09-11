@@ -32,7 +32,6 @@ function ContactMe(props) {
   return (
     <div className="contact-wrapper">
       <div className="contact-heading">
-        {/* <h3 className="cont-name">Kenneth Chan</h3> */}
         <h1 className="contact-title">Better Together</h1>
       </div>
 
