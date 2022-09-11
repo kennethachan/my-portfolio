@@ -126,28 +126,50 @@ function Projects(props) {
       <div className="skills-container">
         <Tabs>
           <TabPane name="Programming Languages" key="1">
-            <img className="skill-icon" src={html}></img>HTML |
-            <img className="skill-icon" src={css}></img>CSS |{" "}
-            <img className="skill-icon" src={js}></img>JavaScript |{" "}
-            <img className="skill-icon" src={react}></img>React.js |{" "}
-            <img className="skill-icon" src={vue}></img>Vue.js |{" "}
-            <img className="skill-icon" src={python}></img> Python3 |{" "}
-            <img className="skill-icon" src={dj}></img> Django
+            <img className="skill-icon" src={html} alt="html logo"></img>HTML |
+            <img className="skill-icon" src={css} alt="css logo"></img>CSS |{" "}
+            <img className="skill-icon" src={js} alt="javascript logo"></img>
+            JavaScript |{" "}
+            <img className="skill-icon" src={react} alt="react logo"></img>
+            React.js |{" "}
+            <img className="skill-icon" src={vue} alt="vue logo"></img>Vue.js |{" "}
+            <img className="skill-icon" src={python} alt="python logo"></img>{" "}
+            Python3 |{" "}
+            <img className="skill-icon" src={dj} alt="django logo"></img> Django
           </TabPane>
           <TabPane name="Frameworks & Libraries" key="2">
-            <img className="skill-icon" src={node}></img>Node.js |{" "}
-            <img className="skill-icon" src={ex}></img>Express |{" "}
-            <img className="skill-icon-jquery" src={jquery}></img>jQuery |{" "}
-            <img className="skill-icon" src={mongoose}></img>Mongoose
+            <img className="skill-icon" src={node} alt="node.js logo"></img>
+            Node.js |{" "}
+            <img className="skill-icon" src={ex} alt="express logo"></img>
+            Express |{" "}
+            <img
+              className="skill-icon-jquery"
+              src={jquery}
+              alt="jquery logo"
+            ></img>
+            jQuery |{" "}
+            <img
+              className="skill-icon"
+              src={mongoose}
+              alt="mongoose logo"
+            ></img>
+            Mongoose
           </TabPane>
           <TabPane name="Database" key="3">
-            <img className="skill-icon" src={mongodb}></img>MongoDB |{" "}
-            <img className="skill-icon" src={postgresql}></img>PostgreSQL
+            <img className="skill-icon" src={mongodb} alt="mongodb logo"></img>
+            MongoDB |{" "}
+            <img
+              className="skill-icon"
+              src={postgresql}
+              alt="postgresql logo"
+            ></img>
+            PostgreSQL
           </TabPane>
           <TabPane name="Tools" key="4">
-            <img className="skill-icon" src={git}></img>Git |{" "}
-            <img className="skill-icon" src={github}></img>GitHub |{" "}
-            <img className="skill-icon" src={api}></img>RESTful APIs
+            <img className="skill-icon" src={git} alt="git logo"></img>Git |{" "}
+            <img className="skill-icon" src={github} alt="github logo"></img>
+            GitHub | <img className="skill-icon" src={api} alt="api logo"></img>
+            RESTful APIs
           </TabPane>
         </Tabs>
       </div>

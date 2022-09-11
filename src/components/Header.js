@@ -28,7 +28,7 @@ function Header(props) {
             target="_blank"
           >
             {" "}
-            <img className="header-icon" src={github}></img>
+            <img className="header-icon" src={github} alt="github logo"></img>
           </a>
 
           <a
@@ -36,7 +36,7 @@ function Header(props) {
             href="https://www.linkedin.com/in/kennethachan/"
             target="_blank"
           >
-            <img className="header-icon" src={linkedin}></img>
+            <img className="header-icon" src={linkedin} alt="github logo"></img>
           </a>
         </div>
       </header>
