@@ -45,7 +45,7 @@ function Pokedex(props) {
   return (
     <div>
       <div className="project-pokedex">
-        <Slideshow imgs={[pokedex, pokedexMulti]} />
+        <Slideshow imgs={[pokedexMulti, pokedex]} />
         <div className="poke-info-container">
           <h2 className="title">Kanto Region Pokedex</h2>
           <p className="info">

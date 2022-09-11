@@ -44,7 +44,7 @@ function SpotCheck(props) {
   return (
     <div>
       <div className="project-spotcheck ">
-        <Slideshow imgs={[spotcheck, spotMobileRender]} />
+        <Slideshow imgs={[spotMobileRender, spotcheck]} />
         <div className="spot-info-container">
           <h2 className="title">SpotCheck</h2>
           <p className="info">
