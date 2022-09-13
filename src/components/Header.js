@@ -1,5 +1,4 @@
 import React from "react"
-import Resume from "../pages/Resume"
 import { Link } from "react-router-dom"
 import "./Header.css"
 import github from "../pictures/github.png"
