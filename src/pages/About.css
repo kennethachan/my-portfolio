@@ -3,6 +3,7 @@
     margin-left:auto;
     margin-right: auto;
     color: black;
+    text-align: center;
 }
 
 .about-title {
@@ -10,12 +11,36 @@
     font-weight: 100;
 }
 
+.main-pic {
+    width: 220px;
+    height: 220px;
+    object-fit: cover 
+}
+
+.sk8-pic-container {
+    width: 800px;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sk8-pic {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 @media only screen and (max-width:414px) {
     .about-me {
         width: 350px;
     }
 
-    .profile-pic {
-        margin-bottom: 20px;
+    .sk8-pic-container{
+        width: 375px;
+        display: block;
     }
+
 }
