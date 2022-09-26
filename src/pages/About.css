@@ -14,6 +14,7 @@
 .main-pic {
     width: 220px;
     height: 220px;
+    border-radius: 50%;
     object-fit: cover 
 }
 
@@ -28,6 +29,7 @@
 .sk8-pic {
     width: 220px;
     height: 220px;
+    border-radius: 50%;
     object-fit: cover;
     margin-top: 50px;
     margin-bottom: 50px;
