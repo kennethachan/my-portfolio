@@ -130,14 +130,17 @@ function Projects(props) {
             <img className="skill-icon" src={css} alt="css logo"></img>CSS |{" "}
             <img className="skill-icon" src={js} alt="javascript logo"></img>
             JavaScript |{" "}
+            <img
+              className="skill-icon"
+              src={python}
+              alt="python logo"
+            ></img>{" "}
+            Python3 |{" "}
+          </TabPane>
+          <TabPane name="Frameworks & Libraries" key="2">
             <img className="skill-icon" src={react} alt="react logo"></img>
             React.js |{" "}
             <img className="skill-icon" src={vue} alt="vue logo"></img>Vue.js |{" "}
-            <img className="skill-icon" src={python} alt="python logo"></img>{" "}
-            Python3 |{" "}
-            <img className="skill-icon" src={dj} alt="django logo"></img> Django
-          </TabPane>
-          <TabPane name="Frameworks & Libraries" key="2">
             <img className="skill-icon" src={node} alt="node.js logo"></img>
             Node.js |{" "}
             <img className="skill-icon" src={ex} alt="express logo"></img>
@@ -154,6 +157,7 @@ function Projects(props) {
               alt="mongoose logo"
             ></img>
             Mongoose
+            <img className="skill-icon" src={dj} alt="django logo"></img> Django
           </TabPane>
           <TabPane name="Database" key="3">
             <img className="skill-icon" src={mongodb} alt="mongodb logo"></img>
