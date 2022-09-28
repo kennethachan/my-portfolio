@@ -10,6 +10,7 @@ import About from "./pages/About"
 import Weather from "./pages/Weather"
 import Rabido from "./pages/Rabido"
 import SpotCheck from "./pages/SpotCheck"
+import Astrologie from "./pages/Astrologie"
 import Header from "./components/Header"
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/weather" element={<Weather />} />
         <Route path="/rabido" element={<Rabido />} />
         <Route path="/spotcheck" element={<SpotCheck />} />
+        <Route path="/astrologie" element={<Astrologie />} />
         <Route path="/contact" element={<ContactMe />} />
         <Route path="/about" element={<About />} />
       </Routes>

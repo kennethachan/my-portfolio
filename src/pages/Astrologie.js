@@ -1,7 +1,6 @@
 import React from "react"
 import { useEffect, useState } from "react"
-import appRender from "../pictures/weatherapp-render.webp"
-import "./Weather.css"
+import astrologie from "../pictures/astrologie-render.webp"
 
 const Slideshow = ({ imgs }) => {
   const [index, setIndex] = useState(0)
@@ -36,34 +35,28 @@ const Slideshow = ({ imgs }) => {
   )
 }
 
-function Weather(props) {
+function Astrologie(props) {
   return (
     <div>
       <div className="project-weather ">
-        <Slideshow imgs={[appRender]} />
+        <Slideshow imgs={[astrologie]} />
         <div className="weather-info-container">
-          <h2 className="title">Weather App</h2>
+          <h2 className="title">Daily Astrologie</h2>
           <p className="info">
-            This weather app utilizes the "Open Weather" API to gather
-            meteorological data to present the user with current weather
-            forecasts as well as a forecast for the week. Once location sharing
-            is enabled, the Open Weather API will obtain the geographical
-            coordinates by using the name of the users location and display user
-            specific weather patterns.
+            This React app utilizes the "Aztro" API to gather daily horoscopes,
+            mood, lucky number, and lucky time for each of the 12 zodiacs. Who
+            knows what the stars are trying to tell us...
             <hr></hr>
-            <span className="tech"> Vue.js | HTML | CSS | JavaScript</span>
+            <span className="tech"> React.js | HTML | CSS | JavaScript</span>
           </p>
           <a
             className="link"
-            href="https://warmweatherapp.surge.sh/"
+            href="https://dailyastrologie.netlify.app/"
             target="_blank"
           >
             <button className="live-demo">Live Demo</button>
           </a>
-          <a
-            href="https://github.com/kennethachan/Weather_App/tree/main"
-            target="_blank"
-          >
+          <a href="https://github.com/kennethachan/Horoscope" target="_blank">
             <button className="code">Code</button>
           </a>
         </div>
@@ -72,4 +65,4 @@ function Weather(props) {
   )
 }
 
-export default Weather
+export default Astrologie

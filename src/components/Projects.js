@@ -26,6 +26,7 @@ import github from "../pictures/github.png"
 import api from "../pictures/api.png"
 import rabidoRender from "../pictures/rabido-render-2.webp"
 import spotMobileRender from "../pictures/spotcheck-mobile-render.webp"
+import astrologie from "../pictures/astrologie-render.webp"
 
 function Projects(props) {
   let navigate = useNavigate()
@@ -47,6 +48,7 @@ function Projects(props) {
             </div>
           </div>
         </div>
+
         <div className="weather">
           <img
             className="preview"
@@ -104,6 +106,21 @@ function Projects(props) {
               Pokedex
               <br></br>
               <span className="technologies">JavaScript</span>
+            </div>
+          </div>
+        </div>
+        <div className="rabido">
+          <img
+            className="preview"
+            src={astrologie}
+            alt="iphone rendering for daily astrologie app"
+            onClick={() => navigate("/astrologie")}
+          ></img>
+          <div className="middle">
+            <div className="text" onClick={() => navigate("/astrologie")}>
+              Daily Astrologie
+              <br></br>
+              <span className="technologies">React</span>
             </div>
           </div>
         </div>
