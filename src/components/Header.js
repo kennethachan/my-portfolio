@@ -13,7 +13,7 @@ function Header(props) {
             <h1 className="name">Kenneth Chan</h1>
             <h3 className="job">Full Stack Developer</h3>
           </div>
-          <div>
+          <div className="navbar">
             <Link className="contact-link" to="/">
               Home
             </Link>

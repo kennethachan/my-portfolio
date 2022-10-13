@@ -61,24 +61,47 @@
   
   @media only screen and (max-width:414px) {
 
-    .header{
-      margin-top: 40px;
+    .logo {
+      display: block;
+      text-align: center;
+      margin-left: 0px;
+    }
+
+    .name {
+      /* width: 414px; */
+      position: relative;
+      bottom: 0px;
+      margin: 0px;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .job {
+      /* width: 414px; */
+      position: relative;
+      bottom: 0px;
+       margin-top: 0px;
     }
         
       .links {
+        /* width: 375px; */
           text-align: center;
-          display: flex;
-          justify-content: space-evenly;
-          text-decoration: underline;
+          display: block;
       }
   
       .resume, .github, .linkedin, .contact-link {
-          margin-right: 0px;
+          margin: 0px;
       }
 
-      .header-icon {
-        position: relative;
-        top: -7px;
+      .navbar {
+        /* width: 414px; */
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .github, .linkedin {
+        position: relative; 
+        bottom: 15px;
       }
   
       

@@ -96,12 +96,12 @@ text-align: center;
         text-align: center;
         }
 
-      .name {
+      /* .name {
         width: 414px;
         font-size: 50px;
         position: relative;
         top: 25px;
-      }
+      } */
 
       .aboutme {
         display: block;
