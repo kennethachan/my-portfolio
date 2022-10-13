@@ -59,7 +59,7 @@ function Pokedex(props) {
             The user is able to enter pokemon name or pokemon number to generate
             the specified pokemon card or see all 151 pokemon. Night mode option
             is integrated to create an alternative viewing experience.
-            <hr></hr>
+            <hr className="hr"></hr>
             <span className="tech">HTML | CSS | Javascript</span>
           </p>
 

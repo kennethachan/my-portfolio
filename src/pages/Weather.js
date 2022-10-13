@@ -50,7 +50,7 @@ function Weather(props) {
             is enabled, the Open Weather API will obtain the geographical
             coordinates by using the name of the users location and display user
             specific weather patterns.
-            <hr></hr>
+            <hr className="hr"></hr>
             <span className="tech"> Vue.js | HTML | CSS | JavaScript</span>
           </p>
           <a

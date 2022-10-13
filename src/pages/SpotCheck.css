@@ -4,7 +4,6 @@
     text-align: center;
     display: block;
     justify-content: center;
-    margin-top: 100px;
     margin-bottom: 50px;
     border-radius: 25px;
     color:black;
@@ -26,7 +25,15 @@
 .spot-info-container {
     width: 550px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+}
+
+.info {
+    font-weight: 500;
+}
+
+.hr {
+    border: 1px solid black;
 }
 
 .buttons-spot {

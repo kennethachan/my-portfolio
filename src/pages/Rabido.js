@@ -40,7 +40,7 @@ function Rabido(props) {
 
         <div className="rab-info-container">
           <h2 className="title">Rabido</h2>
-          <p className="info-rab">
+          <p className="info">
             Rabido is a PERN stack project that connects clients with
             freelancers. The freelancer signs up as a "Mark" to conditionally
             render "Mark" privileges and creates a profile to showcase their
@@ -50,7 +50,7 @@ function Rabido(props) {
             through the categories page to find freelancers with the specific
             skill required. Rabido was a group project including myself and (2)
             other cohort members
-            <hr></hr>
+            <hr className="hr"></hr>
             <span className="tech">
               PostgreSQL | Express | React.js | Node.js
             </span>

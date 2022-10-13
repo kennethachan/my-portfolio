@@ -53,7 +53,7 @@ function lucidity(props) {
         <Slideshow imgs={[lucRender, lucMainRender, lucNotes, lucGif]} />
         <div className="luc-info-container">
           <h2 className="title">Lucidity</h2>
-          <p className="info-luc">
+          <p className="info">
             Lucidity is a MERN stack "lofi anime" themed productivity site
             inspired from the popular Youtube 24/7 livestream "lofi hip hop
             radio - beats to relax/study to" with inspired aesthetics from
@@ -62,7 +62,7 @@ function lucidity(props) {
             tedious task or relax and clear their mind. This website brings
             these ideas together and creates a relaxing/positive environment to
             be productive and/or decompress.
-            <hr></hr>
+            <hr className="hr"></hr>
             <span className="tech">
               Mongoose | Express | React.js | Node.js
             </span>

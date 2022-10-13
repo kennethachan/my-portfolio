@@ -48,7 +48,7 @@ function SpotCheck(props) {
   return (
     <div>
       <div className="project-spotcheck ">
-        <Slideshow imgs={[spotMobileRender, spotcheck]} />
+        <Slideshow imgs={[spotcheck, spotMobileRender]} />
         <div className="spot-info-container">
           <h2 className="title">SpotCheck</h2>
           <p className="info">
@@ -59,7 +59,7 @@ function SpotCheck(props) {
             depending who you ask. This app will help document newly made/found
             skate spots to help the skate community explore and conquer those
             spots they saw in their favorite skate videos.
-            <hr></hr>
+            <hr className="hr"></hr>
             <span className="tech">
               PostgreSQL | Express | React.js | Node.js
             </span>
