@@ -32,7 +32,7 @@ function ContactMe(props) {
   return (
     <div className="contact-wrapper">
       <div className="contact-heading">
-        <h1 className="contact-title">Better Together</h1>
+        <h1 className="contact-title">Contact Me!</h1>
       </div>
 
       <div className="contact-container">

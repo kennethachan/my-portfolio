@@ -1,11 +1,12 @@
 import React from "react"
 import "./Resume.css"
-import resume from "../pictures/Kenneth_Chan_Resume.pdf"
+import resume from "../pictures/resume.pdf"
 
 function Resume(props) {
   return (
     <div className="res-background">
       <div className="res-heading">
+        <p className="bold">Download my resume here!</p>
         <a href={resume} target="_blank">
           <button className="download">Download</button>
         </a>

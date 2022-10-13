@@ -1,6 +1,9 @@
 *{
-  font-family: avenir;
-  
+  font-family: avenir; 
+}
+
+html {
+  background-color: #83A7BF;
 }
 
 .App {

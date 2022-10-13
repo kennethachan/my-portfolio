@@ -7,17 +7,12 @@ import earlygrab from "../pictures/early-grab.jpg"
 function About(props) {
   return (
     <div>
-      <div className="res-heading">
-        <div>
-          <img
-            className="main-pic"
-            src={profilePic}
-            alt="profile picture of kenneth chan"
-          ></img>
-        </div>
-        <h3 className="about-title">About Me</h3>
-      </div>
       <div className="about-me">
+        <img
+          className="main-pic"
+          src={profilePic}
+          alt="profile picture of kenneth chan"
+        ></img>
         <p>
           Welcome to my portfolio! I am a graduate of General Assembly's
           Software Engineering Immersive Program with a non-coding background in
@@ -28,18 +23,19 @@ function About(props) {
           applying the skills I gained to continue building projects and search
           for career opportunities in tech.
           <br></br>
-          <div className="sk8-pic-container">
+          {/* <div className="sk8-pic-container">
             <img
               className="sk8-pic"
               src={sk8}
               alt="profile picture of kenneth chan"
             ></img>
+
             <img
               className="sk8-pic"
               src={earlygrab}
               alt="profile picture of kenneth chan"
             ></img>
-          </div>
+          </div> */}
           <br></br>A little bit more about me, I enjoy skateboarding, DIY
           building, film photography and film!
         </p>
