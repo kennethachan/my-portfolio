@@ -113,15 +113,16 @@
 
   .text {
     color: black;
-    font-size: 22px;
+    font-size: 27px;
     font-weight: bold;
 position: relative; 
 top: 40px;
   }
 
   .technologies {
-    font-weight: 300;
-    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
   }
 
 

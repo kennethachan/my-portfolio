@@ -2,11 +2,12 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
-  border-radius: 10px;
   width: 550px;
+  border-radius: 5px;
   padding-top: 5px;
-  background-color:red;
-}
+  background-color: #39393B;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+;}
 
 .skills-title {
     color: black;
@@ -30,7 +31,7 @@
     position: relative;
     right: 163px;
     bottom: 10px;
-    color:black;
+    color:#F0E6CD;
   }
   .tab-header li {
     margin-left: auto;
@@ -61,7 +62,7 @@
     position: relative;
     bottom: 35px;
     right: 20px;
-    color: black;
+    color: #F0E6CD;
   }
   
   .tab-child {

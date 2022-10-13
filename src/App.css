@@ -1,12 +1,13 @@
 *{
   font-family: avenir;
+  
 }
 
 .App {
   text-align: center;
   background-color: white;
   color: black;
-  background-color: #FAFBE8;
+  background-color: #83A7BF;
 }
 
 @media only screen and (max-width:414px) {

@@ -42,7 +42,7 @@ function Projects(props) {
           ></img>
           <div className="middle">
             <div className="text" onClick={() => navigate("/spotcheck")}>
-              Spot Check
+              "Spot Check"
               <br></br>
               <span className="technologies">PERN Stack</span>
             </div>
@@ -58,7 +58,7 @@ function Projects(props) {
           ></img>
           <div className="middle">
             <div className="text" onClick={() => navigate("/weather")}>
-              Weather App
+              "Weather App"
               <br></br>
               <span className="technologies">Vue</span>
             </div>
@@ -73,7 +73,7 @@ function Projects(props) {
           ></img>
           <div className="middle">
             <div className="text" onClick={() => navigate("/lucidity")}>
-              Lucidity
+              "Lucidity"
               <br></br>
               <span className="technologies">MERN Stack</span>
             </div>
@@ -88,7 +88,7 @@ function Projects(props) {
           ></img>
           <div className="middle">
             <div className="text" onClick={() => navigate("/rabido")}>
-              Rabido
+              "Rabido"
               <br></br>
               <span className="technologies">PERN Stack</span>
             </div>
@@ -103,7 +103,7 @@ function Projects(props) {
           ></img>
           <div className="middle">
             <div className="text" onClick={() => navigate("/pokedex")}>
-              Pokedex
+              "Pokedex"
               <br></br>
               <span className="technologies">JavaScript</span>
             </div>
@@ -118,7 +118,7 @@ function Projects(props) {
           ></img>
           <div className="middle">
             <div className="text" onClick={() => navigate("/astrologie")}>
-              Daily Astrologie
+              "Daily Astrologie"
               <br></br>
               <span className="technologies">React</span>
             </div>
@@ -133,7 +133,7 @@ function Projects(props) {
           ></img>
           <div className="middle">
             <div className="text" onClick={() => navigate("/tictactoe")}>
-              Tic Tac Toe
+              "Tic Tac Toe"
               <br></br>
               <span className="technologies">JavaScript</span>
             </div>
