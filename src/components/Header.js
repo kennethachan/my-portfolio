@@ -9,34 +9,44 @@ function Header(props) {
     <div>
       <header className="header">
         <div className="links">
-          <Link className="contact-link" to="/">
-            Home
-          </Link>
-          <Link className="contact-link" to="/about">
-            About
-          </Link>
-          <Link className="resume" to="/resume">
-            Resume
-          </Link>
-          <Link className="contact-link" to="/contact">
-            Contact Me
-          </Link>
-          <a
-            className="github"
-            href="https://github.com/kennethachan"
-            target="_blank"
-          >
-            {" "}
-            <img className="header-icon" src={github} alt="github logo"></img>
-          </a>
+          <div className="logo">
+            <h1 className="name">Kenneth Chan</h1>
+            <h3 className="job">Full Stack Developer</h3>
+          </div>
+          <div>
+            <Link className="contact-link" to="/">
+              Home
+            </Link>
+            <Link className="contact-link" to="/about">
+              About
+            </Link>
+            <Link className="resume" to="/resume">
+              Resume
+            </Link>
+            <Link className="contact-link" to="/contact">
+              Contact Me
+            </Link>
+            <a
+              className="github"
+              href="https://github.com/kennethachan"
+              target="_blank"
+            >
+              {" "}
+              <img className="header-icon" src={github} alt="github logo"></img>
+            </a>
 
-          <a
-            className="linkedin"
-            href="https://www.linkedin.com/in/kennethachan/"
-            target="_blank"
-          >
-            <img className="header-icon" src={linkedin} alt="github logo"></img>
-          </a>
+            <a
+              className="linkedin"
+              href="https://www.linkedin.com/in/kennethachan/"
+              target="_blank"
+            >
+              <img
+                className="header-icon"
+                src={linkedin}
+                alt="github logo"
+              ></img>
+            </a>
+          </div>
         </div>
       </header>
     </div>

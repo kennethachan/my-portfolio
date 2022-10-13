@@ -8,8 +8,10 @@
   }
   
   .links {
-
-      text-align: right;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
   }
   
   .resume {
@@ -19,8 +21,8 @@
       color: black;
     }
   
-    .resume:hover {
-      font-weight: bold;
+  .resume:hover {
+    color: red;
     }
   
   .header-icon{
@@ -54,7 +56,7 @@
       }
   
       .contact-link:hover {
-          font-weight: bold;
+        color: red;
         }
       
   

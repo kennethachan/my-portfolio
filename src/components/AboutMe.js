@@ -4,7 +4,7 @@ import "./AboutMe.css"
 function AboutMe(props) {
   return (
     <div>
-      <div className="aboutme-container">
+      {/* <div className="aboutme-container">
         <div className="about-details">
           <h1 className="name">Kenneth Chan</h1>
           <h3 className="job">Full Stack Developer</h3>
@@ -17,7 +17,7 @@ function AboutMe(props) {
             </span>
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
