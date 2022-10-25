@@ -27,6 +27,7 @@ import api from "../pictures/api.png"
 import rabidoRender from "../pictures/rabido-render-2.webp"
 import spotMobileRender from "../pictures/spotcheck-mobile-render.webp"
 import astrologie from "../pictures/astrologie-render.webp"
+import wpm from "../pictures/wpm.png"
 
 function Projects(props) {
   let navigate = useNavigate()
@@ -119,6 +120,21 @@ function Projects(props) {
           <div className="middle">
             <div className="text" onClick={() => navigate("/astrologie")}>
               "Daily Astrologie"
+              <br></br>
+              <span className="technologies">React</span>
+            </div>
+          </div>
+        </div>
+        <div className="rabido">
+          <img
+            className="preview"
+            src={wpm}
+            alt="iphone rendering for typing test app"
+            onClick={() => navigate("/astrologie")}
+          ></img>
+          <div className="middle">
+            <div className="text" onClick={() => navigate("/astrologie")}>
+              "Typing Test"
               <br></br>
               <span className="technologies">React</span>
             </div>
