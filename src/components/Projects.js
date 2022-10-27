@@ -130,10 +130,10 @@ function Projects(props) {
             className="preview"
             src={wpm}
             alt="iphone rendering for typing test app"
-            onClick={() => navigate("/astrologie")}
+            onClick={() => navigate("/wpm")}
           ></img>
           <div className="middle">
-            <div className="text" onClick={() => navigate("/astrologie")}>
+            <div className="text" onClick={() => navigate("/wpm")}>
               "Typing Test"
               <br></br>
               <span className="technologies">React</span>

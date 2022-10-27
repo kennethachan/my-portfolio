@@ -12,6 +12,7 @@ import Rabido from "./pages/Rabido"
 import SpotCheck from "./pages/SpotCheck"
 import Astrologie from "./pages/Astrologie"
 import Header from "./components/Header"
+import Wpm from "./pages/Wpm"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/rabido" element={<Rabido />} />
         <Route path="/spotcheck" element={<SpotCheck />} />
         <Route path="/astrologie" element={<Astrologie />} />
+        <Route path="/wpm" element={<Wpm />} />
         <Route path="/contact" element={<ContactMe />} />
         <Route path="/about" element={<About />} />
       </Routes>
