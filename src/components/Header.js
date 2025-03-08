@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import "./Header.css"
-import github from "../pictures/github.png"
-import linkedin from "../pictures/linkedin.png"
+import github from "../pictures/github-white.png"
+import linkedin from "../pictures/linkedin-white.png"
 
 function Header(props) {
   return (

@@ -29,17 +29,18 @@
     margin:0px;
     position: relative;
     top: 5px;
+    height: 25px;
   }
 
   .header-icon:hover {
   transform: scale(1.2);
+  filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.8));
       }
   
   .github {
       margin-right: 30px;
       text-decoration: none;
     }
-
   
   .linkedin {
     color: black;
