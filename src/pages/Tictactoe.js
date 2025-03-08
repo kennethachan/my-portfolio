@@ -50,6 +50,8 @@ function tictactoe(props) {
             board keeps track of each of the players' moves. After a winner/draw
             is declared the player will not be able to make an additional move
             and a reset button lets both players play again.
+            <br></br>
+            <br></br>
             <hr className="hr"></hr>
             <span className="tech">HTML | CSS | Javascript</span>
           </p>

@@ -59,6 +59,8 @@ function SpotCheck(props) {
             depending who you ask. This app will help document newly made/found
             skate spots to help the skate community explore and conquer those
             spots they saw in their favorite skate videos.
+            <br></br>
+            <br></br>
             <hr className="hr"></hr>
             <span className="tech">
               PostgreSQL | Express | React.js | Node.js

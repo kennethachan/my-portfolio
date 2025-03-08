@@ -45,6 +45,8 @@ function Wpm(props) {
           <p className="info">
             React app developed to check how fast you can accurately type (words
             per minute) / hone in your typing skills.
+            <br></br>
+            <br></br>
             <hr className="hr"></hr>
             <span className="tech"> React.js | HTML | CSS | JavaScript</span>
           </p>

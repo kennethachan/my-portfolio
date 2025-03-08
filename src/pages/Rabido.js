@@ -50,6 +50,8 @@ function Rabido(props) {
             through the categories page to find freelancers with the specific
             skill required. Rabido was a group project including myself and (2)
             other cohort members
+            <br></br>
+            <br></br>
             <hr className="hr"></hr>
             <span className="tech">
               PostgreSQL | Express | React.js | Node.js

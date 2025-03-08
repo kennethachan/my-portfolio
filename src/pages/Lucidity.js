@@ -62,6 +62,8 @@ function lucidity(props) {
             tedious task or relax and clear their mind. This website brings
             these ideas together and creates a relaxing/positive environment to
             be productive and/or decompress.
+            <br></br>
+            <br></br>
             <hr className="hr"></hr>
             <span className="tech">
               Mongoose | Express | React.js | Node.js

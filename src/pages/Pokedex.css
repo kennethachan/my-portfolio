@@ -36,7 +36,7 @@
         padding: 12px;
         border-style: none;
         border-radius: 20px;
-        background-color: black;
+        background-color: #138801;
         color: white;
         font-weight: bold;
         cursor:pointer;
@@ -45,7 +45,7 @@
     }
 
     .live-demo:hover {
-        color: black;
+        color: #138801;
         background: white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     }
@@ -55,7 +55,7 @@
         padding: 12px;
         border-style: none;
         border-radius: 20px;
-        background-color: black;
+        background-color:#138801;
         color: white;
         font-weight: bold;
         cursor:pointer;
@@ -64,7 +64,7 @@
     }
 
     .code:hover {
-        color: black;
+        color: #138801;
         background: white;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     }

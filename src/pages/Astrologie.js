@@ -46,6 +46,8 @@ function Astrologie(props) {
             This React app utilizes the "Aztro" API to gather daily horoscopes,
             mood, lucky number, and lucky time for each of the 12 zodiacs. Who
             knows what the stars are trying to tell us...
+            <br></br>
+            <br></br>
             <hr className="hr"></hr>
             <span className="tech"> React.js | HTML | CSS | JavaScript</span>
           </p>
