@@ -20,7 +20,7 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/resume" element={<Resume />} />
+        {/* <Route path="/resume" element={<Resume />} /> */}
         <Route path="/pokedex" element={<Pokedex />} />
         <Route path="/tictactoe" element={<Tictactoe />} />
         <Route path="/lucidity" element={<Lucidity />} />

@@ -10,7 +10,12 @@ function Header(props) {
       <header className="header">
         <div className="links">
           <div className="logo">
-            <h1 className="name">Kenneth Chan</h1>
+            <h1 className="name">
+               <Link to="/" style={{ color: "black", textDecoration: "none", }} 
+  onMouseEnter={(e) => e.target.style.color = "white"} 
+  onMouseLeave={(e) => e.target.style.color = "black"}
+>Kenneth Chan</Link>
+            </h1>
             <h3 className="job">Full Stack Developer</h3>
           </div>
           <div className="navbar">
@@ -20,9 +25,9 @@ function Header(props) {
             <Link className="contact-link" to="/about">
               About
             </Link>
-            <Link className="resume" to="/resume">
+            {/* <Link className="resume" to="/resume">
               Resume
-            </Link>
+            </Link> */}
             <Link className="contact-link" to="/contact">
               Contact Me
             </Link>

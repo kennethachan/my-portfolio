@@ -19,9 +19,7 @@ function ContactMe(props) {
       .then(
         (result) => {
           e.target.reset()
-          alert("Message Sent! :)")
-          console.log(result.text)
-          console.log("message sent")
+          alert("Message Received! :)")
         },
         (error) => {
           console.log(error.text)

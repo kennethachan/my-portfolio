@@ -45,7 +45,7 @@ font-weight: 500;
 }
 
 .email-link {
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: bold;
 }
@@ -70,7 +70,7 @@ font-weight: 500;
     resize: none;
     outline: none;
     border-bottom: 1px solid black;
-    color: white;
+    color: black;
 }
 
 ::placeholder {
