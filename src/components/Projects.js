@@ -159,7 +159,7 @@ function Projects(props) {
       <div className="skills-container">
         <Tabs>
           <TabPane name="Programming Languages" key="1">
-            <img className="skill-icon" src={html} alt="html logo"></img>HTML |
+            <img className="skill-icon" src={html} alt="html logo"></img>HTML | {" "}
             <img className="skill-icon" src={css} alt="css logo"></img>CSS |{" "}
             <img className="skill-icon" src={js} alt="javascript logo"></img>
             JavaScript |{" "}
