@@ -11,9 +11,10 @@ function Header(props) {
         <div className="links">
           <div className="logo">
             <h1 className="name">
-               <Link to="/" style={{ color: "black", textDecoration: "none", }} 
-  onMouseEnter={(e) => e.target.style.color = "white"} 
-  onMouseLeave={(e) => e.target.style.color = "black"}
+            <Link to="/" 
+  style={{  color: "white", textDecoration: "none", }} 
+  onMouseEnter={(e) => e.target.style.textShadow = "0px 0px 8px rgba(255, 255, 255, 0.8)"} 
+  onMouseLeave={(e) => e.target.style.textShadow = "none"}
 >Kenneth Chan</Link>
             </h1>
             <h3 className="job">Full Stack Developer</h3>

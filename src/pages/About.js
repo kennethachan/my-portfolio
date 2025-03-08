@@ -11,7 +11,8 @@ function About(props) {
           src={profilePic}
           alt="profile picture of kenneth chan"
         ></img>
-        <hr className="hr"></hr>
+<hr style={{ border: "none", height: "2px", backgroundColor: "white" }} />
+
         <p>
           Welcome to my portfolio! I am a graduate of General Assembly's
           Software Engineering Immersive Program with a non-coding background in

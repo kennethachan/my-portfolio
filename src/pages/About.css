@@ -2,9 +2,13 @@
     width: 400px;
     margin-left:auto;
     margin-right: auto;
-    color: black;
+    color: white;
     text-align: center;
     font-weight:500;
+}
+
+.hr {
+    background-color: white
 }
 
 .main-pic {

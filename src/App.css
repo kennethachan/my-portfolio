@@ -3,14 +3,13 @@
 }
 
 html {
-  background-color: #83A7BF;
+  background-color: rgb(34, 49, 64);
 }
 
 .App {
   text-align: center;
-  background-color: white;
   color: black;
-  background-color: #83A7BF;
+  background-color: rgb(34, 49, 64);
 }
 
 @media only screen and (max-width:414px) {

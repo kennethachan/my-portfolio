@@ -41,7 +41,7 @@ function ContactMe(props) {
           </p>
 
           <li className="reach-methods">
-            Email me :
+            Email me : 
             <a
               className="email-link"
               href="mailto:kennethandrechan@gmail.com"
@@ -52,7 +52,7 @@ function ContactMe(props) {
           </li>
           <li className="reach-methods">
             Give me a call:
-            <span className="number">(914)-310-3522</span>
+            <span className="number"> (914)-310-3522</span>
           </li>
         </div>
 
