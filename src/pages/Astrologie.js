@@ -43,9 +43,8 @@ function Astrologie(props) {
         <div className="weather-info-container">
           <h2 className="title">Daily Astrologie</h2>
           <p className="info">
-            This React app utilizes the "Aztro" API to gather daily horoscopes,
-            mood, lucky number, and lucky time for each of the 12 zodiacs. Who
-            knows what the stars are trying to tell us...
+          A React app that uses OpenAI's API to deliver daily horoscopes, affirmations, traits, lucky color, lucky time, and mythology for all 12 zodiac signs." 
+          Who knows what the stars are trying to tell us...
             <br></br>
             <br></br>
             <hr className="hr"></hr>
