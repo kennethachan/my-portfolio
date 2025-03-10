@@ -65,6 +65,39 @@ function Projects(props) {
             </div>
           </div>
         </div>
+
+        <div className="rabido">
+          <img
+            className="preview"
+            src={astrologie}
+            alt="iphone rendering for daily astrologie app"
+            onClick={() => navigate("/astrologie")}
+          ></img>
+          <div className="middle">
+            <div className="text" onClick={() => navigate("/astrologie")}>
+              "Daily Astrologie"
+              <br></br>
+              <span className="technologies">React</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="pokedex">
+          <img
+            className="preview"
+            src={pokedex}
+            alt="iphone rendering of pokedex project"
+            onClick={() => navigate("/pokedex")}
+          ></img>
+          <div className="middle">
+            <div className="text" onClick={() => navigate("/pokedex")}>
+              "Pokedex"
+              <br></br>
+              <span className="technologies">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
         <div className="lucidity">
           <img
             className="preview"
@@ -95,36 +128,7 @@ function Projects(props) {
             </div>
           </div>
         </div>
-        <div className="pokedex">
-          <img
-            className="preview"
-            src={pokedex}
-            alt="iphone rendering of pokedex project"
-            onClick={() => navigate("/pokedex")}
-          ></img>
-          <div className="middle">
-            <div className="text" onClick={() => navigate("/pokedex")}>
-              "Pokedex"
-              <br></br>
-              <span className="technologies">JavaScript</span>
-            </div>
-          </div>
-        </div>
-        <div className="rabido">
-          <img
-            className="preview"
-            src={astrologie}
-            alt="iphone rendering for daily astrologie app"
-            onClick={() => navigate("/astrologie")}
-          ></img>
-          <div className="middle">
-            <div className="text" onClick={() => navigate("/astrologie")}>
-              "Daily Astrologie"
-              <br></br>
-              <span className="technologies">React</span>
-            </div>
-          </div>
-        </div>
+
         <div className="rabido">
           <img
             className="preview"
@@ -140,6 +144,7 @@ function Projects(props) {
             </div>
           </div>
         </div>
+
         <div className="tictactoe">
           <img
             className="preview"

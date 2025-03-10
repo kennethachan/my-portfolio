@@ -68,7 +68,7 @@ function SpotCheck(props) {
           </p>
           <a
             className="link"
-            href="https://spotcheck-sk8.herokuapp.com/feed"
+            href="https://spotchecknyc.onrender.com/feed"
             target="_blank"
           >
             <button className="live-demo">Live Demo</button>
