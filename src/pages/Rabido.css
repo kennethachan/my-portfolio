@@ -20,7 +20,7 @@
     position: relative;
 }
 
-@media only screen and (max-width:414px) {
+@media only screen and (max-width:768px) {
       
     .project-rabido {
         display: block;
@@ -36,10 +36,10 @@
     }
 
     .rab-info-container {
-        width: 350px;
+        width: 375px;
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        right:0px;
+        /* right:10px; */
     }
 }

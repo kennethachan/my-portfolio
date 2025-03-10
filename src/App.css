@@ -12,10 +12,13 @@ html {
   background-color: rgb(34, 49, 64);
 }
 
-@media only screen and (max-width:414px) {
+@media only screen and (max-width:768px) {
   html {
-    width: 414px;
+    width: 430px;
   }
   }
 
  
+
+
+  

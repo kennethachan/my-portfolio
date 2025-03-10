@@ -46,17 +46,19 @@
     margin-right: auto;
     }
 
-@media only screen and (max-width:414px) {
+@media only screen and (max-width:768px) {
         
     .project-spotcheck {
        width: 414px;
+       display: block;
        margin-left: auto;
        margin-right: auto;
     }  
     
     .mainImg-spot {
         width: 414px;
-        object-fit: contain;
+        /* object-fit: contain; */
+
     }
     
     .spot-info-container {

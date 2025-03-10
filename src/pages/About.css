@@ -34,9 +34,9 @@
     margin-bottom: 50px;
 }
 
-@media only screen and (max-width:414px) {
+@media only screen and (max-width:768px) {
     .about-me {
-        width: 350px;
+        width: 375px;
     }
 
     .sk8-pic-container{
