@@ -52,7 +52,7 @@ function Wpm(props) {
           </p>
           <a
             className="link"
-            href="https://wpmtypingtest.netlify.app/"
+            href="https://thetypingdojo.netlify.app/"
             target="_blank"
           >
             <button className="live-demo">Live Demo</button>
