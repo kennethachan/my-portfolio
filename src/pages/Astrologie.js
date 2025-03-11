@@ -55,10 +55,10 @@ function Astrologie(props) {
             href="https://dailyastrologie.netlify.app/"
             target="_blank"
           >
-            <button className="live-demo">Live Demo</button>
+            <button className="live-demo">See App</button>
           </a>
           <a href="https://github.com/kennethachan/Horoscope" target="_blank">
-            <button className="code">Code</button>
+            <button className="code">Github</button>
           </a>
         </div>
       </div>
