@@ -68,7 +68,7 @@ function SpotCheck(props) {
           </p>
           <a
             className="link"
-            href="https://spotchecknyc.onrender.com/"
+            href="https://spotchecknyc.netlify.app/"
             target="_blank"
           >
             <button className="live-demo">See App</button>
